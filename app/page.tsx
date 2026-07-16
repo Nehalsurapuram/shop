@@ -1,41 +1,195 @@
 import Image from "next/image";
 import Link from "next/link";
-import { HeroCarousel, type Slide } from "@/components/hero-carousel";
-import { ProductRail } from "@/components/product-rail";
-import { newArrivals, onSaleProducts, productsIn } from "@/lib/catalog";
-import { apparelImage, DEPARTMENT_KEYWORDS } from "@/lib/images";
+import { HeroBanners, type Banner } from "@/components/hero-banner";
+import { categoryImage, departmentImage } from "@/lib/images";
 
-const SLIDES: Slide[] = [
+const WOMEN_BANNERS: Banner[] = [
   {
-    eyebrow: "New Season",
-    title: "Linen, light and easy",
-    cta: "Shop Women",
+    department: "Woman",
+    word: "STYLE",
+    line2: "EDIT",
+    subtitle: "Dresses, tops and everyday edits.",
+    cta: "Shop women",
     href: "/d/women",
-    image: apparelImage("womenswear,fashion", 901, 1600, 720),
+    image: categoryImage("women-dresses", 1, 2000, 1100),
+    localSrc: "/hero/women-1.png",
+    bare: true,
+    align: "left",
   },
   {
-    eyebrow: "Just Landed",
-    title: "Shirting, reimagined",
-    cta: "Shop Men",
-    href: "/d/men",
-    image: apparelImage("menswear,shirt", 902, 1600, 720),
+    department: "Woman",
+    word: "ETHNIC",
+    line2: "EDIT",
+    subtitle: "Festive-ready kurtas and sarees.",
+    cta: "Shop ethnic",
+    href: "/c/women-ethnic",
+    image: categoryImage("women-ethnic", 4, 2000, 1100),
+    localSrc: "/hero/women-2.png",
+    bare: true,
+    align: "right",
   },
   {
-    eyebrow: "End of Season",
-    title: "Up to 50% off everything",
-    cta: "Shop Sale",
-    href: "/d/sale",
-    image: apparelImage("fashion,clothing", 903, 1600, 720),
+    department: "Woman",
+    word: "DENIM",
+    line2: "EDIT",
+    subtitle: "Jeans and trousers in every fit.",
+    cta: "Shop denim",
+    href: "/c/women-denim",
+    image: categoryImage("women-denim", 8, 2000, 1100),
+    localSrc: "/hero/women-3.png",
+    bare: true,
+    align: "left",
   },
 ];
 
-const CATEGORY_TILES = [
-  { name: "Women", href: "/d/women", key: "women", lock: 11 },
-  { name: "Men", href: "/d/men", key: "men", lock: 12 },
-  { name: "Kids", href: "/d/kids", key: "kids", lock: 13 },
-  { name: "Beauty", href: "/d/beauty", key: "beauty", lock: 14 },
-  { name: "Home", href: "/d/home", key: "home", lock: 15 },
-  { name: "Sale", href: "/d/sale", key: "sale", lock: 16 },
+const MEN_BANNERS: Banner[] = [
+  {
+    department: "Man",
+    word: "ESSENTIALS",
+    line2: "EDIT",
+    subtitle: "Everyday staples, done right.",
+    cta: "Shop men",
+    href: "/d/men",
+    image: categoryImage("men-tshirts", 1, 2000, 1100),
+    localSrc: "/hero/men-1.png",
+    bare: true,
+    align: "left",
+  },
+  {
+    department: "Man",
+    word: "SHIRTING",
+    line2: "EDIT",
+    subtitle: "Crisp shirts for work and weekend.",
+    cta: "Shop shirts",
+    href: "/c/men-shirts",
+    image: categoryImage("men-shirts", 4, 2000, 1100),
+    localSrc: "/hero/men-2.png",
+    bare: true,
+    align: "right",
+  },
+  {
+    department: "Man",
+    word: "DENIM",
+    line2: "EDIT",
+    subtitle: "Jeans and chinos that just work.",
+    cta: "Shop denim",
+    href: "/c/men-denim",
+    image: categoryImage("men-denim", 8, 2000, 1100),
+    localSrc: "/hero/men-3.png",
+    bare: true,
+    align: "left",
+  },
+];
+
+const KIDS_BANNERS: Banner[] = [
+  {
+    department: "Kids",
+    word: "PLAY",
+    line2: "EDIT",
+    subtitle: "Soft, durable and ready for anything.",
+    cta: "Shop kids",
+    href: "/d/kids",
+    image: categoryImage("kids-baby", 1, 2000, 1100),
+    localSrc: "/hero/kids-1.jpg",
+    align: "left",
+  },
+  {
+    department: "Kids",
+    word: "JUNIOR",
+    line2: "EDIT",
+    subtitle: "Everyday styles for ages 3–8.",
+    cta: "Shop junior",
+    href: "/c/kids-junior",
+    image: categoryImage("kids-junior", 3, 2000, 1100),
+    localSrc: "/hero/kids-2.jpg",
+    align: "right",
+  },
+  {
+    department: "Kids",
+    word: "TEEN",
+    line2: "EDIT",
+    subtitle: "Cool, comfortable teen fits.",
+    cta: "Shop teen",
+    href: "/c/kids-teen",
+    image: categoryImage("kids-teen", 5, 2000, 1100),
+    localSrc: "/hero/kids-3.jpg",
+    align: "left",
+  },
+];
+
+const OTHER_BANNERS: Banner[] = [
+  {
+    department: "Perfumes",
+    word: "SCENT",
+    line2: "EDIT",
+    subtitle: "Signature fragrances for every mood.",
+    cta: "Shop perfumes",
+    href: "/d/perfumes",
+    image: departmentImage("perfumes", 2, 2000, 1100),
+    localSrc: "/hero/other-1.jpg",
+    align: "left",
+  },
+  {
+    department: "Fine Jewellery",
+    word: "SHINE",
+    line2: "EDIT",
+    subtitle: "Everyday pieces with a considered shine.",
+    cta: "Shop jewellery",
+    href: "/d/jewellery",
+    image: categoryImage("jewellery-earrings", 3, 2000, 1100),
+    localSrc: "/hero/other-2.jpg",
+    align: "right",
+  },
+  {
+    department: "Home",
+    word: "HOME",
+    line2: "EDIT",
+    subtitle: "Easy updates for every corner.",
+    cta: "Shop home",
+    href: "/d/home",
+    image: departmentImage("home", 5, 2000, 1100),
+    localSrc: "/hero/other-3.jpg",
+    align: "left",
+  },
+];
+
+const ETHNIC_BANNERS: Banner[] = [
+  {
+    department: "Ethnic",
+    word: "ETHNIC",
+    line2: "EDIT",
+    subtitle: "Prints, embroidery and festive edits.",
+    cta: "Shop ethnic",
+    href: "/c/women-ethnic",
+    image: categoryImage("women-ethnic", 2, 2000, 1100),
+    localSrc: "/hero/ethnic-1.png",
+    bare: true,
+    align: "left",
+  },
+  {
+    department: "Ethnic",
+    word: "ETHNIC",
+    line2: "PREMIUM",
+    subtitle: "Quietly ornate, everyday luxe.",
+    cta: "Shop ethnic",
+    href: "/c/women-ethnic",
+    image: categoryImage("women-ethnic", 5, 2000, 1100),
+    localSrc: "/hero/ethnic-2.png",
+    bare: true,
+    align: "right",
+  },
+  {
+    department: "Ethnic",
+    word: "ETHNIC",
+    line2: "SUITS",
+    subtitle: "Poetry in motion.",
+    cta: "Shop ethnic",
+    href: "/c/women-ethnic",
+    image: categoryImage("women-ethnic", 9, 2000, 1100),
+    localSrc: "/hero/ethnic-3.png",
+    bare: true,
+    align: "left",
+  },
 ];
 
 const PROMISES = [
@@ -48,68 +202,30 @@ const PROMISES = [
 export default function HomePage() {
   return (
     <>
-      <HeroCarousel slides={SLIDES} />
+      <HeroBanners banners={WOMEN_BANNERS} />
 
-      <section className="mx-auto max-w-[1400px] px-4 py-14 lg:px-8">
-        <h2 className="mb-6 text-lg tracking-[0.16em] uppercase">
-          Shop by category
-        </h2>
-        <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-6">
-          {CATEGORY_TILES.map((tile) => (
-            <Link key={tile.name} href={tile.href} className="group block">
-              <div className="relative aspect-3/4 overflow-hidden bg-neutral-100">
-                <Image
-                  src={apparelImage(
-                    DEPARTMENT_KEYWORDS[tile.key],
-                    tile.lock,
-                    600,
-                    800,
-                  )}
-                  alt=""
-                  fill
-                  sizes="(min-width: 1024px) 16vw, (min-width: 768px) 33vw, 50vw"
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-black/20" />
-                <span className="absolute inset-x-0 bottom-4 text-center text-sm tracking-[0.16em] text-white uppercase">
-                  {tile.name}
-                </span>
-              </div>
-            </Link>
-          ))}
-        </div>
-      </section>
+      <HeroBanners banners={MEN_BANNERS} />
 
-      <ProductRail
-        title="New arrivals"
-        products={newArrivals(8)}
-        href="/d/women"
-      />
+      <HeroBanners banners={KIDS_BANNERS} />
+
+      <HeroBanners banners={OTHER_BANNERS} />
 
       <section className="mx-auto max-w-[1400px] px-4 py-6 lg:px-8">
         <div className="grid gap-4 md:grid-cols-2">
           <SplitBanner
-            eyebrow="Nuon"
-            title="Contemporary edit"
-            href="/c/women-tops"
-            image={apparelImage("blouse,fashion", 21, 1200, 675)}
+            eyebrow="Perfumes"
+            title="Signature scents"
+            href="/d/perfumes"
+            image={categoryImage("perfumes-women", 3, 1200, 675)}
           />
           <SplitBanner
-            eyebrow="Bombay Paisley"
-            title="Festive ethnic"
-            href="/c/women-ethnic"
-            image={apparelImage("saree,ethnic", 22, 1200, 675)}
+            eyebrow="Fine Jewellery"
+            title="Everyday shine"
+            href="/d/jewellery"
+            image={categoryImage("jewellery-earrings", 2, 1200, 675)}
           />
         </div>
       </section>
-
-      <ProductRail title="On sale now" products={onSaleProducts(8)} href="/d/sale" />
-
-      <ProductRail
-        title="Dresses & jumpsuits"
-        products={productsIn("women-dresses")}
-        href="/c/women-dresses"
-      />
 
       <section className="border-y border-line bg-neutral-50">
         <div className="mx-auto grid max-w-[1400px] grid-cols-2 gap-8 px-4 py-12 lg:grid-cols-4 lg:px-8">
@@ -121,6 +237,8 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+
+      <HeroBanners banners={ETHNIC_BANNERS} />
     </>
   );
 }

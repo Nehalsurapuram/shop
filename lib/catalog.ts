@@ -1,4 +1,5 @@
-import { apparelImage, CATEGORY_KEYWORDS } from "./images";
+import { productImages } from "./images";
+import { PRODUCT_IMAGES } from "./product-images";
 
 export type Category = {
   slug: string;
@@ -35,7 +36,7 @@ export const NAV: Category[] = [
   },
   {
     slug: "women",
-    name: "Women",
+    name: "Woman",
     children: [
       { slug: "women-dresses", name: "Dresses & Jumpsuits" },
       { slug: "women-tops", name: "Tops & Shirts" },
@@ -46,7 +47,7 @@ export const NAV: Category[] = [
   },
   {
     slug: "men",
-    name: "Men",
+    name: "Man",
     children: [
       { slug: "men-shirts", name: "Shirts" },
       { slug: "men-tshirts", name: "T-Shirts & Polos" },
@@ -65,12 +66,32 @@ export const NAV: Category[] = [
     ],
   },
   {
+    slug: "perfumes",
+    name: "Perfumes",
+    children: [
+      { slug: "perfumes-women", name: "For Her" },
+      { slug: "perfumes-men", name: "For Him" },
+      { slug: "perfumes-unisex", name: "Unisex" },
+      { slug: "perfumes-gift", name: "Gift Sets" },
+    ],
+  },
+  {
     slug: "beauty",
     name: "Beauty",
     children: [
-      { slug: "beauty-fragrance", name: "Perfumes" },
       { slug: "beauty-makeup", name: "Makeup" },
       { slug: "beauty-skincare", name: "Skincare" },
+      { slug: "beauty-bath", name: "Bath & Body" },
+    ],
+  },
+  {
+    slug: "jewellery",
+    name: "Fine Jewellery",
+    children: [
+      { slug: "jewellery-earrings", name: "Earrings" },
+      { slug: "jewellery-necklaces", name: "Necklaces & Pendants" },
+      { slug: "jewellery-rings", name: "Rings" },
+      { slug: "jewellery-bracelets", name: "Bracelets & Bangles" },
     ],
   },
   {
@@ -83,6 +104,13 @@ export const NAV: Category[] = [
     ],
   },
 ];
+
+/** Extra top-level nav links Westside shows that aren't shoppable departments. */
+export const EXTRA_NAV = [
+  { label: "Gift Shop", href: "/d/home" },
+  { label: "Brand", href: "/d/women" },
+  { label: "W-Style", href: "/d/women" },
+] as const;
 
 export const CATEGORY_INDEX: Record<string, { name: string; parent: string }> =
   Object.fromEntries(
@@ -152,16 +180,165 @@ const NAMES: Record<string, string[]> = {
   "kids-baby": ["Printed Romper", "Ribbed Bodysuit", "Soft Knit Cardigan"],
   "kids-junior": ["Denim Dungarees", "Graphic Sweatshirt", "Twill Shorts"],
   "kids-teen": ["Oversized Hoodie", "Cargo Joggers", "Colourblock Tee"],
-  "beauty-fragrance": ["Amber Oud EDP", "Citrus Neroli EDT", "Vetiver Musk EDP"],
+  "perfumes-women": ["Rose Petal EDP", "Jasmine Bloom EDP", "Peony Blush EDT"],
+  "perfumes-men": ["Amber Oud EDP", "Vetiver Musk EDP", "Cedar Noir EDT"],
+  "perfumes-unisex": ["Citrus Neroli EDT", "White Tea EDP", "Sandalwood Haze EDP"],
+  "perfumes-gift": ["Discovery Set of 5", "Travel Duo Set", "Signature Gift Box"],
   "beauty-makeup": ["Satin Matte Lipstick", "Gel Eyeliner", "Blurring Compact"],
   "beauty-skincare": ["Vitamin C Serum", "Ceramide Moisturiser", "Clay Cleanser"],
+  "beauty-bath": ["Shea Body Butter", "Charcoal Body Wash", "Almond Hand Cream"],
+  "jewellery-earrings": ["Pavé Stud Earrings", "Gold Hoop Earrings", "Pearl Drop Earrings"],
+  "jewellery-necklaces": ["Layered Chain Necklace", "Pendant Locket", "Beaded Choker"],
+  "jewellery-rings": ["Stacking Ring Set", "Solitaire Ring", "Signet Ring"],
+  "jewellery-bracelets": ["Tennis Bracelet", "Cuff Bangle", "Charm Bracelet"],
   "home-bed": ["Cotton Percale Bedsheet", "Waffle Throw", "Linen Duvet Cover"],
   "home-decor": ["Ceramic Vase", "Woven Basket", "Terracotta Planter"],
   "home-kitchen": ["Stoneware Mug Set", "Acacia Serving Board", "Linen Napkins"],
 };
 
-const DESCRIPTION =
-  "Cut from a soft, breathable fabric with a relaxed drape that holds its shape wash after wash. Finished with clean seams and considered detailing — an easy piece to build a week of outfits around.";
+type Family =
+  | "dresses"
+  | "tops"
+  | "ethnic"
+  | "denim"
+  | "footwear"
+  | "shirts"
+  | "tshirts"
+  | "accessories"
+  | "kids"
+  | "fragrance"
+  | "makeup"
+  | "skincare"
+  | "bath"
+  | "jewellery"
+  | "home-bed"
+  | "home-decor"
+  | "home-kitchen"
+  | "apparel";
+
+function familyOf(category: string): Family {
+  if (category.includes("footwear")) return "footwear";
+  if (category.includes("ethnic")) return "ethnic";
+  if (category.includes("denim")) return "denim";
+  if (category.includes("tshirts")) return "tshirts";
+  if (category.includes("tops")) return "tops";
+  if (category.includes("dresses")) return "dresses";
+  if (category.includes("shirts")) return "shirts";
+  if (category.includes("accessories")) return "accessories";
+  if (category.startsWith("kids")) return "kids";
+  if (category.startsWith("perfumes")) return "fragrance";
+  if (category.startsWith("jewellery")) return "jewellery";
+  if (category === "beauty-makeup") return "makeup";
+  if (category === "beauty-skincare") return "skincare";
+  if (category === "beauty-bath") return "bath";
+  if (category === "home-bed" || category === "home-decor" || category === "home-kitchen")
+    return category;
+  return "apparel";
+}
+
+/** Middle lines describe the actual product type so copy matches the photo. */
+const FAMILY_COPY: Record<Family, string[]> = {
+  dresses: [
+    "Cut with a fluid drape that skims the body and moves with you.",
+    "A flattering silhouette that layers easily under a jacket or wears on its own.",
+  ],
+  tops: [
+    "An easy layering piece with a clean neckline and a relaxed, un-fussy fit.",
+    "Lightweight enough for everyday, with a shape that tucks in or wears loose.",
+  ],
+  ethnic: [
+    "Detailed with traditional motifs and finished for all-day comfort.",
+    "A festive-ready piece that pairs with statement jewellery or keeps it minimal.",
+  ],
+  denim: [
+    "Constructed with a touch of stretch so it holds its shape through the day.",
+    "A wardrobe workhorse that dresses up with heels or down with sneakers.",
+  ],
+  footwear: [
+    "Built on a cushioned footbed for comfort from morning to night.",
+    "A versatile pair that carries a look from the office to the weekend.",
+  ],
+  shirts: [
+    "Tailored with a considered collar and a clean, regular fit through the body.",
+    "Crisp enough for work, relaxed enough to wear open over a tee.",
+  ],
+  tshirts: [
+    "Knitted from a soft, breathable yarn that keeps its shape wash after wash.",
+    "An everyday essential with a comfortable, easy-wearing fit.",
+  ],
+  accessories: [
+    "A finishing detail crafted to sharpen up any outfit.",
+    "Understated hardware and clean lines make it easy to pair.",
+  ],
+  kids: [
+    "Made from gentle, skin-friendly fabric that stands up to play and washing.",
+    "Easy on, easy off — with a comfortable fit that lets them move freely.",
+  ],
+  fragrance: [
+    "A layered composition that opens bright and settles into a warm, lasting base.",
+    "Long-wearing on skin, with a trail that carries through the day.",
+  ],
+  makeup: [
+    "A blendable, buildable formula for a finish that lasts.",
+    "Skin-friendly pigments that layer smoothly and stay put.",
+  ],
+  skincare: [
+    "A lightweight formula that absorbs quickly without leaving residue.",
+    "Formulated for daily use across most skin types.",
+  ],
+  bath: [
+    "A nourishing formula that leaves skin soft, clean and lightly scented.",
+    "Gentle enough for daily use, with a fragrance that lingers.",
+  ],
+  jewellery: [
+    "Finished with a considered shine that dresses up any look.",
+    "A versatile piece to layer up or wear on its own.",
+  ],
+  "home-bed": [
+    "Woven for a soft handle that only gets better with every wash.",
+    "Breathable and durable, made for everyday comfort.",
+  ],
+  "home-decor": [
+    "A handcrafted accent that adds texture and warmth to any corner.",
+    "Finished by hand, so each piece carries its own small variations.",
+  ],
+  "home-kitchen": [
+    "Durable, easy to clean, and made for everyday use at the table.",
+    "A practical piece that looks as good as it works.",
+  ],
+  apparel: [
+    "Cut from a soft, breathable fabric with a relaxed, easy drape.",
+    "A versatile piece that slots straight into your everyday rotation.",
+  ],
+};
+
+const CLOSERS = [
+  "Finished with clean seams and considered detailing throughout.",
+  "Thoughtfully made to look good and last.",
+  "An easy addition you'll reach for again and again.",
+  "Designed to work as hard as your wardrobe does.",
+];
+
+function buildDescription(
+  name: string,
+  category: string,
+  color: string,
+  seed: number,
+): string {
+  const family = familyOf(category);
+  const opener =
+    family === "fragrance" ||
+    family === "makeup" ||
+    family === "skincare" ||
+    family === "bath"
+      ? `The ${name} — a considered addition to your everyday routine.`
+      : family.startsWith("home")
+        ? `The ${name}, made to bring a little more ease to your space.`
+        : `Meet the ${name} in ${color.toLowerCase()}.`;
+  const middle = pick(FAMILY_COPY[family], seed);
+  const closer = pick(CLOSERS, seed, 1);
+  return `${opener} ${middle} ${closer}`;
+}
 
 /** Small deterministic hash so prices/ratings stay stable between server and client renders. */
 function hash(input: string) {
@@ -179,7 +356,12 @@ function pick<T>(list: readonly T[], seed: number, offset = 0) {
 
 function sizesFor(category: string) {
   if (category.includes("footwear")) return SHOE_SIZES;
-  if (category.startsWith("beauty") || category.startsWith("home"))
+  if (
+    category.startsWith("beauty") ||
+    category.startsWith("home") ||
+    category.startsWith("perfumes") ||
+    category.startsWith("jewellery")
+  )
     return ONE_SIZE;
   if (category === "men-accessories") return ONE_SIZE;
   return APPAREL_SIZES;
@@ -191,6 +373,7 @@ function buildProduct(category: string, name: string): Product {
   const onSale = category.startsWith("sale") || seed % 3 === 0;
   const compareAt = 999 + (seed % 40) * 100;
   const price = onSale ? Math.round((compareAt * (65 + (seed % 25))) / 100) : compareAt;
+  const colors = [pick(COLORS, seed), pick(COLORS, seed, 3), pick(COLORS, seed, 5)];
 
   return {
     slug,
@@ -200,14 +383,15 @@ function buildProduct(category: string, name: string): Product {
     compareAt: onSale ? compareAt : null,
     category,
     department: CATEGORY_INDEX[category]?.parent ?? "Shop",
-    colors: [pick(COLORS, seed), pick(COLORS, seed, 3), pick(COLORS, seed, 5)],
+    colors,
     sizes: sizesFor(category),
     rating: 3.6 + (seed % 14) / 10,
     reviews: 12 + (seed % 380),
-    images: [0, 1, 2, 3].map((i) =>
-      apparelImage(CATEGORY_KEYWORDS[category] ?? "fashion,clothing", seed + i),
-    ),
-    description: DESCRIPTION,
+    images:
+      (PRODUCT_IMAGES[slug]?.length ?? 0) > 0
+        ? PRODUCT_IMAGES[slug]
+        : productImages(category, seed),
+    description: buildDescription(name, category, colors[0], seed),
   };
 }
 
@@ -236,8 +420,15 @@ export function relatedProducts(product: Product, limit = 6) {
   ).slice(0, limit);
 }
 
-export function onSaleProducts(limit = 8) {
-  return PRODUCTS.filter((p) => p.compareAt !== null).slice(0, limit);
+export function onSaleProducts(limit = 8, imageOffset = 0) {
+  const sale = PRODUCTS.filter((p) => p.compareAt !== null).slice(0, limit);
+  if (imageOffset === 0) return sale;
+  // Re-pick each product's photos from its pool so the rail looks distinct.
+  return sale.map((p) =>
+    (PRODUCT_IMAGES[p.slug]?.length ?? 0) > 0
+      ? p
+      : { ...p, images: productImages(p.category, hash(p.slug), 4, imageOffset) },
+  );
 }
 
 export function newArrivals(limit = 8) {

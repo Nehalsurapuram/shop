@@ -3,8 +3,8 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
-import { NAV } from "@/lib/catalog";
-import { apparelImage, DEPARTMENT_KEYWORDS } from "@/lib/images";
+import { EXTRA_NAV, NAV } from "@/lib/catalog";
+import { departmentImage } from "@/lib/images";
 import { SITE } from "@/lib/site";
 import { useCart } from "./cart-provider";
 import { Logo } from "./logo";
@@ -94,18 +94,28 @@ export function SiteHeader() {
       {/* Desktop category bar + mega menu */}
       <div className="hidden border-t border-line lg:block">
         <div className="mx-auto max-w-[1400px] px-8">
-          <ul className="flex items-center justify-center gap-8">
+          <ul className="flex items-center justify-center gap-6">
             {NAV.map((top) => (
               <li key={top.slug} onMouseEnter={() => setOpenTop(top.slug)}>
                 <Link
                   href={`/d/${top.slug}`}
-                  className={`inline-block border-b-2 py-3 text-xs tracking-[0.14em] uppercase transition-colors ${
+                  className={`inline-block border-b-2 py-3 text-xs tracking-[0.12em] uppercase transition-colors ${
                     openTop === top.slug
                       ? "border-foreground"
                       : "border-transparent"
                   } ${top.slug === "sale" ? "text-sale" : ""}`}
                 >
                   {top.name}
+                </Link>
+              </li>
+            ))}
+            {EXTRA_NAV.map((link) => (
+              <li key={link.label} onMouseEnter={() => setOpenTop(null)}>
+                <Link
+                  href={link.href}
+                  className="inline-block border-b-2 border-transparent py-3 text-xs tracking-[0.12em] uppercase transition-colors hover:border-foreground"
+                >
+                  {link.label}
                 </Link>
               </li>
             ))}
@@ -135,12 +145,7 @@ export function SiteHeader() {
                 <div className="relative aspect-4/3 overflow-hidden bg-neutral-100">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src={apparelImage(
-                      DEPARTMENT_KEYWORDS[openTop] ?? "fashion,clothing",
-                      31,
-                      600,
-                      450,
-                    )}
+                    src={departmentImage(openTop, 3, 600, 450)}
                     alt=""
                     className="size-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
