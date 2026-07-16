@@ -1,3 +1,4 @@
+import { HNM_PRODUCTS } from "./hnm-products";
 import { productImages } from "./images";
 import { PRODUCT_IMAGES } from "./product-images";
 
@@ -367,8 +368,35 @@ function sizesFor(category: string) {
   return APPAREL_SIZES;
 }
 
+function toSlug(category: string, name: string) {
+  return `${category}-${name
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "")}`;
+}
+
+/**
+ * Imported H&M categories replace the placeholder names outright; categories the
+ * dataset doesn't cover (ethnic wear, perfumes, beauty, jewellery, home) keep theirs.
+ */
+const CATALOG_NAMES: Record<string, string[]> = {
+  ...NAMES,
+  ...Object.fromEntries(
+    Object.entries(HNM_PRODUCTS)
+      .filter(([, products]) => products.length > 0)
+      .map(([category, products]) => [category, products.map((p) => p.name)]),
+  ),
+};
+
+/** slug -> real detail_desc, for products that came from the dataset. */
+const HNM_DESCRIPTIONS = new Map<string, string>(
+  Object.entries(HNM_PRODUCTS).flatMap(([category, products]) =>
+    products.map((p) => [toSlug(category, p.name), p.description] as const),
+  ),
+);
+
 function buildProduct(category: string, name: string): Product {
-  const slug = `${category}-${name.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`;
+  const slug = toSlug(category, name);
   const seed = hash(slug);
   const onSale = category.startsWith("sale") || seed % 3 === 0;
   const compareAt = 999 + (seed % 40) * 100;
@@ -391,11 +419,12 @@ function buildProduct(category: string, name: string): Product {
       (PRODUCT_IMAGES[slug]?.length ?? 0) > 0
         ? PRODUCT_IMAGES[slug]
         : productImages(category, seed),
-    description: buildDescription(name, category, colors[0], seed),
+    description:
+      HNM_DESCRIPTIONS.get(slug) ?? buildDescription(name, category, colors[0], seed),
   };
 }
 
-export const PRODUCTS: Product[] = Object.entries(NAMES).flatMap(
+export const PRODUCTS: Product[] = Object.entries(CATALOG_NAMES).flatMap(
   ([category, names]) => names.map((name) => buildProduct(category, name)),
 );
 

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import { useSession } from "@/lib/auth-client";
 import { EXTRA_NAV, NAV } from "@/lib/catalog";
 import { departmentImage } from "@/lib/images";
 import { SITE } from "@/lib/site";
@@ -22,6 +23,7 @@ export function SiteHeader() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [query, setQuery] = useState("");
   const { count, openCart } = useCart();
+  const { data: session } = useSession();
   const router = useRouter();
 
   function submitSearch(e: React.FormEvent) {
@@ -66,11 +68,11 @@ export function SiteHeader() {
 
         <nav className="ml-auto flex items-center gap-1 lg:ml-4">
           <Link
-            href="/account"
+            href={session ? "/account" : "/sign-in"}
             className="hidden items-center gap-2 px-3 py-2 text-xs tracking-wide uppercase sm:flex"
           >
             <UserIcon className="size-5" />
-            Sign in
+            {session ? session.user.name?.split(" ")[0] || "Account" : "Sign in"}
           </Link>
           <Link href="/wishlist" className="p-2" aria-label="Wishlist">
             <HeartIcon className="size-5" />
