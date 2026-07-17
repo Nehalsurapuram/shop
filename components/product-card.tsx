@@ -11,6 +11,8 @@ export function ProductCard({
   product: Product;
   priority?: boolean;
 }) {
+  const hoverImage = product.images[1];
+
   return (
     <article className="group relative">
       <Link href={`/p/${product.slug}`} className="block">
@@ -21,15 +23,21 @@ export function ProductCard({
             fill
             sizes="(min-width: 1024px) 25vw, (min-width: 640px) 33vw, 50vw"
             priority={priority}
-            className="object-cover transition-opacity duration-300 group-hover:opacity-0"
+            className={`object-cover transition-opacity duration-300 ${
+              hoverImage ? "group-hover:opacity-0" : ""
+            }`}
           />
-          <Image
-            src={product.images[1]}
-            alt=""
-            fill
-            sizes="(min-width: 1024px) 25vw, (min-width: 640px) 33vw, 50vw"
-            className="object-cover opacity-0 transition-opacity duration-300 group-hover:opacity-100"
-          />
+          {/* Plenty of products ship a single photo. Without a second image to
+              cross-fade to, hovering would just fade the card out to grey. */}
+          {hoverImage && (
+            <Image
+              src={hoverImage}
+              alt=""
+              fill
+              sizes="(min-width: 1024px) 25vw, (min-width: 640px) 33vw, 50vw"
+              className="object-cover opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+            />
+          )}
           {product.compareAt && (
             <span className="absolute top-3 left-3 bg-sale px-2 py-1 text-[10px] font-medium tracking-[0.1em] text-white uppercase">
               {discountPercent(product.price, product.compareAt)}% off
