@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { headers } from "next/headers";
 import { redirect } from "next/navigation";
+import { AccountName } from "@/components/account-name";
 import { SignOutButton } from "@/components/sign-out-button";
 import { auth } from "@/lib/auth";
 import { formatPrice } from "@/lib/format";
@@ -31,10 +32,7 @@ export default async function AccountPage() {
       <h1 className="font-serif text-3xl">My account</h1>
 
       <dl className="mt-10 divide-y divide-line border-y border-line">
-        <div className="flex justify-between gap-8 py-4">
-          <dt className="text-[10px] tracking-[0.14em] text-muted uppercase">Name</dt>
-          <dd className="text-sm">{user.name || "—"}</dd>
-        </div>
+        <AccountName initialName={user.name ?? ""} />
         <div className="flex justify-between gap-8 py-4">
           <dt className="text-[10px] tracking-[0.14em] text-muted uppercase">Email</dt>
           <dd className="text-sm">{user.email}</dd>

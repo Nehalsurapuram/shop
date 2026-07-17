@@ -13,6 +13,7 @@ export function SignInForm({ callbackURL = "/account" }: { callbackURL?: string 
   const router = useRouter();
   const [step, setStep] = useState<Step>({ name: "email" });
   const [email, setEmail] = useState("");
+  const [fullName, setFullName] = useState("");
   const [code, setCode] = useState("");
   const [pending, setPending] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -57,7 +58,15 @@ export function SignInForm({ callbackURL = "/account" }: { callbackURL?: string 
 
     setPending(true);
     setError(null);
-    const { error } = await authClient.signIn.emailOtp({ email: step.email, otp });
+    // `name` is only applied when this code creates a brand-new account; Better
+    // Auth ignores it for returning users. Sent only when the field is filled so
+    // an existing user leaving it blank can never blank out their saved name.
+    const trimmedName = fullName.trim();
+    const { error } = await authClient.signIn.emailOtp({
+      email: step.email,
+      otp,
+      ...(trimmedName ? { name: trimmedName } : {}),
+    });
     setPending(false);
 
     if (error) {
@@ -107,6 +116,23 @@ export function SignInForm({ callbackURL = "/account" }: { callbackURL?: string 
             placeholder="000000"
             className="w-full border-b border-line bg-transparent py-2 text-center text-2xl tracking-[0.5em] outline-none placeholder:text-muted focus:border-foreground"
           />
+
+          <label
+            htmlFor="fullName"
+            className="mt-6 block text-[10px] tracking-[0.14em] text-muted uppercase"
+          >
+            Your name <span className="normal-case">(new here? add your name)</span>
+          </label>
+          <input
+            id="fullName"
+            type="text"
+            autoComplete="name"
+            value={fullName}
+            onChange={(e) => setFullName(e.target.value)}
+            placeholder="Optional"
+            className="mt-2 w-full border-b border-line bg-transparent py-2 text-sm outline-none placeholder:text-muted focus:border-foreground"
+          />
+
           <button
             type="submit"
             disabled={pending}
