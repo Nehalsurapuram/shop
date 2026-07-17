@@ -1,8 +1,8 @@
 import { betterAuth } from "better-auth";
 import { nextCookies } from "better-auth/next-js";
-import { magicLink } from "better-auth/plugins";
+import { emailOTP } from "better-auth/plugins";
 import { pool } from "@/lib/db";
-import { magicLinkEmail, sendEmail } from "@/lib/email";
+import { otpEmail, sendEmail } from "@/lib/email";
 
 export const auth = betterAuth({
   database: pool,
@@ -13,13 +13,23 @@ export const auth = betterAuth({
     },
   },
   plugins: [
-    magicLink({
+    emailOTP({
       expiresIn: 60 * 5,
-      sendMagicLink: async ({ email, url }) => {
+      otpLength: 6,
+      // Stored hashed, so a leaked verification row can't be turned back into a
+      // working code. Retries are capped so a 6-digit code can't be brute-forced.
+      storeOTP: "hashed",
+      allowedAttempts: 5,
+      sendVerificationOTP: async ({ email, otp, type }) => {
+        // The plugin also issues codes for email-verification and password reset;
+        // this app only uses sign-in, but keep the subject honest for any type.
         await sendEmail({
           to: email,
-          subject: "Sign in to Thrift Flux",
-          html: magicLinkEmail(url),
+          subject:
+            type === "sign-in"
+              ? `${otp} is your Thrift Flux sign-in code`
+              : `${otp} is your Thrift Flux verification code`,
+          html: otpEmail(otp),
         });
       },
     }),
