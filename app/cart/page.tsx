@@ -5,9 +5,7 @@ import Link from "next/link";
 import { useCart } from "@/components/cart-provider";
 import { MinusIcon, PlusIcon } from "@/components/icons";
 import { formatPrice } from "@/lib/format";
-
-const FREE_SHIPPING_THRESHOLD = 1499;
-const SHIPPING_FEE = 99;
+import { shippingFor } from "@/lib/pricing";
 
 export default function CartPage() {
   const { lines, subtotal, setQty, remove, count } = useCart();
@@ -29,7 +27,7 @@ export default function CartPage() {
     );
   }
 
-  const shipping = subtotal >= FREE_SHIPPING_THRESHOLD ? 0 : SHIPPING_FEE;
+  const shipping = shippingFor(subtotal);
 
   return (
     <div className="mx-auto max-w-[1400px] px-4 py-10 lg:px-8">
@@ -126,14 +124,14 @@ export default function CartPage() {
               </div>
             </dl>
 
-            <button
-              type="button"
-              className="mt-6 w-full bg-foreground py-3.5 text-xs tracking-[0.14em] text-white uppercase"
+            <Link
+              href="/checkout"
+              className="mt-6 block w-full bg-foreground py-3.5 text-center text-xs tracking-[0.14em] text-white uppercase"
             >
               Proceed to checkout
-            </button>
+            </Link>
             <p className="mt-3 text-center text-xs text-muted">
-              Checkout isn&apos;t wired up in this demo.
+              Test mode — no real money moves.
             </p>
           </div>
         </aside>

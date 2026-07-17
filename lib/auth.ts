@@ -1,13 +1,11 @@
 import { betterAuth } from "better-auth";
 import { nextCookies } from "better-auth/next-js";
 import { magicLink } from "better-auth/plugins";
-import { Pool } from "pg";
+import { pool } from "@/lib/db";
 import { magicLinkEmail, sendEmail } from "@/lib/email";
 
 export const auth = betterAuth({
-  database: new Pool({
-    connectionString: process.env.DATABASE_URL,
-  }),
+  database: pool,
   socialProviders: {
     google: {
       clientId: process.env.GOOGLE_CLIENT_ID as string,
