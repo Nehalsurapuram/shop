@@ -25,9 +25,26 @@ const ROOT = process.cwd();
 const OUT_FILE = join(ROOT, "lib", "hnm-products.ts");
 const PRODUCTS_DIR = join(ROOT, "public", "products");
 
-/** How many distinct products to import per category, and how many photos each. */
-const PER_CATEGORY = 6;
+/**
+ * How many distinct products to import per category, and how many photos each.
+ * Override the per-category count with `--per-category N`.
+ */
+const PER_CATEGORY = readCount("--per-category", 6);
 const IMAGES_PER_PRODUCT = 3;
+
+/** Sale is a curated slice, so it stays at half the depth of a full category. */
+const SALE_PER_CATEGORY = Math.max(1, Math.round(PER_CATEGORY / 2));
+
+function readCount(flag, fallback) {
+  const i = process.argv.indexOf(flag);
+  if (i === -1) return fallback;
+  const n = Number(process.argv[i + 1]);
+  if (!Number.isInteger(n) || n < 1) {
+    console.error(`${flag} needs a positive integer, got: ${process.argv[i + 1]}`);
+    process.exit(1);
+  }
+  return n;
+}
 
 /**
  * Maps our category slugs onto H&M's taxonomy. `group` matches index_group_name,
@@ -67,10 +84,14 @@ const CATEGORY_RULES = {
   "sale-women": {
     group: ["Ladieswear"],
     types: ["Dress", "Blouse", "Trousers"],
-    limit: 3,
+    limit: SALE_PER_CATEGORY,
   },
-  "sale-men": { group: ["Menswear"], types: ["Shirt", "T-shirt", "Trousers"], limit: 3 },
-  "sale-kids": { index: ["Children Sizes 92-140"], types: null, limit: 3 },
+  "sale-men": {
+    group: ["Menswear"],
+    types: ["Shirt", "T-shirt", "Trousers"],
+    limit: SALE_PER_CATEGORY,
+  },
+  "sale-kids": { index: ["Children Sizes 92-140"], types: null, limit: SALE_PER_CATEGORY },
 };
 
 function parseArgs() {
@@ -197,13 +218,24 @@ async function readArticles(dataDir) {
 async function copyImages(dataDir, buckets) {
   let copied = 0;
   let missing = 0;
+  let collided = 0;
   const kept = {};
+  // H&M reuses product names within a category ("Arty shirt" twice) and varies
+  // only by case ("PINE Regular" / "PINE regular"), both of which slugify to the
+  // same value. Two products sharing a slug would share a URL and overwrite each
+  // other's photo directory, so the first one wins.
+  const usedSlugs = new Set();
 
   for (const [category, bucket] of Object.entries(buckets)) {
     kept[category] = [];
 
     for (const product of bucket.values()) {
       const slug = `${category}-${slugify(product.name)}`;
+      if (usedSlugs.has(slug)) {
+        collided++;
+        continue;
+      }
+      usedSlugs.add(slug);
       const dir = join(PRODUCTS_DIR, slug);
 
       const sources = [];
@@ -229,7 +261,7 @@ async function copyImages(dataDir, buckets) {
     }
   }
 
-  return { kept, copied, missing };
+  return { kept, copied, missing, collided };
 }
 
 function render(kept) {
@@ -268,7 +300,7 @@ console.log(`Reading ${join(dataDir, "articles.csv")} …`);
 const buckets = await readArticles(dataDir);
 
 console.log("Copying photos …");
-const { kept, copied, missing } = await copyImages(dataDir, buckets);
+const { kept, copied, missing, collided } = await copyImages(dataDir, buckets);
 
 await writeFile(OUT_FILE, render(kept), "utf8");
 
@@ -279,5 +311,8 @@ console.log(`\nWrote lib/hnm-products.ts — ${total} product(s) across ${
 console.log(`Copied ${copied} image(s) into public/products/.`);
 if (missing > 0) {
   console.log(`${missing} image(s) were listed in articles.csv but absent on disk.`);
+}
+if (collided > 0) {
+  console.log(`${collided} product(s) skipped — their name slugifies to one already taken.`);
 }
 console.log("\nNext: npm run images");

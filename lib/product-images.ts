@@ -6,56 +6,972 @@
  * Products without an entry here fall back to keyword placeholder photography.
  */
 export const PRODUCT_IMAGES: Record<string, string[]> = {
+  "kids-baby-2p-ls-girly-pj": [
+    "/products/kids-baby-2p-ls-girly-pj/01.jpg",
+    "/products/kids-baby-2p-ls-girly-pj/02.jpg",
+    "/products/kids-baby-2p-ls-girly-pj/03.jpg",
+  ],
+  "kids-baby-2p-ss-girly-pj": [
+    "/products/kids-baby-2p-ss-girly-pj/01.jpg",
+    "/products/kids-baby-2p-ss-girly-pj/02.jpg",
+    "/products/kids-baby-2p-ss-girly-pj/03.jpg",
+  ],
+  "kids-baby-2p-ss-pyjama": [
+    "/products/kids-baby-2p-ss-pyjama/01.jpg",
+    "/products/kids-baby-2p-ss-pyjama/02.jpg",
+    "/products/kids-baby-2p-ss-pyjama/03.jpg",
+  ],
+  "kids-baby-2p-tanktop-body-mixed": [
+    "/products/kids-baby-2p-tanktop-body-mixed/01.jpg",
+    "/products/kids-baby-2p-tanktop-body-mixed/02.jpg",
+    "/products/kids-baby-2p-tanktop-body-mixed/03.jpg",
+  ],
+  "kids-baby-2pack-ss-body-tvp": [
+    "/products/kids-baby-2pack-ss-body-tvp/01.jpg",
+  ],
+  "kids-baby-2pack-tanktop-body-tvp": [
+    "/products/kids-baby-2pack-tanktop-body-tvp/01.jpg",
+  ],
+  "kids-baby-3p-fancy-tanktop-body": [
+    "/products/kids-baby-3p-fancy-tanktop-body/01.jpg",
+    "/products/kids-baby-3p-fancy-tanktop-body/02.jpg",
+    "/products/kids-baby-3p-fancy-tanktop-body/03.jpg",
+  ],
+  "kids-baby-3p-ls-pj": [
+    "/products/kids-baby-3p-ls-pj/01.jpg",
+    "/products/kids-baby-3p-ls-pj/02.jpg",
+    "/products/kids-baby-3p-ls-pj/03.jpg",
+  ],
+  "kids-baby-3p-ls-pj-with-feet": [
+    "/products/kids-baby-3p-ls-pj-with-feet/01.jpg",
+    "/products/kids-baby-3p-ls-pj-with-feet/02.jpg",
+    "/products/kids-baby-3p-ls-pj-with-feet/03.jpg",
+  ],
+  "kids-baby-3p-ss-pj": [
+    "/products/kids-baby-3p-ss-pj/01.jpg",
+    "/products/kids-baby-3p-ss-pj/02.jpg",
+    "/products/kids-baby-3p-ss-pj/03.jpg",
+  ],
+  "kids-baby-3p-tank-pj": [
+    "/products/kids-baby-3p-tank-pj/01.jpg",
+  ],
+  "kids-baby-6p-ls-bodypack": [
+    "/products/kids-baby-6p-ls-bodypack/01.jpg",
+    "/products/kids-baby-6p-ls-bodypack/02.jpg",
+    "/products/kids-baby-6p-ls-bodypack/03.jpg",
+  ],
   "kids-baby-6p-ss-body": [
     "/products/kids-baby-6p-ss-body/01.jpg",
+  ],
+  "kids-baby-6p-tanktopbody-pack": [
+    "/products/kids-baby-6p-tanktopbody-pack/01.jpg",
+    "/products/kids-baby-6p-tanktopbody-pack/02.jpg",
+    "/products/kids-baby-6p-tanktopbody-pack/03.jpg",
+  ],
+  "kids-baby-alfons-2-p-cap": [
+    "/products/kids-baby-alfons-2-p-cap/01.jpg",
+    "/products/kids-baby-alfons-2-p-cap/02.jpg",
+  ],
+  "kids-baby-algot-2-p-body": [
+    "/products/kids-baby-algot-2-p-body/01.jpg",
+    "/products/kids-baby-algot-2-p-body/02.jpg",
+    "/products/kids-baby-algot-2-p-body/03.jpg",
+  ],
+  "kids-baby-algot-2-p-tights": [
+    "/products/kids-baby-algot-2-p-tights/01.jpg",
+    "/products/kids-baby-algot-2-p-tights/02.jpg",
+    "/products/kids-baby-algot-2-p-tights/03.jpg",
+  ],
+  "kids-baby-algot-s-s-2-p-body": [
+    "/products/kids-baby-algot-s-s-2-p-body/01.jpg",
+    "/products/kids-baby-algot-s-s-2-p-body/02.jpg",
+    "/products/kids-baby-algot-s-s-2-p-body/03.jpg",
+  ],
+  "kids-baby-basic-co-fl-cardigan": [
+    "/products/kids-baby-basic-co-fl-cardigan/01.jpg",
+    "/products/kids-baby-basic-co-fl-cardigan/02.jpg",
+    "/products/kids-baby-basic-co-fl-cardigan/03.jpg",
+  ],
+  "kids-baby-basic-cool-pants": [
+    "/products/kids-baby-basic-cool-pants/01.jpg",
+    "/products/kids-baby-basic-cool-pants/02.jpg",
+    "/products/kids-baby-basic-cool-pants/03.jpg",
+  ],
+  "kids-baby-basic-cotton-fleece-leggings": [
+    "/products/kids-baby-basic-cotton-fleece-leggings/01.jpg",
+    "/products/kids-baby-basic-cotton-fleece-leggings/02.jpg",
+    "/products/kids-baby-basic-cotton-fleece-leggings/03.jpg",
+  ],
+  "kids-baby-basic-cotton-terry-shorts": [
+    "/products/kids-baby-basic-cotton-terry-shorts/01.jpg",
+    "/products/kids-baby-basic-cotton-terry-shorts/02.jpg",
+    "/products/kids-baby-basic-cotton-terry-shorts/03.jpg",
+  ],
+  "kids-baby-basic-didier-6-p": [
+    "/products/kids-baby-basic-didier-6-p/01.jpg",
+  ],
+  "kids-baby-basic-henley-body": [
+    "/products/kids-baby-basic-henley-body/01.jpg",
+    "/products/kids-baby-basic-henley-body/02.jpg",
+    "/products/kids-baby-basic-henley-body/03.jpg",
+  ],
+  "kids-baby-basic-hood": [
+    "/products/kids-baby-basic-hood/01.jpg",
+    "/products/kids-baby-basic-hood/02.jpg",
+    "/products/kids-baby-basic-hood/03.jpg",
+  ],
+  "kids-baby-basic-jersey-cardigan-w-frill": [
+    "/products/kids-baby-basic-jersey-cardigan-w-frill/01.jpg",
+  ],
+  "kids-baby-basic-jersey-pant-1x1rib": [
+    "/products/kids-baby-basic-jersey-pant-1x1rib/01.jpg",
+    "/products/kids-baby-basic-jersey-pant-1x1rib/02.jpg",
+    "/products/kids-baby-basic-jersey-pant-1x1rib/03.jpg",
+  ],
+  "kids-baby-basic-jersey-tights-oc": [
+    "/products/kids-baby-basic-jersey-tights-oc/01.jpg",
+  ],
+  "kids-baby-basic-loose-jerseypants": [
+    "/products/kids-baby-basic-loose-jerseypants/01.jpg",
+    "/products/kids-baby-basic-loose-jerseypants/02.jpg",
+  ],
+  "kids-baby-basic-ls-raglan-t-shirt": [
+    "/products/kids-baby-basic-ls-raglan-t-shirt/01.jpg",
+    "/products/kids-baby-basic-ls-raglan-t-shirt/02.jpg",
+    "/products/kids-baby-basic-ls-raglan-t-shirt/03.jpg",
+  ],
+  "kids-baby-basic-ls-t-shirt": [
+    "/products/kids-baby-basic-ls-t-shirt/01.jpg",
+    "/products/kids-baby-basic-ls-t-shirt/02.jpg",
+    "/products/kids-baby-basic-ls-t-shirt/03.jpg",
+  ],
+  "kids-baby-basic-ls-turtle-neck-body": [
+    "/products/kids-baby-basic-ls-turtle-neck-body/01.jpg",
+    "/products/kids-baby-basic-ls-turtle-neck-body/02.jpg",
+  ],
+  "kids-baby-basic-overall": [
+    "/products/kids-baby-basic-overall/01.jpg",
+    "/products/kids-baby-basic-overall/02.jpg",
+    "/products/kids-baby-basic-overall/03.jpg",
+  ],
+  "kids-baby-basic-rolltops-3-pack": [
+    "/products/kids-baby-basic-rolltops-3-pack/01.jpg",
+    "/products/kids-baby-basic-rolltops-3-pack/02.jpg",
+    "/products/kids-baby-basic-rolltops-3-pack/03.jpg",
+  ],
+  "kids-baby-basic-s-s-henley-body": [
+    "/products/kids-baby-basic-s-s-henley-body/01.jpg",
+    "/products/kids-baby-basic-s-s-henley-body/02.jpg",
+  ],
+  "kids-baby-basic-shorts": [
+    "/products/kids-baby-basic-shorts/01.jpg",
+  ],
+  "kids-baby-basic-ss-dress": [
+    "/products/kids-baby-basic-ss-dress/01.jpg",
+    "/products/kids-baby-basic-ss-dress/02.jpg",
+    "/products/kids-baby-basic-ss-dress/03.jpg",
+  ],
+  "kids-baby-basic-ss-henley-t-shirt": [
+    "/products/kids-baby-basic-ss-henley-t-shirt/01.jpg",
+    "/products/kids-baby-basic-ss-henley-t-shirt/02.jpg",
+  ],
+  "kids-baby-basic-tank-overall-spring": [
+    "/products/kids-baby-basic-tank-overall-spring/01.jpg",
+    "/products/kids-baby-basic-tank-overall-spring/02.jpg",
+    "/products/kids-baby-basic-tank-overall-spring/03.jpg",
+  ],
+  "kids-baby-basic-tanktop-romper": [
+    "/products/kids-baby-basic-tanktop-romper/01.jpg",
+    "/products/kids-baby-basic-tanktop-romper/02.jpg",
+    "/products/kids-baby-basic-tanktop-romper/03.jpg",
+  ],
+  "kids-baby-basic-tights-2pack": [
+    "/products/kids-baby-basic-tights-2pack/01.jpg",
+    "/products/kids-baby-basic-tights-2pack/02.jpg",
+    "/products/kids-baby-basic-tights-2pack/03.jpg",
+  ],
+  "kids-baby-becky-romper": [
+    "/products/kids-baby-becky-romper/01.jpg",
+  ],
+  "kids-baby-betty-sue-bib-dress": [
+    "/products/kids-baby-betty-sue-bib-dress/01.jpg",
+  ],
+  "kids-baby-billie-softie": [
+    "/products/kids-baby-billie-softie/01.jpg",
+  ],
+  "kids-baby-bob-set": [
+    "/products/kids-baby-bob-set/01.jpg",
+    "/products/kids-baby-bob-set/02.jpg",
+  ],
+  "kids-baby-bunny-trouser": [
+    "/products/kids-baby-bunny-trouser/01.jpg",
+    "/products/kids-baby-bunny-trouser/02.jpg",
+  ],
+  "kids-baby-busy-bib": [
+    "/products/kids-baby-busy-bib/01.jpg",
+  ],
+  "kids-baby-christmas-pyjama-1": [
+    "/products/kids-baby-christmas-pyjama-1/01.jpg",
+    "/products/kids-baby-christmas-pyjama-1/02.jpg",
+  ],
+  "kids-baby-dante-set": [
+    "/products/kids-baby-dante-set/01.jpg",
+    "/products/kids-baby-dante-set/02.jpg",
+  ],
+  "kids-baby-delli-jaquard-sweater": [
+    "/products/kids-baby-delli-jaquard-sweater/01.jpg",
+  ],
+  "kids-baby-dress-ls-basic": [
+    "/products/kids-baby-dress-ls-basic/01.jpg",
+    "/products/kids-baby-dress-ls-basic/02.jpg",
+    "/products/kids-baby-dress-ls-basic/03.jpg",
+  ],
+  "kids-baby-emmy-2-pack-body": [
+    "/products/kids-baby-emmy-2-pack-body/01.jpg",
+  ],
+  "kids-baby-eva-jaquard-cardigan": [
+    "/products/kids-baby-eva-jaquard-cardigan/01.jpg",
   ],
   "kids-baby-fleece-pyjama": [
     "/products/kids-baby-fleece-pyjama/01.jpg",
     "/products/kids-baby-fleece-pyjama/02.jpg",
     "/products/kids-baby-fleece-pyjama/03.jpg",
   ],
+  "kids-baby-frida-frill-booties": [
+    "/products/kids-baby-frida-frill-booties/01.jpg",
+  ],
+  "kids-baby-gunhild-shorts": [
+    "/products/kids-baby-gunhild-shorts/01.jpg",
+  ],
+  "kids-baby-honeymelon": [
+    "/products/kids-baby-honeymelon/01.jpg",
+  ],
+  "kids-baby-honolulu": [
+    "/products/kids-baby-honolulu/01.jpg",
+    "/products/kids-baby-honolulu/02.jpg",
+  ],
+  "kids-baby-hulda-dress": [
+    "/products/kids-baby-hulda-dress/01.jpg",
+  ],
+  "kids-baby-ivar-hat": [
+    "/products/kids-baby-ivar-hat/01.jpg",
+  ],
+  "kids-baby-ivar-polo": [
+    "/products/kids-baby-ivar-polo/01.jpg",
+  ],
+  "kids-baby-jing-hat-2p": [
+    "/products/kids-baby-jing-hat-2p/01.jpg",
+  ],
+  "kids-baby-joan-cap": [
+    "/products/kids-baby-joan-cap/01.jpg",
+  ],
+  "kids-baby-john-bootie": [
+    "/products/kids-baby-john-bootie/01.jpg",
+  ],
+  "kids-baby-kelly-cap": [
+    "/products/kids-baby-kelly-cap/01.jpg",
+  ],
+  "kids-baby-kelly-mittens": [
+    "/products/kids-baby-kelly-mittens/01.jpg",
+  ],
+  "kids-baby-lenny-braces": [
+    "/products/kids-baby-lenny-braces/01.jpg",
+    "/products/kids-baby-lenny-braces/02.jpg",
+    "/products/kids-baby-lenny-braces/03.jpg",
+  ],
+  "kids-baby-ls-body-girly-with-collar": [
+    "/products/kids-baby-ls-body-girly-with-collar/01.jpg",
+    "/products/kids-baby-ls-body-girly-with-collar/02.jpg",
+    "/products/kids-baby-ls-body-girly-with-collar/03.jpg",
+  ],
+  "kids-baby-ls-body-solid-2pack": [
+    "/products/kids-baby-ls-body-solid-2pack/01.jpg",
+  ],
+  "kids-baby-ls-body-with-collar": [
+    "/products/kids-baby-ls-body-with-collar/01.jpg",
+    "/products/kids-baby-ls-body-with-collar/02.jpg",
+    "/products/kids-baby-ls-body-with-collar/03.jpg",
+  ],
+  "kids-baby-ls-pj": [
+    "/products/kids-baby-ls-pj/01.jpg",
+    "/products/kids-baby-ls-pj/02.jpg",
+    "/products/kids-baby-ls-pj/03.jpg",
+  ],
+  "kids-baby-luke-parka": [
+    "/products/kids-baby-luke-parka/01.jpg",
+    "/products/kids-baby-luke-parka/02.jpg",
+  ],
+  "kids-baby-maggie-trouser": [
+    "/products/kids-baby-maggie-trouser/01.jpg",
+    "/products/kids-baby-maggie-trouser/02.jpg",
+  ],
+  "kids-baby-magnus-shorts": [
+    "/products/kids-baby-magnus-shorts/01.jpg",
+  ],
+  "kids-baby-mango-jacket": [
+    "/products/kids-baby-mango-jacket/01.jpg",
+  ],
+  "kids-baby-meya-dress": [
+    "/products/kids-baby-meya-dress/01.jpg",
+  ],
+  "kids-baby-molly-pull-on-trouser": [
+    "/products/kids-baby-molly-pull-on-trouser/01.jpg",
+  ],
+  "kids-baby-my-lined-denim-trouser": [
+    "/products/kids-baby-my-lined-denim-trouser/01.jpg",
+  ],
+  "kids-baby-padded-pyjama": [
+    "/products/kids-baby-padded-pyjama/01.jpg",
+    "/products/kids-baby-padded-pyjama/02.jpg",
+    "/products/kids-baby-padded-pyjama/03.jpg",
+  ],
+  "kids-baby-seyon-chinos-shorts": [
+    "/products/kids-baby-seyon-chinos-shorts/01.jpg",
+  ],
   "kids-baby-sleep-bag-padded": [
     "/products/kids-baby-sleep-bag-padded/01.jpg",
     "/products/kids-baby-sleep-bag-padded/02.jpg",
     "/products/kids-baby-sleep-bag-padded/03.jpg",
   ],
+  "kids-baby-sleep-bag-velour": [
+    "/products/kids-baby-sleep-bag-velour/01.jpg",
+  ],
+  "kids-baby-slim-fit-basic": [
+    "/products/kids-baby-slim-fit-basic/01.jpg",
+    "/products/kids-baby-slim-fit-basic/02.jpg",
+    "/products/kids-baby-slim-fit-basic/03.jpg",
+  ],
+  "kids-baby-spinache": [
+    "/products/kids-baby-spinache/01.jpg",
+  ],
+  "kids-baby-ss-body-girly-with-collar": [
+    "/products/kids-baby-ss-body-girly-with-collar/01.jpg",
+  ],
+  "kids-baby-ss-body-mixed-2p": [
+    "/products/kids-baby-ss-body-mixed-2p/01.jpg",
+    "/products/kids-baby-ss-body-mixed-2p/02.jpg",
+    "/products/kids-baby-ss-body-mixed-2p/03.jpg",
+  ],
+  "kids-baby-ss-body-with-collar": [
+    "/products/kids-baby-ss-body-with-collar/01.jpg",
+  ],
+  "kids-baby-ss-t-shirt-single": [
+    "/products/kids-baby-ss-t-shirt-single/01.jpg",
+    "/products/kids-baby-ss-t-shirt-single/02.jpg",
+    "/products/kids-baby-ss-t-shirt-single/03.jpg",
+  ],
+  "kids-baby-stavanger": [
+    "/products/kids-baby-stavanger/01.jpg",
+  ],
+  "kids-baby-sture-overall": [
+    "/products/kids-baby-sture-overall/01.jpg",
+  ],
+  "kids-baby-sweatpants-oc": [
+    "/products/kids-baby-sweatpants-oc/01.jpg",
+    "/products/kids-baby-sweatpants-oc/02.jpg",
+    "/products/kids-baby-sweatpants-oc/03.jpg",
+  ],
   "kids-baby-sweatshirt-oc": [
     "/products/kids-baby-sweatshirt-oc/01.jpg",
     "/products/kids-baby-sweatshirt-oc/02.jpg",
+  ],
+  "kids-baby-tanktop-body-girly-2-pack": [
+    "/products/kids-baby-tanktop-body-girly-2-pack/01.jpg",
+    "/products/kids-baby-tanktop-body-girly-2-pack/02.jpg",
+    "/products/kids-baby-tanktop-body-girly-2-pack/03.jpg",
   ],
   "kids-baby-tanktop-body-white-3pack": [
     "/products/kids-baby-tanktop-body-white-3pack/01.jpg",
     "/products/kids-baby-tanktop-body-white-3pack/02.jpg",
     "/products/kids-baby-tanktop-body-white-3pack/03.jpg",
   ],
+  "kids-baby-tanktop-dress": [
+    "/products/kids-baby-tanktop-dress/01.jpg",
+    "/products/kids-baby-tanktop-dress/02.jpg",
+  ],
+  "kids-baby-thea-set": [
+    "/products/kids-baby-thea-set/01.jpg",
+  ],
+  "kids-baby-thin-sleeping-bag": [
+    "/products/kids-baby-thin-sleeping-bag/01.jpg",
+    "/products/kids-baby-thin-sleeping-bag/02.jpg",
+    "/products/kids-baby-thin-sleeping-bag/03.jpg",
+  ],
   "kids-baby-velour-pyjama": [
     "/products/kids-baby-velour-pyjama/01.jpg",
     "/products/kids-baby-velour-pyjama/02.jpg",
   ],
+  "kids-baby-winter-pj": [
+    "/products/kids-baby-winter-pj/01.jpg",
+    "/products/kids-baby-winter-pj/02.jpg",
+  ],
+  "kids-junior-2-p-basic-cotton-tights-sg": [
+    "/products/kids-junior-2-p-basic-cotton-tights-sg/01.jpg",
+    "/products/kids-junior-2-p-basic-cotton-tights-sg/02.jpg",
+    "/products/kids-junior-2-p-basic-cotton-tights-sg/03.jpg",
+  ],
+  "kids-junior-2-p-keri": [
+    "/products/kids-junior-2-p-keri/01.jpg",
+    "/products/kids-junior-2-p-keri/02.jpg",
+    "/products/kids-junior-2-p-keri/03.jpg",
+  ],
+  "kids-junior-2-p-pelin-pointelle": [
+    "/products/kids-junior-2-p-pelin-pointelle/01.jpg",
+    "/products/kids-junior-2-p-pelin-pointelle/02.jpg",
+    "/products/kids-junior-2-p-pelin-pointelle/03.jpg",
+  ],
+  "kids-junior-5-pack-antislip-anklesock-sb": [
+    "/products/kids-junior-5-pack-antislip-anklesock-sb/01.jpg",
+    "/products/kids-junior-5-pack-antislip-anklesock-sb/02.jpg",
+    "/products/kids-junior-5-pack-antislip-anklesock-sb/03.jpg",
+  ],
+  "kids-junior-5-pack-bob-sport-shaftless-sb": [
+    "/products/kids-junior-5-pack-bob-sport-shaftless-sb/01.jpg",
+    "/products/kids-junior-5-pack-bob-sport-shaftless-sb/02.jpg",
+    "/products/kids-junior-5-pack-bob-sport-shaftless-sb/03.jpg",
+  ],
+  "kids-junior-7-pack-lucas-anklesock-sb": [
+    "/products/kids-junior-7-pack-lucas-anklesock-sb/01.jpg",
+    "/products/kids-junior-7-pack-lucas-anklesock-sb/02.jpg",
+    "/products/kids-junior-7-pack-lucas-anklesock-sb/03.jpg",
+  ],
+  "kids-junior-7-pack-weekday-anklesock-sb": [
+    "/products/kids-junior-7-pack-weekday-anklesock-sb/01.jpg",
+    "/products/kids-junior-7-pack-weekday-anklesock-sb/02.jpg",
+    "/products/kids-junior-7-pack-weekday-anklesock-sb/03.jpg",
+  ],
+  "kids-junior-adam-2-p-long-j-sb": [
+    "/products/kids-junior-adam-2-p-long-j-sb/01.jpg",
+    "/products/kids-junior-adam-2-p-long-j-sb/02.jpg",
+    "/products/kids-junior-adam-2-p-long-j-sb/03.jpg",
+  ],
+  "kids-junior-albin-basic-rib-2p-sb": [
+    "/products/kids-junior-albin-basic-rib-2p-sb/01.jpg",
+    "/products/kids-junior-albin-basic-rib-2p-sb/02.jpg",
+    "/products/kids-junior-albin-basic-rib-2p-sb/03.jpg",
+  ],
+  "kids-junior-anthea-2p-pj": [
+    "/products/kids-junior-anthea-2p-pj/01.jpg",
+    "/products/kids-junior-anthea-2p-pj/02.jpg",
+    "/products/kids-junior-anthea-2p-pj/03.jpg",
+  ],
+  "kids-junior-anthea-pj": [
+    "/products/kids-junior-anthea-pj/01.jpg",
+    "/products/kids-junior-anthea-pj/02.jpg",
+    "/products/kids-junior-anthea-pj/03.jpg",
+  ],
+  "kids-junior-ashton": [
+    "/products/kids-junior-ashton/01.jpg",
+    "/products/kids-junior-ashton/02.jpg",
+    "/products/kids-junior-ashton/03.jpg",
+  ],
+  "kids-junior-august-s-s-2-p-snug-fit-pj": [
+    "/products/kids-junior-august-s-s-2-p-snug-fit-pj/01.jpg",
+    "/products/kids-junior-august-s-s-2-p-snug-fit-pj/02.jpg",
+    "/products/kids-junior-august-s-s-2-p-snug-fit-pj/03.jpg",
+  ],
+  "kids-junior-badger-fancy": [
+    "/products/kids-junior-badger-fancy/01.jpg",
+    "/products/kids-junior-badger-fancy/02.jpg",
+    "/products/kids-junior-badger-fancy/03.jpg",
+  ],
+  "kids-junior-badger-price": [
+    "/products/kids-junior-badger-price/01.jpg",
+  ],
+  "kids-junior-ben-basic-crewneck-sb": [
+    "/products/kids-junior-ben-basic-crewneck-sb/01.jpg",
+    "/products/kids-junior-ben-basic-crewneck-sb/02.jpg",
+    "/products/kids-junior-ben-basic-crewneck-sb/03.jpg",
+  ],
+  "kids-junior-ben-fancy-crewneck-sb": [
+    "/products/kids-junior-ben-fancy-crewneck-sb/01.jpg",
+    "/products/kids-junior-ben-fancy-crewneck-sb/02.jpg",
+    "/products/kids-junior-ben-fancy-crewneck-sb/03.jpg",
+  ],
   "kids-junior-bertil-basic-2-pack-s-s-sb": [
     "/products/kids-junior-bertil-basic-2-pack-s-s-sb/01.jpg",
+  ],
+  "kids-junior-bob-sport-5-p-midshaft-bb": [
+    "/products/kids-junior-bob-sport-5-p-midshaft-bb/01.jpg",
+    "/products/kids-junior-bob-sport-5-p-midshaft-bb/02.jpg",
+    "/products/kids-junior-bob-sport-5-p-midshaft-bb/03.jpg",
+  ],
+  "kids-junior-celia-skirt-1": [
+    "/products/kids-junior-celia-skirt-1/01.jpg",
+    "/products/kids-junior-celia-skirt-1/02.jpg",
+    "/products/kids-junior-celia-skirt-1/03.jpg",
+  ],
+  "kids-junior-cleo-dress": [
+    "/products/kids-junior-cleo-dress/01.jpg",
+  ],
+  "kids-junior-dennis-onepiece-sb": [
+    "/products/kids-junior-dennis-onepiece-sb/01.jpg",
+    "/products/kids-junior-dennis-onepiece-sb/02.jpg",
+  ],
+  "kids-junior-diamanda-tights-sg": [
+    "/products/kids-junior-diamanda-tights-sg/01.jpg",
+    "/products/kids-junior-diamanda-tights-sg/02.jpg",
   ],
   "kids-junior-ella-5-p-shaftless": [
     "/products/kids-junior-ella-5-p-shaftless/01.jpg",
     "/products/kids-junior-ella-5-p-shaftless/02.jpg",
+  ],
+  "kids-junior-emma-3-p-terry-chenille": [
+    "/products/kids-junior-emma-3-p-terry-chenille/01.jpg",
+    "/products/kids-junior-emma-3-p-terry-chenille/02.jpg",
+    "/products/kids-junior-emma-3-p-terry-chenille/03.jpg",
+  ],
+  "kids-junior-erin-2p-pj": [
+    "/products/kids-junior-erin-2p-pj/01.jpg",
+  ],
+  "kids-junior-felix-l-l-pj-sb": [
+    "/products/kids-junior-felix-l-l-pj-sb/01.jpg",
+    "/products/kids-junior-felix-l-l-pj-sb/02.jpg",
+    "/products/kids-junior-felix-l-l-pj-sb/03.jpg",
+  ],
+  "kids-junior-flora-parka": [
+    "/products/kids-junior-flora-parka/01.jpg",
+  ],
+  "kids-junior-freja-2-pack": [
+    "/products/kids-junior-freja-2-pack/01.jpg",
+  ],
+  "kids-junior-gullan-5-p-ankle-sock": [
+    "/products/kids-junior-gullan-5-p-ankle-sock/01.jpg",
+    "/products/kids-junior-gullan-5-p-ankle-sock/02.jpg",
+    "/products/kids-junior-gullan-5-p-ankle-sock/03.jpg",
+  ],
+  "kids-junior-jagger-jumpsuit": [
+    "/products/kids-junior-jagger-jumpsuit/01.jpg",
+  ],
+  "kids-junior-james": [
+    "/products/kids-junior-james/01.jpg",
+    "/products/kids-junior-james/02.jpg",
+  ],
+  "kids-junior-jean-bathrobe-sb": [
+    "/products/kids-junior-jean-bathrobe-sb/01.jpg",
+    "/products/kids-junior-jean-bathrobe-sb/02.jpg",
+    "/products/kids-junior-jean-bathrobe-sb/03.jpg",
+  ],
+  "kids-junior-joel-fancy-sweatpants-sb": [
+    "/products/kids-junior-joel-fancy-sweatpants-sb/01.jpg",
+    "/products/kids-junior-joel-fancy-sweatpants-sb/02.jpg",
+    "/products/kids-junior-joel-fancy-sweatpants-sb/03.jpg",
+  ],
+  "kids-junior-jogger-wilson-79": [
+    "/products/kids-junior-jogger-wilson-79/01.jpg",
+    "/products/kids-junior-jogger-wilson-79/02.jpg",
+    "/products/kids-junior-jogger-wilson-79/03.jpg",
+  ],
+  "kids-junior-jonas-2-p-tights-sb": [
+    "/products/kids-junior-jonas-2-p-tights-sb/01.jpg",
+    "/products/kids-junior-jonas-2-p-tights-sb/02.jpg",
+    "/products/kids-junior-jonas-2-p-tights-sb/03.jpg",
+  ],
+  "kids-junior-jonna-vest": [
+    "/products/kids-junior-jonna-vest/01.jpg",
+  ],
+  "kids-junior-justin-2-p-tank-sb": [
+    "/products/kids-junior-justin-2-p-tank-sb/01.jpg",
+    "/products/kids-junior-justin-2-p-tank-sb/02.jpg",
+    "/products/kids-junior-justin-2-p-tank-sb/03.jpg",
+  ],
+  "kids-junior-kenty-sweatpants-sb": [
+    "/products/kids-junior-kenty-sweatpants-sb/01.jpg",
+    "/products/kids-junior-kenty-sweatpants-sb/02.jpg",
+    "/products/kids-junior-kenty-sweatpants-sb/03.jpg",
+  ],
+  "kids-junior-lenny-velour-sb": [
+    "/products/kids-junior-lenny-velour-sb/01.jpg",
+    "/products/kids-junior-lenny-velour-sb/02.jpg",
+    "/products/kids-junior-lenny-velour-sb/03.jpg",
+  ],
+  "kids-junior-liam-2-pack-tanktop-sb": [
+    "/products/kids-junior-liam-2-pack-tanktop-sb/01.jpg",
+    "/products/kids-junior-liam-2-pack-tanktop-sb/02.jpg",
+    "/products/kids-junior-liam-2-pack-tanktop-sb/03.jpg",
+  ],
+  "kids-junior-lina-cord-jkt-v9": [
+    "/products/kids-junior-lina-cord-jkt-v9/01.jpg",
+  ],
+  "kids-junior-logan-l-s-raglan": [
+    "/products/kids-junior-logan-l-s-raglan/01.jpg",
+    "/products/kids-junior-logan-l-s-raglan/02.jpg",
+    "/products/kids-junior-logan-l-s-raglan/03.jpg",
+  ],
+  "kids-junior-lurex-tights-sg": [
+    "/products/kids-junior-lurex-tights-sg/01.jpg",
+    "/products/kids-junior-lurex-tights-sg/02.jpg",
+    "/products/kids-junior-lurex-tights-sg/03.jpg",
+  ],
+  "kids-junior-lush-vest": [
+    "/products/kids-junior-lush-vest/01.jpg",
+  ],
+  "kids-junior-madeleine-pull-on-lined": [
+    "/products/kids-junior-madeleine-pull-on-lined/01.jpg",
+    "/products/kids-junior-madeleine-pull-on-lined/02.jpg",
+  ],
+  "kids-junior-majken-maxi-dress": [
+    "/products/kids-junior-majken-maxi-dress/01.jpg",
+  ],
+  "kids-junior-malaga": [
+    "/products/kids-junior-malaga/01.jpg",
+    "/products/kids-junior-malaga/02.jpg",
+    "/products/kids-junior-malaga/03.jpg",
+  ],
+  "kids-junior-malaga-2-p": [
+    "/products/kids-junior-malaga-2-p/01.jpg",
+    "/products/kids-junior-malaga-2-p/02.jpg",
+    "/products/kids-junior-malaga-2-p/03.jpg",
+  ],
+  "kids-junior-marie-7-p-sg": [
+    "/products/kids-junior-marie-7-p-sg/01.jpg",
+    "/products/kids-junior-marie-7-p-sg/02.jpg",
+    "/products/kids-junior-marie-7-p-sg/03.jpg",
+  ],
+  "kids-junior-maxi-2-pack": [
+    "/products/kids-junior-maxi-2-pack/01.jpg",
+    "/products/kids-junior-maxi-2-pack/02.jpg",
+    "/products/kids-junior-maxi-2-pack/03.jpg",
+  ],
+  "kids-junior-meadow": [
+    "/products/kids-junior-meadow/01.jpg",
+    "/products/kids-junior-meadow/02.jpg",
+  ],
+  "kids-junior-mia": [
+    "/products/kids-junior-mia/01.jpg",
+    "/products/kids-junior-mia/02.jpg",
+    "/products/kids-junior-mia/03.jpg",
+  ],
+  "kids-junior-microtights-2pk-sg": [
+    "/products/kids-junior-microtights-2pk-sg/01.jpg",
+    "/products/kids-junior-microtights-2pk-sg/02.jpg",
+    "/products/kids-junior-microtights-2pk-sg/03.jpg",
+  ],
+  "kids-junior-milad-fleece-jkt": [
+    "/products/kids-junior-milad-fleece-jkt/01.jpg",
+  ],
+  "kids-junior-milly-onesie-pj": [
+    "/products/kids-junior-milly-onesie-pj/01.jpg",
+    "/products/kids-junior-milly-onesie-pj/02.jpg",
+    "/products/kids-junior-milly-onesie-pj/03.jpg",
+  ],
+  "kids-junior-mimmi": [
+    "/products/kids-junior-mimmi/01.jpg",
+    "/products/kids-junior-mimmi/02.jpg",
+  ],
+  "kids-junior-mini-one-bomber": [
+    "/products/kids-junior-mini-one-bomber/01.jpg",
+  ],
+  "kids-junior-mums": [
+    "/products/kids-junior-mums/01.jpg",
+    "/products/kids-junior-mums/02.jpg",
+    "/products/kids-junior-mums/03.jpg",
+  ],
+  "kids-junior-my-dress": [
+    "/products/kids-junior-my-dress/01.jpg",
+  ],
+  "kids-junior-nanna": [
+    "/products/kids-junior-nanna/01.jpg",
+  ],
+  "kids-junior-naomi-dress-2p": [
+    "/products/kids-junior-naomi-dress-2p/01.jpg",
+    "/products/kids-junior-naomi-dress-2p/02.jpg",
+    "/products/kids-junior-naomi-dress-2p/03.jpg",
+  ],
+  "kids-junior-nelly-2-pack-s-l": [
+    "/products/kids-junior-nelly-2-pack-s-l/01.jpg",
+    "/products/kids-junior-nelly-2-pack-s-l/02.jpg",
+  ],
+  "kids-junior-nike-fancy": [
+    "/products/kids-junior-nike-fancy/01.jpg",
+    "/products/kids-junior-nike-fancy/02.jpg",
+    "/products/kids-junior-nike-fancy/03.jpg",
+  ],
+  "kids-junior-nils-x-mas-pj-sb": [
+    "/products/kids-junior-nils-x-mas-pj-sb/01.jpg",
+    "/products/kids-junior-nils-x-mas-pj-sb/02.jpg",
+    "/products/kids-junior-nils-x-mas-pj-sb/03.jpg",
+  ],
+  "kids-junior-nora": [
+    "/products/kids-junior-nora/01.jpg",
+    "/products/kids-junior-nora/02.jpg",
+    "/products/kids-junior-nora/03.jpg",
+  ],
+  "kids-junior-oscar-l-s-tee-sb": [
+    "/products/kids-junior-oscar-l-s-tee-sb/01.jpg",
+    "/products/kids-junior-oscar-l-s-tee-sb/02.jpg",
+    "/products/kids-junior-oscar-l-s-tee-sb/03.jpg",
+  ],
+  "kids-junior-pelle-basic-s-s-jersey-polo-sb": [
+    "/products/kids-junior-pelle-basic-s-s-jersey-polo-sb/01.jpg",
+    "/products/kids-junior-pelle-basic-s-s-jersey-polo-sb/02.jpg",
+    "/products/kids-junior-pelle-basic-s-s-jersey-polo-sb/03.jpg",
+  ],
+  "kids-junior-pricebrief-5-p-brief-sb": [
+    "/products/kids-junior-pricebrief-5-p-brief-sb/01.jpg",
+    "/products/kids-junior-pricebrief-5-p-brief-sb/02.jpg",
+    "/products/kids-junior-pricebrief-5-p-brief-sb/03.jpg",
+  ],
+  "kids-junior-priscilla-price-t-shirt": [
+    "/products/kids-junior-priscilla-price-t-shirt/01.jpg",
+    "/products/kids-junior-priscilla-price-t-shirt/02.jpg",
   ],
   "kids-junior-raf-basic-rollerneck-sb-2-p": [
     "/products/kids-junior-raf-basic-rollerneck-sb-2-p/01.jpg",
     "/products/kids-junior-raf-basic-rollerneck-sb-2-p/02.jpg",
     "/products/kids-junior-raf-basic-rollerneck-sb-2-p/03.jpg",
   ],
+  "kids-junior-rakel-3p": [
+    "/products/kids-junior-rakel-3p/01.jpg",
+    "/products/kids-junior-rakel-3p/02.jpg",
+  ],
+  "kids-junior-rally-2p-tights": [
+    "/products/kids-junior-rally-2p-tights/01.jpg",
+    "/products/kids-junior-rally-2p-tights/02.jpg",
+    "/products/kids-junior-rally-2p-tights/03.jpg",
+  ],
+  "kids-junior-rebecca-basic-tanktop": [
+    "/products/kids-junior-rebecca-basic-tanktop/01.jpg",
+    "/products/kids-junior-rebecca-basic-tanktop/02.jpg",
+    "/products/kids-junior-rebecca-basic-tanktop/03.jpg",
+  ],
+  "kids-junior-rhino-cord": [
+    "/products/kids-junior-rhino-cord/01.jpg",
+    "/products/kids-junior-rhino-cord/02.jpg",
+    "/products/kids-junior-rhino-cord/03.jpg",
+  ],
+  "kids-junior-rick-l-s-henley-sb": [
+    "/products/kids-junior-rick-l-s-henley-sb/01.jpg",
+    "/products/kids-junior-rick-l-s-henley-sb/02.jpg",
+    "/products/kids-junior-rick-l-s-henley-sb/03.jpg",
+  ],
   "kids-junior-romy-2p": [
     "/products/kids-junior-romy-2p/01.jpg",
     "/products/kids-junior-romy-2p/02.jpg",
     "/products/kids-junior-romy-2p/03.jpg",
   ],
+  "kids-junior-romy-3pack-tanktop": [
+    "/products/kids-junior-romy-3pack-tanktop/01.jpg",
+    "/products/kids-junior-romy-3pack-tanktop/02.jpg",
+    "/products/kids-junior-romy-3pack-tanktop/03.jpg",
+  ],
+  "kids-junior-sara-2-p-legging-w-lace": [
+    "/products/kids-junior-sara-2-p-legging-w-lace/01.jpg",
+    "/products/kids-junior-sara-2-p-legging-w-lace/02.jpg",
+    "/products/kids-junior-sara-2-p-legging-w-lace/03.jpg",
+  ],
+  "kids-junior-sb-eric-rain-pants": [
+    "/products/kids-junior-sb-eric-rain-pants/01.jpg",
+  ],
+  "kids-junior-silas-s-l-pj-sb": [
+    "/products/kids-junior-silas-s-l-pj-sb/01.jpg",
+    "/products/kids-junior-silas-s-l-pj-sb/02.jpg",
+    "/products/kids-junior-silas-s-l-pj-sb/03.jpg",
+  ],
+  "kids-junior-skeleton-1p-tights": [
+    "/products/kids-junior-skeleton-1p-tights/01.jpg",
+  ],
   "kids-junior-slim-cheapo-79": [
     "/products/kids-junior-slim-cheapo-79/01.jpg",
+  ],
+  "kids-junior-texas": [
+    "/products/kids-junior-texas/01.jpg",
+    "/products/kids-junior-texas/02.jpg",
+  ],
+  "kids-junior-tonga-tregging": [
+    "/products/kids-junior-tonga-tregging/01.jpg",
   ],
   "kids-junior-torkel-basic-2-pack-tanktop-sb": [
     "/products/kids-junior-torkel-basic-2-pack-tanktop-sb/01.jpg",
     "/products/kids-junior-torkel-basic-2-pack-tanktop-sb/02.jpg",
     "/products/kids-junior-torkel-basic-2-pack-tanktop-sb/03.jpg",
+  ],
+  "kids-junior-tp-axel-5-p-anklesock-sb": [
+    "/products/kids-junior-tp-axel-5-p-anklesock-sb/01.jpg",
+    "/products/kids-junior-tp-axel-5-p-anklesock-sb/02.jpg",
+    "/products/kids-junior-tp-axel-5-p-anklesock-sb/03.jpg",
+  ],
+  "kids-junior-tp-daniel-3-p-boxer-sb": [
+    "/products/kids-junior-tp-daniel-3-p-boxer-sb/01.jpg",
+    "/products/kids-junior-tp-daniel-3-p-boxer-sb/02.jpg",
+    "/products/kids-junior-tp-daniel-3-p-boxer-sb/03.jpg",
+  ],
+  "kids-junior-tp-harry-5-p-lic-anklesock-sb": [
+    "/products/kids-junior-tp-harry-5-p-lic-anklesock-sb/01.jpg",
+  ],
+  "kids-junior-tp-jack-fancy-hood-sb": [
+    "/products/kids-junior-tp-jack-fancy-hood-sb/01.jpg",
+    "/products/kids-junior-tp-jack-fancy-hood-sb/02.jpg",
+    "/products/kids-junior-tp-jack-fancy-hood-sb/03.jpg",
+  ],
+  "kids-junior-tp-max-jersey-pants-sb": [
+    "/products/kids-junior-tp-max-jersey-pants-sb/01.jpg",
+    "/products/kids-junior-tp-max-jersey-pants-sb/02.jpg",
+    "/products/kids-junior-tp-max-jersey-pants-sb/03.jpg",
+  ],
+  "kids-junior-tp-stellan-7-p-shaftless-bb": [
+    "/products/kids-junior-tp-stellan-7-p-shaftless-bb/01.jpg",
+    "/products/kids-junior-tp-stellan-7-p-shaftless-bb/02.jpg",
+    "/products/kids-junior-tp-stellan-7-p-shaftless-bb/03.jpg",
+  ],
+  "kids-junior-tp-stellan-7-p-shaftless-sb": [
+    "/products/kids-junior-tp-stellan-7-p-shaftless-sb/01.jpg",
+    "/products/kids-junior-tp-stellan-7-p-shaftless-sb/02.jpg",
+    "/products/kids-junior-tp-stellan-7-p-shaftless-sb/03.jpg",
+  ],
+  "kids-junior-trosa-onezie-sb": [
+    "/products/kids-junior-trosa-onezie-sb/01.jpg",
+    "/products/kids-junior-trosa-onezie-sb/02.jpg",
+    "/products/kids-junior-trosa-onezie-sb/03.jpg",
+  ],
+  "kids-junior-valter-pj-sb": [
+    "/products/kids-junior-valter-pj-sb/01.jpg",
+    "/products/kids-junior-valter-pj-sb/02.jpg",
+    "/products/kids-junior-valter-pj-sb/03.jpg",
+  ],
+  "kids-junior-vibeke-2-p": [
+    "/products/kids-junior-vibeke-2-p/01.jpg",
+  ],
+  "kids-junior-viveka-5-p-rib-shaftless": [
+    "/products/kids-junior-viveka-5-p-rib-shaftless/01.jpg",
+    "/products/kids-junior-viveka-5-p-rib-shaftless/02.jpg",
+    "/products/kids-junior-viveka-5-p-rib-shaftless/03.jpg",
+  ],
+  "kids-junior-werter-5-p-shaftless-bb": [
+    "/products/kids-junior-werter-5-p-shaftless-bb/01.jpg",
+    "/products/kids-junior-werter-5-p-shaftless-bb/02.jpg",
+  ],
+  "kids-junior-werter-5-p-shaftless-sb": [
+    "/products/kids-junior-werter-5-p-shaftless-sb/01.jpg",
+    "/products/kids-junior-werter-5-p-shaftless-sb/02.jpg",
+    "/products/kids-junior-werter-5-p-shaftless-sb/03.jpg",
+  ],
+  "kids-junior-wiggins-o-leg": [
+    "/products/kids-junior-wiggins-o-leg/01.jpg",
+    "/products/kids-junior-wiggins-o-leg/02.jpg",
+    "/products/kids-junior-wiggins-o-leg/03.jpg",
+  ],
+  "kids-teen-2-p-babsan-tights-bg": [
+    "/products/kids-teen-2-p-babsan-tights-bg/01.jpg",
+    "/products/kids-teen-2-p-babsan-tights-bg/02.jpg",
+    "/products/kids-teen-2-p-babsan-tights-bg/03.jpg",
+  ],
+  "kids-teen-2-p-basic-cotton-tights-bg": [
+    "/products/kids-teen-2-p-basic-cotton-tights-bg/01.jpg",
+    "/products/kids-teen-2-p-basic-cotton-tights-bg/02.jpg",
+    "/products/kids-teen-2-p-basic-cotton-tights-bg/03.jpg",
+  ],
+  "kids-teen-5-pack-bob-sport-shaftless-bb": [
+    "/products/kids-teen-5-pack-bob-sport-shaftless-bb/01.jpg",
+    "/products/kids-teen-5-pack-bob-sport-shaftless-bb/02.jpg",
+    "/products/kids-teen-5-pack-bob-sport-shaftless-bb/03.jpg",
+  ],
+  "kids-teen-7-pack-weekday-anklesock-bb": [
+    "/products/kids-teen-7-pack-weekday-anklesock-bb/01.jpg",
+    "/products/kids-teen-7-pack-weekday-anklesock-bb/02.jpg",
+    "/products/kids-teen-7-pack-weekday-anklesock-bb/03.jpg",
+  ],
+  "kids-teen-bb-timm-parka": [
+    "/products/kids-teen-bb-timm-parka/01.jpg",
+    "/products/kids-teen-bb-timm-parka/02.jpg",
+    "/products/kids-teen-bb-timm-parka/03.jpg",
+  ],
+  "kids-teen-bobby-l-l-pj-bb": [
+    "/products/kids-teen-bobby-l-l-pj-bb/01.jpg",
+    "/products/kids-teen-bobby-l-l-pj-bb/02.jpg",
+    "/products/kids-teen-bobby-l-l-pj-bb/03.jpg",
+  ],
+  "kids-teen-brandon-placket-snugfit-bb": [
+    "/products/kids-teen-brandon-placket-snugfit-bb/01.jpg",
+    "/products/kids-teen-brandon-placket-snugfit-bb/02.jpg",
+    "/products/kids-teen-brandon-placket-snugfit-bb/03.jpg",
+  ],
+  "kids-teen-brax-shorts": [
+    "/products/kids-teen-brax-shorts/01.jpg",
+    "/products/kids-teen-brax-shorts/02.jpg",
+    "/products/kids-teen-brax-shorts/03.jpg",
+  ],
+  "kids-teen-buddy-2-pack-l-s": [
+    "/products/kids-teen-buddy-2-pack-l-s/01.jpg",
+    "/products/kids-teen-buddy-2-pack-l-s/02.jpg",
+    "/products/kids-teen-buddy-2-pack-l-s/03.jpg",
+  ],
+  "kids-teen-chelsea-welldressed-blazer": [
+    "/products/kids-teen-chelsea-welldressed-blazer/01.jpg",
+    "/products/kids-teen-chelsea-welldressed-blazer/02.jpg",
+    "/products/kids-teen-chelsea-welldressed-blazer/03.jpg",
+  ],
+  "kids-teen-chelsea-welldressed-trouser": [
+    "/products/kids-teen-chelsea-welldressed-trouser/01.jpg",
+    "/products/kids-teen-chelsea-welldressed-trouser/02.jpg",
+  ],
+  "kids-teen-chelsea-welldressed-waistcoat": [
+    "/products/kids-teen-chelsea-welldressed-waistcoat/01.jpg",
+    "/products/kids-teen-chelsea-welldressed-waistcoat/02.jpg",
+  ],
+  "kids-teen-chiara-hood-1": [
+    "/products/kids-teen-chiara-hood-1/01.jpg",
+    "/products/kids-teen-chiara-hood-1/02.jpg",
+  ],
+  "kids-teen-cosy-cotton-fleece-robe": [
+    "/products/kids-teen-cosy-cotton-fleece-robe/01.jpg",
+    "/products/kids-teen-cosy-cotton-fleece-robe/02.jpg",
+    "/products/kids-teen-cosy-cotton-fleece-robe/03.jpg",
+  ],
+  "kids-teen-devon-cropped-tee": [
+    "/products/kids-teen-devon-cropped-tee/01.jpg",
+  ],
+  "kids-teen-diamanda-bg": [
+    "/products/kids-teen-diamanda-bg/01.jpg",
+    "/products/kids-teen-diamanda-bg/02.jpg",
+  ],
+  "kids-teen-diva-robe": [
+    "/products/kids-teen-diva-robe/01.jpg",
+    "/products/kids-teen-diva-robe/02.jpg",
+    "/products/kids-teen-diva-robe/03.jpg",
+  ],
+  "kids-teen-easy-iron-l-s-shirt-tp": [
+    "/products/kids-teen-easy-iron-l-s-shirt-tp/01.jpg",
+    "/products/kids-teen-easy-iron-l-s-shirt-tp/02.jpg",
+    "/products/kids-teen-easy-iron-l-s-shirt-tp/03.jpg",
+  ],
+  "kids-teen-edit-dress-1": [
+    "/products/kids-teen-edit-dress-1/01.jpg",
+    "/products/kids-teen-edit-dress-1/02.jpg",
+  ],
+  "kids-teen-edit-t-shirt": [
+    "/products/kids-teen-edit-t-shirt/01.jpg",
+  ],
+  "kids-teen-eivor-7-p-shaftless": [
+    "/products/kids-teen-eivor-7-p-shaftless/01.jpg",
+    "/products/kids-teen-eivor-7-p-shaftless/02.jpg",
+    "/products/kids-teen-eivor-7-p-shaftless/03.jpg",
+  ],
+  "kids-teen-elias-basic-v-neck-bb-2-p": [
+    "/products/kids-teen-elias-basic-v-neck-bb-2-p/01.jpg",
+    "/products/kids-teen-elias-basic-v-neck-bb-2-p/02.jpg",
+    "/products/kids-teen-elias-basic-v-neck-bb-2-p/03.jpg",
+  ],
+  "kids-teen-ella-5-p-shaftless": [
+    "/products/kids-teen-ella-5-p-shaftless/01.jpg",
+    "/products/kids-teen-ella-5-p-shaftless/02.jpg",
+  ],
+  "kids-teen-elly-tights": [
+    "/products/kids-teen-elly-tights/01.jpg",
+    "/products/kids-teen-elly-tights/02.jpg",
+  ],
+  "kids-teen-folke-funnelneck-hoodie-bb": [
+    "/products/kids-teen-folke-funnelneck-hoodie-bb/01.jpg",
+  ],
+  "kids-teen-greg-2-p-tanktop-bb": [
+    "/products/kids-teen-greg-2-p-tanktop-bb/01.jpg",
+    "/products/kids-teen-greg-2-p-tanktop-bb/02.jpg",
+    "/products/kids-teen-greg-2-p-tanktop-bb/03.jpg",
+  ],
+  "kids-teen-gullan-5-p-sock-bg": [
+    "/products/kids-teen-gullan-5-p-sock-bg/01.jpg",
+    "/products/kids-teen-gullan-5-p-sock-bg/02.jpg",
+    "/products/kids-teen-gullan-5-p-sock-bg/03.jpg",
   ],
   "kids-teen-harley-2-pack-basic-tee": [
     "/products/kids-teen-harley-2-pack-basic-tee/01.jpg",
@@ -67,31 +983,474 @@ export const PRODUCT_IMAGES: Record<string, string[]> = {
     "/products/kids-teen-helena-2-pack-tanktop/02.jpg",
     "/products/kids-teen-helena-2-pack-tanktop/03.jpg",
   ],
+  "kids-teen-holly-l-l-leggings": [
+    "/products/kids-teen-holly-l-l-leggings/01.jpg",
+    "/products/kids-teen-holly-l-l-leggings/02.jpg",
+  ],
+  "kids-teen-holmes-sweat-trousers": [
+    "/products/kids-teen-holmes-sweat-trousers/01.jpg",
+  ],
   "kids-teen-honey-l-l-leggings": [
     "/products/kids-teen-honey-l-l-leggings/01.jpg",
     "/products/kids-teen-honey-l-l-leggings/02.jpg",
     "/products/kids-teen-honey-l-l-leggings/03.jpg",
   ],
+  "kids-teen-honey-leggings-2pack-tvp": [
+    "/products/kids-teen-honey-leggings-2pack-tvp/01.jpg",
+    "/products/kids-teen-honey-leggings-2pack-tvp/02.jpg",
+    "/products/kids-teen-honey-leggings-2pack-tvp/03.jpg",
+  ],
+  "kids-teen-ian-chino-shorts": [
+    "/products/kids-teen-ian-chino-shorts/01.jpg",
+  ],
+  "kids-teen-jean-bathrobe-bb": [
+    "/products/kids-teen-jean-bathrobe-bb/01.jpg",
+    "/products/kids-teen-jean-bathrobe-bb/02.jpg",
+    "/products/kids-teen-jean-bathrobe-bb/03.jpg",
+  ],
+  "kids-teen-jimmy-raglan-tshirt-bb": [
+    "/products/kids-teen-jimmy-raglan-tshirt-bb/01.jpg",
+    "/products/kids-teen-jimmy-raglan-tshirt-bb/02.jpg",
+    "/products/kids-teen-jimmy-raglan-tshirt-bb/03.jpg",
+  ],
+  "kids-teen-joe-chinos": [
+    "/products/kids-teen-joe-chinos/01.jpg",
+    "/products/kids-teen-joe-chinos/02.jpg",
+    "/products/kids-teen-joe-chinos/03.jpg",
+  ],
+  "kids-teen-joe-s-l-pj-in-rib-bb": [
+    "/products/kids-teen-joe-s-l-pj-in-rib-bb/01.jpg",
+    "/products/kids-teen-joe-s-l-pj-in-rib-bb/02.jpg",
+    "/products/kids-teen-joe-s-l-pj-in-rib-bb/03.jpg",
+  ],
+  "kids-teen-johan-s-l-pj-bb": [
+    "/products/kids-teen-johan-s-l-pj-bb/01.jpg",
+    "/products/kids-teen-johan-s-l-pj-bb/02.jpg",
+    "/products/kids-teen-johan-s-l-pj-bb/03.jpg",
+  ],
+  "kids-teen-jones-l-s-henley-bb": [
+    "/products/kids-teen-jones-l-s-henley-bb/01.jpg",
+  ],
+  "kids-teen-kakan-2-p-cableknit-bg": [
+    "/products/kids-teen-kakan-2-p-cableknit-bg/01.jpg",
+    "/products/kids-teen-kakan-2-p-cableknit-bg/02.jpg",
+    "/products/kids-teen-kakan-2-p-cableknit-bg/03.jpg",
+  ],
+  "kids-teen-kiev-pj": [
+    "/products/kids-teen-kiev-pj/01.jpg",
+    "/products/kids-teen-kiev-pj/02.jpg",
+    "/products/kids-teen-kiev-pj/03.jpg",
+  ],
   "kids-teen-kompis-2-pack-l-s": [
     "/products/kids-teen-kompis-2-pack-l-s/01.jpg",
     "/products/kids-teen-kompis-2-pack-l-s/02.jpg",
+  ],
+  "kids-teen-kristoff-basic-jersey-polo-bb": [
+    "/products/kids-teen-kristoff-basic-jersey-polo-bb/01.jpg",
+    "/products/kids-teen-kristoff-basic-jersey-polo-bb/02.jpg",
+    "/products/kids-teen-kristoff-basic-jersey-polo-bb/03.jpg",
+  ],
+  "kids-teen-kurt-5-p-brief-bb": [
+    "/products/kids-teen-kurt-5-p-brief-bb/01.jpg",
+    "/products/kids-teen-kurt-5-p-brief-bb/02.jpg",
+    "/products/kids-teen-kurt-5-p-brief-bb/03.jpg",
+  ],
+  "kids-teen-larissa-fancy-2": [
+    "/products/kids-teen-larissa-fancy-2/01.jpg",
+    "/products/kids-teen-larissa-fancy-2/02.jpg",
+  ],
+  "kids-teen-larissa-hood": [
+    "/products/kids-teen-larissa-hood/01.jpg",
+    "/products/kids-teen-larissa-hood/02.jpg",
+    "/products/kids-teen-larissa-hood/03.jpg",
+  ],
+  "kids-teen-levis-x-mas-pj-bb": [
+    "/products/kids-teen-levis-x-mas-pj-bb/01.jpg",
+    "/products/kids-teen-levis-x-mas-pj-bb/02.jpg",
+    "/products/kids-teen-levis-x-mas-pj-bb/03.jpg",
+  ],
+  "kids-teen-lo-tunic": [
+    "/products/kids-teen-lo-tunic/01.jpg",
+  ],
+  "kids-teen-lolly-skirt-1": [
+    "/products/kids-teen-lolly-skirt-1/01.jpg",
+    "/products/kids-teen-lolly-skirt-1/02.jpg",
+    "/products/kids-teen-lolly-skirt-1/03.jpg",
+  ],
+  "kids-teen-lora": [
+    "/products/kids-teen-lora/01.jpg",
+    "/products/kids-teen-lora/02.jpg",
+    "/products/kids-teen-lora/03.jpg",
+  ],
+  "kids-teen-love-2-pack-lace-leggings": [
+    "/products/kids-teen-love-2-pack-lace-leggings/01.jpg",
+    "/products/kids-teen-love-2-pack-lace-leggings/02.jpg",
+    "/products/kids-teen-love-2-pack-lace-leggings/03.jpg",
+  ],
+  "kids-teen-luke-2-pack-l-s-rib-bb": [
+    "/products/kids-teen-luke-2-pack-l-s-rib-bb/01.jpg",
+    "/products/kids-teen-luke-2-pack-l-s-rib-bb/02.jpg",
+  ],
+  "kids-teen-lurex-tights-bg": [
+    "/products/kids-teen-lurex-tights-bg/01.jpg",
+    "/products/kids-teen-lurex-tights-bg/02.jpg",
+    "/products/kids-teen-lurex-tights-bg/03.jpg",
+  ],
+  "kids-teen-malcolm-skinny-5-pocket": [
+    "/products/kids-teen-malcolm-skinny-5-pocket/01.jpg",
+    "/products/kids-teen-malcolm-skinny-5-pocket/02.jpg",
+    "/products/kids-teen-malcolm-skinny-5-pocket/03.jpg",
+  ],
+  "kids-teen-marie-7-p-sock-bg": [
+    "/products/kids-teen-marie-7-p-sock-bg/01.jpg",
+    "/products/kids-teen-marie-7-p-sock-bg/02.jpg",
+    "/products/kids-teen-marie-7-p-sock-bg/03.jpg",
+  ],
+  "kids-teen-masolo-pj-long-leg-14-99": [
+    "/products/kids-teen-masolo-pj-long-leg-14-99/01.jpg",
+    "/products/kids-teen-masolo-pj-long-leg-14-99/02.jpg",
+    "/products/kids-teen-masolo-pj-long-leg-14-99/03.jpg",
   ],
   "kids-teen-mets-2-p-basic-shorttop": [
     "/products/kids-teen-mets-2-p-basic-shorttop/01.jpg",
     "/products/kids-teen-mets-2-p-basic-shorttop/02.jpg",
     "/products/kids-teen-mets-2-p-basic-shorttop/03.jpg",
   ],
+  "kids-teen-micro-2pk-tights-bg": [
+    "/products/kids-teen-micro-2pk-tights-bg/01.jpg",
+    "/products/kids-teen-micro-2pk-tights-bg/02.jpg",
+    "/products/kids-teen-micro-2pk-tights-bg/03.jpg",
+  ],
+  "kids-teen-morris-onepiece-bb": [
+    "/products/kids-teen-morris-onepiece-bb/01.jpg",
+    "/products/kids-teen-morris-onepiece-bb/02.jpg",
+    "/products/kids-teen-morris-onepiece-bb/03.jpg",
+  ],
+  "kids-teen-munich-turtleneck": [
+    "/products/kids-teen-munich-turtleneck/01.jpg",
+  ],
+  "kids-teen-nanna-hood": [
+    "/products/kids-teen-nanna-hood/01.jpg",
+    "/products/kids-teen-nanna-hood/02.jpg",
+    "/products/kids-teen-nanna-hood/03.jpg",
+  ],
   "kids-teen-nate-basic-s-s-solid-tee-bb": [
     "/products/kids-teen-nate-basic-s-s-solid-tee-bb/01.jpg",
     "/products/kids-teen-nate-basic-s-s-solid-tee-bb/02.jpg",
     "/products/kids-teen-nate-basic-s-s-solid-tee-bb/03.jpg",
   ],
+  "kids-teen-nikki-tank": [
+    "/products/kids-teen-nikki-tank/01.jpg",
+  ],
+  "kids-teen-nils-woven-pj-bb": [
+    "/products/kids-teen-nils-woven-pj-bb/01.jpg",
+    "/products/kids-teen-nils-woven-pj-bb/02.jpg",
+    "/products/kids-teen-nils-woven-pj-bb/03.jpg",
+  ],
+  "kids-teen-noora-5-pack-hipster": [
+    "/products/kids-teen-noora-5-pack-hipster/01.jpg",
+  ],
+  "kids-teen-oliver-chinos": [
+    "/products/kids-teen-oliver-chinos/01.jpg",
+  ],
+  "kids-teen-penny-peacoat": [
+    "/products/kids-teen-penny-peacoat/01.jpg",
+  ],
+  "kids-teen-pep-pj-9-99": [
+    "/products/kids-teen-pep-pj-9-99/01.jpg",
+  ],
+  "kids-teen-petra-fancy-shorttop-2p": [
+    "/products/kids-teen-petra-fancy-shorttop-2p/01.jpg",
+  ],
+  "kids-teen-ralph-2-p-woven-boxer-bb": [
+    "/products/kids-teen-ralph-2-p-woven-boxer-bb/01.jpg",
+    "/products/kids-teen-ralph-2-p-woven-boxer-bb/02.jpg",
+    "/products/kids-teen-ralph-2-p-woven-boxer-bb/03.jpg",
+  ],
+  "kids-teen-riga-pj": [
+    "/products/kids-teen-riga-pj/01.jpg",
+    "/products/kids-teen-riga-pj/02.jpg",
+    "/products/kids-teen-riga-pj/03.jpg",
+  ],
+  "kids-teen-rufus-5-pkt-trousers": [
+    "/products/kids-teen-rufus-5-pkt-trousers/01.jpg",
+    "/products/kids-teen-rufus-5-pkt-trousers/02.jpg",
+    "/products/kids-teen-rufus-5-pkt-trousers/03.jpg",
+  ],
+  "kids-teen-sabilla-3-pack": [
+    "/products/kids-teen-sabilla-3-pack/01.jpg",
+    "/products/kids-teen-sabilla-3-pack/02.jpg",
+  ],
+  "kids-teen-serena-2p-tank": [
+    "/products/kids-teen-serena-2p-tank/01.jpg",
+    "/products/kids-teen-serena-2p-tank/02.jpg",
+    "/products/kids-teen-serena-2p-tank/03.jpg",
+  ],
+  "kids-teen-shorts-pull-on-willy-rinse": [
+    "/products/kids-teen-shorts-pull-on-willy-rinse/01.jpg",
+  ],
+  "kids-teen-shower-rain-jacket": [
+    "/products/kids-teen-shower-rain-jacket/01.jpg",
+  ],
+  "kids-teen-signe-5-pack": [
+    "/products/kids-teen-signe-5-pack/01.jpg",
+    "/products/kids-teen-signe-5-pack/02.jpg",
+    "/products/kids-teen-signe-5-pack/03.jpg",
+  ],
+  "kids-teen-sivan-2-pack": [
+    "/products/kids-teen-sivan-2-pack/01.jpg",
+    "/products/kids-teen-sivan-2-pack/02.jpg",
+    "/products/kids-teen-sivan-2-pack/03.jpg",
+  ],
+  "kids-teen-sivan-printed-shorttop-2-pack": [
+    "/products/kids-teen-sivan-printed-shorttop-2-pack/01.jpg",
+    "/products/kids-teen-sivan-printed-shorttop-2-pack/02.jpg",
+    "/products/kids-teen-sivan-printed-shorttop-2-pack/03.jpg",
+  ],
+  "kids-teen-sivan-seamless": [
+    "/products/kids-teen-sivan-seamless/01.jpg",
+    "/products/kids-teen-sivan-seamless/02.jpg",
+    "/products/kids-teen-sivan-seamless/03.jpg",
+  ],
+  "kids-teen-sixten-fancy-3-p-boxer-bb": [
+    "/products/kids-teen-sixten-fancy-3-p-boxer-bb/01.jpg",
+    "/products/kids-teen-sixten-fancy-3-p-boxer-bb/02.jpg",
+    "/products/kids-teen-sixten-fancy-3-p-boxer-bb/03.jpg",
+  ],
+  "kids-teen-skinny-cheapo-89": [
+    "/products/kids-teen-skinny-cheapo-89/01.jpg",
+    "/products/kids-teen-skinny-cheapo-89/02.jpg",
+    "/products/kids-teen-skinny-cheapo-89/03.jpg",
+  ],
+  "kids-teen-skinny-price-89-1": [
+    "/products/kids-teen-skinny-price-89-1/01.jpg",
+  ],
+  "kids-teen-stina-3p-boxer": [
+    "/products/kids-teen-stina-3p-boxer/01.jpg",
+    "/products/kids-teen-stina-3p-boxer/02.jpg",
+    "/products/kids-teen-stina-3p-boxer/03.jpg",
+  ],
+  "kids-teen-stina-fancy": [
+    "/products/kids-teen-stina-fancy/01.jpg",
+    "/products/kids-teen-stina-fancy/02.jpg",
+  ],
+  "kids-teen-theo-basic-hood-bb": [
+    "/products/kids-teen-theo-basic-hood-bb/01.jpg",
+  ],
+  "kids-teen-tina-7-p": [
+    "/products/kids-teen-tina-7-p/01.jpg",
+    "/products/kids-teen-tina-7-p/02.jpg",
+    "/products/kids-teen-tina-7-p/03.jpg",
+  ],
+  "kids-teen-tommy-basic-sweatpants-bb": [
+    "/products/kids-teen-tommy-basic-sweatpants-bb/01.jpg",
+    "/products/kids-teen-tommy-basic-sweatpants-bb/02.jpg",
+    "/products/kids-teen-tommy-basic-sweatpants-bb/03.jpg",
+  ],
+  "kids-teen-tp-adam-2-p-long-john-bb": [
+    "/products/kids-teen-tp-adam-2-p-long-john-bb/01.jpg",
+    "/products/kids-teen-tp-adam-2-p-long-john-bb/02.jpg",
+    "/products/kids-teen-tp-adam-2-p-long-john-bb/03.jpg",
+  ],
+  "kids-teen-tp-axel-5-p-anklesock-bb": [
+    "/products/kids-teen-tp-axel-5-p-anklesock-bb/01.jpg",
+    "/products/kids-teen-tp-axel-5-p-anklesock-bb/02.jpg",
+    "/products/kids-teen-tp-axel-5-p-anklesock-bb/03.jpg",
+  ],
+  "kids-teen-tp-billy-basic-2-p-s-s-r-n-bb": [
+    "/products/kids-teen-tp-billy-basic-2-p-s-s-r-n-bb/01.jpg",
+    "/products/kids-teen-tp-billy-basic-2-p-s-s-r-n-bb/02.jpg",
+    "/products/kids-teen-tp-billy-basic-2-p-s-s-r-n-bb/03.jpg",
+  ],
+  "kids-teen-tp-bo-basic-oh-bb": [
+    "/products/kids-teen-tp-bo-basic-oh-bb/01.jpg",
+    "/products/kids-teen-tp-bo-basic-oh-bb/02.jpg",
+    "/products/kids-teen-tp-bo-basic-oh-bb/03.jpg",
+  ],
+  "kids-teen-tp-erik-regular-sock-yb-10pack": [
+    "/products/kids-teen-tp-erik-regular-sock-yb-10pack/01.jpg",
+    "/products/kids-teen-tp-erik-regular-sock-yb-10pack/02.jpg",
+    "/products/kids-teen-tp-erik-regular-sock-yb-10pack/03.jpg",
+  ],
+  "kids-teen-tp-henrik-3-p-boxer-bb": [
+    "/products/kids-teen-tp-henrik-3-p-boxer-bb/01.jpg",
+    "/products/kids-teen-tp-henrik-3-p-boxer-bb/02.jpg",
+    "/products/kids-teen-tp-henrik-3-p-boxer-bb/03.jpg",
+  ],
+  "kids-teen-tp-lucas-7-p-anklesock-bb": [
+    "/products/kids-teen-tp-lucas-7-p-anklesock-bb/01.jpg",
+    "/products/kids-teen-tp-lucas-7-p-anklesock-bb/02.jpg",
+    "/products/kids-teen-tp-lucas-7-p-anklesock-bb/03.jpg",
+  ],
+  "kids-teen-tp-stellan-7-p-shaftless-b-1": [
+    "/products/kids-teen-tp-stellan-7-p-shaftless-b-1/01.jpg",
+    "/products/kids-teen-tp-stellan-7-p-shaftless-b-1/02.jpg",
+    "/products/kids-teen-tp-stellan-7-p-shaftless-b-1/03.jpg",
+  ],
+  "kids-teen-tunis-ls-2p-1": [
+    "/products/kids-teen-tunis-ls-2p-1/01.jpg",
+    "/products/kids-teen-tunis-ls-2p-1/02.jpg",
+    "/products/kids-teen-tunis-ls-2p-1/03.jpg",
+  ],
+  "kids-teen-vera-sweater": [
+    "/products/kids-teen-vera-sweater/01.jpg",
+    "/products/kids-teen-vera-sweater/02.jpg",
+    "/products/kids-teen-vera-sweater/03.jpg",
+  ],
+  "kids-teen-werter-5-p-shaftless-bb": [
+    "/products/kids-teen-werter-5-p-shaftless-bb/01.jpg",
+    "/products/kids-teen-werter-5-p-shaftless-bb/02.jpg",
+    "/products/kids-teen-werter-5-p-shaftless-bb/03.jpg",
+  ],
+  "men-accessories-agaton-mix-glove": [
+    "/products/men-accessories-agaton-mix-glove/01.jpg",
+  ],
+  "men-accessories-aiden-belt": [
+    "/products/men-accessories-aiden-belt/01.jpg",
+    "/products/men-accessories-aiden-belt/02.jpg",
+    "/products/men-accessories-aiden-belt/03.jpg",
+  ],
+  "men-accessories-beanie-george": [
+    "/products/men-accessories-beanie-george/01.jpg",
+    "/products/men-accessories-beanie-george/02.jpg",
+    "/products/men-accessories-beanie-george/03.jpg",
+  ],
+  "men-accessories-beanie-jimmy-jersey": [
+    "/products/men-accessories-beanie-jimmy-jersey/01.jpg",
+    "/products/men-accessories-beanie-jimmy-jersey/02.jpg",
+    "/products/men-accessories-beanie-jimmy-jersey/03.jpg",
+  ],
+  "men-accessories-beanie-otto": [
+    "/products/men-accessories-beanie-otto/01.jpg",
+    "/products/men-accessories-beanie-otto/02.jpg",
+    "/products/men-accessories-beanie-otto/03.jpg",
+  ],
+  "men-accessories-beanie-pelle-wool-mix": [
+    "/products/men-accessories-beanie-pelle-wool-mix/01.jpg",
+    "/products/men-accessories-beanie-pelle-wool-mix/02.jpg",
+    "/products/men-accessories-beanie-pelle-wool-mix/03.jpg",
+  ],
+  "men-accessories-beanie-porter": [
+    "/products/men-accessories-beanie-porter/01.jpg",
+    "/products/men-accessories-beanie-porter/02.jpg",
+    "/products/men-accessories-beanie-porter/03.jpg",
+  ],
+  "men-accessories-big-block-scarf": [
+    "/products/men-accessories-big-block-scarf/01.jpg",
+  ],
+  "men-accessories-big-nick-beanie": [
+    "/products/men-accessories-big-nick-beanie/01.jpg",
+    "/products/men-accessories-big-nick-beanie/02.jpg",
+  ],
+  "men-accessories-black-umbrella": [
+    "/products/men-accessories-black-umbrella/01.jpg",
+  ],
+  "men-accessories-bo-dressed-belt": [
+    "/products/men-accessories-bo-dressed-belt/01.jpg",
+  ],
+  "men-accessories-bo-reversible": [
+    "/products/men-accessories-bo-reversible/01.jpg",
+    "/products/men-accessories-bo-reversible/02.jpg",
+  ],
+  "men-accessories-bob-sporty-beanie": [
+    "/products/men-accessories-bob-sporty-beanie/01.jpg",
+    "/products/men-accessories-bob-sporty-beanie/02.jpg",
+    "/products/men-accessories-bob-sporty-beanie/03.jpg",
+  ],
+  "men-accessories-bobby-pu-2-pack-belt": [
+    "/products/men-accessories-bobby-pu-2-pack-belt/01.jpg",
+  ],
+  "men-accessories-bowtie-kalle": [
+    "/products/men-accessories-bowtie-kalle/01.jpg",
+    "/products/men-accessories-bowtie-kalle/02.jpg",
+    "/products/men-accessories-bowtie-kalle/03.jpg",
+  ],
+  "men-accessories-bruce-embossed-belt": [
+    "/products/men-accessories-bruce-embossed-belt/01.jpg",
+  ],
+  "men-accessories-cap-eazy-badge": [
+    "/products/men-accessories-cap-eazy-badge/01.jpg",
+    "/products/men-accessories-cap-eazy-badge/02.jpg",
+    "/products/men-accessories-cap-eazy-badge/03.jpg",
+  ],
+  "men-accessories-cap-eazy-logo": [
+    "/products/men-accessories-cap-eazy-logo/01.jpg",
+    "/products/men-accessories-cap-eazy-logo/02.jpg",
+    "/products/men-accessories-cap-eazy-logo/03.jpg",
+  ],
+  "men-accessories-cap-eazy-suede-peak-app": [
+    "/products/men-accessories-cap-eazy-suede-peak-app/01.jpg",
+    "/products/men-accessories-cap-eazy-suede-peak-app/02.jpg",
+  ],
+  "men-accessories-cap-paco-label": [
+    "/products/men-accessories-cap-paco-label/01.jpg",
+    "/products/men-accessories-cap-paco-label/02.jpg",
+  ],
   "men-accessories-cap-paco-solid-co": [
     "/products/men-accessories-cap-paco-solid-co/01.jpg",
     "/products/men-accessories-cap-paco-solid-co/02.jpg",
   ],
+  "men-accessories-cap-rick-heavy-wash": [
+    "/products/men-accessories-cap-rick-heavy-wash/01.jpg",
+  ],
+  "men-accessories-cap-rick-suede": [
+    "/products/men-accessories-cap-rick-suede/01.jpg",
+    "/products/men-accessories-cap-rick-suede/02.jpg",
+  ],
+  "men-accessories-cashmere-woven-scarf": [
+    "/products/men-accessories-cashmere-woven-scarf/01.jpg",
+    "/products/men-accessories-cashmere-woven-scarf/02.jpg",
+  ],
+  "men-accessories-charlie-necktube": [
+    "/products/men-accessories-charlie-necktube/01.jpg",
+    "/products/men-accessories-charlie-necktube/02.jpg",
+  ],
+  "men-accessories-conan-belt": [
+    "/products/men-accessories-conan-belt/01.jpg",
+  ],
+  "men-accessories-coski-conscious-scarf": [
+    "/products/men-accessories-coski-conscious-scarf/01.jpg",
+    "/products/men-accessories-coski-conscious-scarf/02.jpg",
+  ],
+  "men-accessories-daniel-scarf": [
+    "/products/men-accessories-daniel-scarf/01.jpg",
+  ],
+  "men-accessories-dappy-beanie": [
+    "/products/men-accessories-dappy-beanie/01.jpg",
+  ],
+  "men-accessories-darcy-dressed-scarf": [
+    "/products/men-accessories-darcy-dressed-scarf/01.jpg",
+  ],
+  "men-accessories-david-mix-glove": [
+    "/products/men-accessories-david-mix-glove/01.jpg",
+  ],
+  "men-accessories-eazy-all-over-print": [
+    "/products/men-accessories-eazy-all-over-print/01.jpg",
+    "/products/men-accessories-eazy-all-over-print/02.jpg",
+  ],
+  "men-accessories-eazy-anetti-cap": [
+    "/products/men-accessories-eazy-anetti-cap/01.jpg",
+  ],
+  "men-accessories-erling-necktube": [
+    "/products/men-accessories-erling-necktube/01.jpg",
+    "/products/men-accessories-erling-necktube/02.jpg",
+    "/products/men-accessories-erling-necktube/03.jpg",
+  ],
+  "men-accessories-fazer-beanie": [
+    "/products/men-accessories-fazer-beanie/01.jpg",
+  ],
   "men-accessories-fingerless-knitted-2-pk": [
     "/products/men-accessories-fingerless-knitted-2-pk/01.jpg",
+  ],
+  "men-accessories-glove-leather-touch-co": [
+    "/products/men-accessories-glove-leather-touch-co/01.jpg",
+  ],
+  "men-accessories-glove-magic-touch-pack": [
+    "/products/men-accessories-glove-magic-touch-pack/01.jpg",
+  ],
+  "men-accessories-glove-suede": [
+    "/products/men-accessories-glove-suede/01.jpg",
+    "/products/men-accessories-glove-suede/02.jpg",
   ],
   "men-accessories-glove-sune-leather": [
     "/products/men-accessories-glove-sune-leather/01.jpg",
@@ -101,25 +1460,339 @@ export const PRODUCT_IMAGES: Record<string, string[]> = {
     "/products/men-accessories-haakan/01.jpg",
     "/products/men-accessories-haakan/02.jpg",
   ],
+  "men-accessories-handrew-hunterglove": [
+    "/products/men-accessories-handrew-hunterglove/01.jpg",
+  ],
+  "men-accessories-harry-check-woven-scarf": [
+    "/products/men-accessories-harry-check-woven-scarf/01.jpg",
+  ],
+  "men-accessories-harry-herringbone": [
+    "/products/men-accessories-harry-herringbone/01.jpg",
+  ],
+  "men-accessories-hc-4-in-1-camo": [
+    "/products/men-accessories-hc-4-in-1-camo/01.jpg",
+  ],
+  "men-accessories-hc-4-in-1-smoke-dot": [
+    "/products/men-accessories-hc-4-in-1-smoke-dot/01.jpg",
+  ],
+  "men-accessories-hc-aop-aquaflowers": [
+    "/products/men-accessories-hc-aop-aquaflowers/01.jpg",
+  ],
+  "men-accessories-hc-aop-oscar": [
+    "/products/men-accessories-hc-aop-oscar/01.jpg",
+  ],
+  "men-accessories-herman-cotton-beanie": [
+    "/products/men-accessories-herman-cotton-beanie/01.jpg",
+    "/products/men-accessories-herman-cotton-beanie/02.jpg",
+    "/products/men-accessories-herman-cotton-beanie/03.jpg",
+  ],
+  "men-accessories-herman-cotton-beanie-1": [
+    "/products/men-accessories-herman-cotton-beanie-1/01.jpg",
+    "/products/men-accessories-herman-cotton-beanie-1/02.jpg",
+    "/products/men-accessories-herman-cotton-beanie-1/03.jpg",
+  ],
+  "men-accessories-hulk-belt": [
+    "/products/men-accessories-hulk-belt/01.jpg",
+    "/products/men-accessories-hulk-belt/02.jpg",
+  ],
+  "men-accessories-isac-suede-trucker": [
+    "/products/men-accessories-isac-suede-trucker/01.jpg",
+    "/products/men-accessories-isac-suede-trucker/02.jpg",
+  ],
+  "men-accessories-jaako-knitted-trapper": [
+    "/products/men-accessories-jaako-knitted-trapper/01.jpg",
+  ],
+  "men-accessories-johan-wirstwarmer": [
+    "/products/men-accessories-johan-wirstwarmer/01.jpg",
+  ],
+  "men-accessories-josh-webbing-belt": [
+    "/products/men-accessories-josh-webbing-belt/01.jpg",
+  ],
+  "men-accessories-josh-webbing-graphic-belt": [
+    "/products/men-accessories-josh-webbing-graphic-belt/01.jpg",
+  ],
+  "men-accessories-jungle-scarf": [
+    "/products/men-accessories-jungle-scarf/01.jpg",
+    "/products/men-accessories-jungle-scarf/02.jpg",
+    "/products/men-accessories-jungle-scarf/03.jpg",
+  ],
+  "men-accessories-jupiter-studded-belt": [
+    "/products/men-accessories-jupiter-studded-belt/01.jpg",
+  ],
+  "men-accessories-levi-knitted-beanie": [
+    "/products/men-accessories-levi-knitted-beanie/01.jpg",
+    "/products/men-accessories-levi-knitted-beanie/02.jpg",
+    "/products/men-accessories-levi-knitted-beanie/03.jpg",
+  ],
+  "men-accessories-ludlow-beanie-1": [
+    "/products/men-accessories-ludlow-beanie-1/01.jpg",
+  ],
+  "men-accessories-mikael-glove": [
+    "/products/men-accessories-mikael-glove/01.jpg",
+    "/products/men-accessories-mikael-glove/02.jpg",
+  ],
+  "men-accessories-moonsoon-beanie": [
+    "/products/men-accessories-moonsoon-beanie/01.jpg",
+    "/products/men-accessories-moonsoon-beanie/02.jpg",
+    "/products/men-accessories-moonsoon-beanie/03.jpg",
+  ],
+  "men-accessories-mott-glove": [
+    "/products/men-accessories-mott-glove/01.jpg",
+  ],
+  "men-accessories-necktube-nolte": [
+    "/products/men-accessories-necktube-nolte/01.jpg",
+  ],
+  "men-accessories-new-basic-rollerbuckle": [
+    "/products/men-accessories-new-basic-rollerbuckle/01.jpg",
+    "/products/men-accessories-new-basic-rollerbuckle/02.jpg",
+    "/products/men-accessories-new-basic-rollerbuckle/03.jpg",
+  ],
+  "men-accessories-nolte-beanie": [
+    "/products/men-accessories-nolte-beanie/01.jpg",
+    "/products/men-accessories-nolte-beanie/02.jpg",
+    "/products/men-accessories-nolte-beanie/03.jpg",
+  ],
+  "men-accessories-olivier-knitted-scarf": [
+    "/products/men-accessories-olivier-knitted-scarf/01.jpg",
+    "/products/men-accessories-olivier-knitted-scarf/02.jpg",
+    "/products/men-accessories-olivier-knitted-scarf/03.jpg",
+  ],
+  "men-accessories-olivier-necktube": [
+    "/products/men-accessories-olivier-necktube/01.jpg",
+    "/products/men-accessories-olivier-necktube/02.jpg",
+  ],
+  "men-accessories-oskar-glove": [
+    "/products/men-accessories-oskar-glove/01.jpg",
+  ],
+  "men-accessories-pack-black-white": [
+    "/products/men-accessories-pack-black-white/01.jpg",
+  ],
+  "men-accessories-pack-bowtie-pin-pack": [
+    "/products/men-accessories-pack-bowtie-pin-pack/01.jpg",
+  ],
+  "men-accessories-pack-santa": [
+    "/products/men-accessories-pack-santa/01.jpg",
+  ],
+  "men-accessories-pack-silver": [
+    "/products/men-accessories-pack-silver/01.jpg",
+  ],
   "men-accessories-peder-knitted-glove": [
     "/products/men-accessories-peder-knitted-glove/01.jpg",
     "/products/men-accessories-peder-knitted-glove/02.jpg",
   ],
+  "men-accessories-pierre-beanie": [
+    "/products/men-accessories-pierre-beanie/01.jpg",
+    "/products/men-accessories-pierre-beanie/02.jpg",
+    "/products/men-accessories-pierre-beanie/03.jpg",
+  ],
+  "men-accessories-remus-belt": [
+    "/products/men-accessories-remus-belt/01.jpg",
+  ],
+  "men-accessories-rick-twill": [
+    "/products/men-accessories-rick-twill/01.jpg",
+  ],
+  "men-accessories-ridley-leather-belt": [
+    "/products/men-accessories-ridley-leather-belt/01.jpg",
+    "/products/men-accessories-ridley-leather-belt/02.jpg",
+  ],
+  "men-accessories-rufus-elastic": [
+    "/products/men-accessories-rufus-elastic/01.jpg",
+    "/products/men-accessories-rufus-elastic/02.jpg",
+  ],
+  "men-accessories-salinas-scarf": [
+    "/products/men-accessories-salinas-scarf/01.jpg",
+  ],
+  "men-accessories-salomon-summer-hat": [
+    "/products/men-accessories-salomon-summer-hat/01.jpg",
+  ],
+  "men-accessories-salomon-wool-cap": [
+    "/products/men-accessories-salomon-wool-cap/01.jpg",
+    "/products/men-accessories-salomon-wool-cap/02.jpg",
+    "/products/men-accessories-salomon-wool-cap/03.jpg",
+  ],
   "men-accessories-santa-hat": [
     "/products/men-accessories-santa-hat/01.jpg",
+  ],
+  "men-accessories-scarf-wolf": [
+    "/products/men-accessories-scarf-wolf/01.jpg",
+    "/products/men-accessories-scarf-wolf/02.jpg",
+    "/products/men-accessories-scarf-wolf/03.jpg",
+  ],
+  "men-accessories-sebastian-braided-belt": [
+    "/products/men-accessories-sebastian-braided-belt/01.jpg",
+    "/products/men-accessories-sebastian-braided-belt/02.jpg",
+    "/products/men-accessories-sebastian-braided-belt/03.jpg",
+  ],
+  "men-accessories-sergio-knitted-scarf": [
+    "/products/men-accessories-sergio-knitted-scarf/01.jpg",
+  ],
+  "men-accessories-sigge-dressed-belt": [
+    "/products/men-accessories-sigge-dressed-belt/01.jpg",
+    "/products/men-accessories-sigge-dressed-belt/02.jpg",
+    "/products/men-accessories-sigge-dressed-belt/03.jpg",
+  ],
+  "men-accessories-stefan-scarf": [
+    "/products/men-accessories-stefan-scarf/01.jpg",
+    "/products/men-accessories-stefan-scarf/02.jpg",
+  ],
+  "men-accessories-studio-cosy-scarf": [
+    "/products/men-accessories-studio-cosy-scarf/01.jpg",
+  ],
+  "men-accessories-tie-7cm-aop-camo": [
+    "/products/men-accessories-tie-7cm-aop-camo/01.jpg",
+  ],
+  "men-accessories-tie-basic-solid-conscious": [
+    "/products/men-accessories-tie-basic-solid-conscious/01.jpg",
+    "/products/men-accessories-tie-basic-solid-conscious/02.jpg",
+  ],
+  "men-accessories-tie-basic-solid-wide": [
+    "/products/men-accessories-tie-basic-solid-wide/01.jpg",
+    "/products/men-accessories-tie-basic-solid-wide/02.jpg",
+    "/products/men-accessories-tie-basic-solid-wide/03.jpg",
+  ],
+  "men-accessories-tie-mini-dot": [
+    "/products/men-accessories-tie-mini-dot/01.jpg",
+  ],
+  "men-accessories-trevor-trapper-hat": [
+    "/products/men-accessories-trevor-trapper-hat/01.jpg",
+  ],
+  "men-accessories-washed-leather-belt": [
+    "/products/men-accessories-washed-leather-belt/01.jpg",
+  ],
+  "men-accessories-wool-scarf-akira": [
+    "/products/men-accessories-wool-scarf-akira/01.jpg",
+    "/products/men-accessories-wool-scarf-akira/02.jpg",
+  ],
+  "men-accessories-wyatt-window-buckle-belt": [
+    "/products/men-accessories-wyatt-window-buckle-belt/01.jpg",
+  ],
+  "men-accessories-yngvar-scarf": [
+    "/products/men-accessories-yngvar-scarf/01.jpg",
+  ],
+  "men-denim-360-flex-slim": [
+    "/products/men-denim-360-flex-slim/01.jpg",
+    "/products/men-denim-360-flex-slim/02.jpg",
+    "/products/men-denim-360-flex-slim/03.jpg",
+  ],
+  "men-denim-ambition-trousers": [
+    "/products/men-denim-ambition-trousers/01.jpg",
+  ],
+  "men-denim-angus-pants": [
+    "/products/men-denim-angus-pants/01.jpg",
+  ],
+  "men-denim-benny-shorts-1": [
+    "/products/men-denim-benny-shorts-1/01.jpg",
+    "/products/men-denim-benny-shorts-1/02.jpg",
+    "/products/men-denim-benny-shorts-1/03.jpg",
   ],
   "men-denim-billy-cargo-pants": [
     "/products/men-denim-billy-cargo-pants/01.jpg",
     "/products/men-denim-billy-cargo-pants/02.jpg",
     "/products/men-denim-billy-cargo-pants/03.jpg",
   ],
+  "men-denim-birdie-cargo-jogger": [
+    "/products/men-denim-birdie-cargo-jogger/01.jpg",
+  ],
+  "men-denim-bourne-cargo": [
+    "/products/men-denim-bourne-cargo/01.jpg",
+    "/products/men-denim-bourne-cargo/02.jpg",
+  ],
+  "men-denim-brago": [
+    "/products/men-denim-brago/01.jpg",
+  ],
   "men-denim-brandon-denim-cropped": [
     "/products/men-denim-brandon-denim-cropped/01.jpg",
+  ],
+  "men-denim-bruce-denim": [
+    "/products/men-denim-bruce-denim/01.jpg",
+    "/products/men-denim-bruce-denim/02.jpg",
+    "/products/men-denim-bruce-denim/03.jpg",
+  ],
+  "men-denim-bruce-skinny": [
+    "/products/men-denim-bruce-skinny/01.jpg",
+    "/products/men-denim-bruce-skinny/02.jpg",
+    "/products/men-denim-bruce-skinny/03.jpg",
+  ],
+  "men-denim-bull-trousers": [
+    "/products/men-denim-bull-trousers/01.jpg",
+  ],
+  "men-denim-california-jogger-1": [
+    "/products/men-denim-california-jogger-1/01.jpg",
+    "/products/men-denim-california-jogger-1/02.jpg",
+    "/products/men-denim-california-jogger-1/03.jpg",
+  ],
+  "men-denim-carbon-cropped-slacks": [
+    "/products/men-denim-carbon-cropped-slacks/01.jpg",
+    "/products/men-denim-carbon-cropped-slacks/02.jpg",
+  ],
+  "men-denim-caro-cargo-pant": [
+    "/products/men-denim-caro-cargo-pant/01.jpg",
+  ],
+  "men-denim-ceasar-tuxedo-trs": [
+    "/products/men-denim-ceasar-tuxedo-trs/01.jpg",
+  ],
+  "men-denim-chewbacca-skinny-tuxedo-trs-2": [
+    "/products/men-denim-chewbacca-skinny-tuxedo-trs-2/01.jpg",
+  ],
+  "men-denim-clark-rf-trs": [
+    "/products/men-denim-clark-rf-trs/01.jpg",
+    "/products/men-denim-clark-rf-trs/02.jpg",
+  ],
+  "men-denim-clark-skinny": [
+    "/products/men-denim-clark-skinny/01.jpg",
+  ],
+  "men-denim-cobra-connor-constructed": [
+    "/products/men-denim-cobra-connor-constructed/01.jpg",
+  ],
+  "men-denim-cobra-constructed": [
+    "/products/men-denim-cobra-constructed/01.jpg",
+    "/products/men-denim-cobra-constructed/02.jpg",
+    "/products/men-denim-cobra-constructed/03.jpg",
+  ],
+  "men-denim-cobra-shocker-twill": [
+    "/products/men-denim-cobra-shocker-twill/01.jpg",
+  ],
+  "men-denim-cobra-twill-constructed": [
+    "/products/men-denim-cobra-twill-constructed/01.jpg",
+    "/products/men-denim-cobra-twill-constructed/02.jpg",
+  ],
+  "men-denim-corban-trousers": [
+    "/products/men-denim-corban-trousers/01.jpg",
+  ],
+  "men-denim-curt-slim-fit-trousers": [
+    "/products/men-denim-curt-slim-fit-trousers/01.jpg",
+  ],
+  "men-denim-d-steve-atellier-wash": [
+    "/products/men-denim-d-steve-atellier-wash/01.jpg",
   ],
   "men-denim-dean-drawstring-trousers": [
     "/products/men-denim-dean-drawstring-trousers/01.jpg",
     "/products/men-denim-dean-drawstring-trousers/02.jpg",
     "/products/men-denim-dean-drawstring-trousers/03.jpg",
+  ],
+  "men-denim-diago-denim": [
+    "/products/men-denim-diago-denim/01.jpg",
+  ],
+  "men-denim-donald-cropped-cord-trs": [
+    "/products/men-denim-donald-cropped-cord-trs/01.jpg",
+  ],
+  "men-denim-enzo-full-lenght-chino": [
+    "/products/men-denim-enzo-full-lenght-chino/01.jpg",
+  ],
+  "men-denim-evert-slim-shorts": [
+    "/products/men-denim-evert-slim-shorts/01.jpg",
+    "/products/men-denim-evert-slim-shorts/02.jpg",
+    "/products/men-denim-evert-slim-shorts/03.jpg",
+  ],
+  "men-denim-godfather-slim-chino": [
+    "/products/men-denim-godfather-slim-chino/01.jpg",
+    "/products/men-denim-godfather-slim-chino/02.jpg",
+    "/products/men-denim-godfather-slim-chino/03.jpg",
+  ],
+  "men-denim-heath": [
+    "/products/men-denim-heath/01.jpg",
+    "/products/men-denim-heath/02.jpg",
+    "/products/men-denim-heath/03.jpg",
   ],
   "men-denim-jerry-jogger-bottoms": [
     "/products/men-denim-jerry-jogger-bottoms/01.jpg",
@@ -130,8 +1803,276 @@ export const PRODUCT_IMAGES: Record<string, string[]> = {
     "/products/men-denim-jersey-harem-shorts/01.jpg",
     "/products/men-denim-jersey-harem-shorts/02.jpg",
   ],
+  "men-denim-johnny-jogger": [
+    "/products/men-denim-johnny-jogger/01.jpg",
+    "/products/men-denim-johnny-jogger/02.jpg",
+  ],
+  "men-denim-jonas-slim-5-pkt": [
+    "/products/men-denim-jonas-slim-5-pkt/01.jpg",
+    "/products/men-denim-jonas-slim-5-pkt/02.jpg",
+    "/products/men-denim-jonas-slim-5-pkt/03.jpg",
+  ],
+  "men-denim-jones-5-pkt-slim-shorts": [
+    "/products/men-denim-jones-5-pkt-slim-shorts/01.jpg",
+    "/products/men-denim-jones-5-pkt-slim-shorts/02.jpg",
+    "/products/men-denim-jones-5-pkt-slim-shorts/03.jpg",
+  ],
+  "men-denim-jones-denim": [
+    "/products/men-denim-jones-denim/01.jpg",
+    "/products/men-denim-jones-denim/02.jpg",
+    "/products/men-denim-jones-denim/03.jpg",
+  ],
+  "men-denim-jonte-skinny-jogger-24-99": [
+    "/products/men-denim-jonte-skinny-jogger-24-99/01.jpg",
+    "/products/men-denim-jonte-skinny-jogger-24-99/02.jpg",
+    "/products/men-denim-jonte-skinny-jogger-24-99/03.jpg",
+  ],
+  "men-denim-kennedy-1": [
+    "/products/men-denim-kennedy-1/01.jpg",
+    "/products/men-denim-kennedy-1/02.jpg",
+    "/products/men-denim-kennedy-1/03.jpg",
+  ],
+  "men-denim-manson-trs": [
+    "/products/men-denim-manson-trs/01.jpg",
+    "/products/men-denim-manson-trs/02.jpg",
+    "/products/men-denim-manson-trs/03.jpg",
+  ],
+  "men-denim-marion-shorts": [
+    "/products/men-denim-marion-shorts/01.jpg",
+    "/products/men-denim-marion-shorts/02.jpg",
+    "/products/men-denim-marion-shorts/03.jpg",
+  ],
+  "men-denim-matt-regular-trs": [
+    "/products/men-denim-matt-regular-trs/01.jpg",
+  ],
+  "men-denim-mike-slim-jogger": [
+    "/products/men-denim-mike-slim-jogger/01.jpg",
+    "/products/men-denim-mike-slim-jogger/02.jpg",
+    "/products/men-denim-mike-slim-jogger/03.jpg",
+  ],
+  "men-denim-mix-shorts": [
+    "/products/men-denim-mix-shorts/01.jpg",
+  ],
+  "men-denim-newton-skinny-trs": [
+    "/products/men-denim-newton-skinny-trs/01.jpg",
+    "/products/men-denim-newton-skinny-trs/02.jpg",
+  ],
+  "men-denim-nick-super-skinny": [
+    "/products/men-denim-nick-super-skinny/01.jpg",
+    "/products/men-denim-nick-super-skinny/02.jpg",
+    "/products/men-denim-nick-super-skinny/03.jpg",
+  ],
+  "men-denim-norman-slacks": [
+    "/products/men-denim-norman-slacks/01.jpg",
+  ],
+  "men-denim-nova-denim-5-pkt": [
+    "/products/men-denim-nova-denim-5-pkt/01.jpg",
+  ],
+  "men-denim-olaf-check-cropped-trs": [
+    "/products/men-denim-olaf-check-cropped-trs/01.jpg",
+  ],
+  "men-denim-ole-cargo": [
+    "/products/men-denim-ole-cargo/01.jpg",
+  ],
+  "men-denim-oleary-cord": [
+    "/products/men-denim-oleary-cord/01.jpg",
+  ],
+  "men-denim-olly-chino": [
+    "/products/men-denim-olly-chino/01.jpg",
+  ],
+  "men-denim-original-straight-5pkt": [
+    "/products/men-denim-original-straight-5pkt/01.jpg",
+  ],
+  "men-denim-owen": [
+    "/products/men-denim-owen/01.jpg",
+  ],
+  "men-denim-oz-trousers": [
+    "/products/men-denim-oz-trousers/01.jpg",
+    "/products/men-denim-oz-trousers/02.jpg",
+    "/products/men-denim-oz-trousers/03.jpg",
+  ],
+  "men-denim-peter-shorts": [
+    "/products/men-denim-peter-shorts/01.jpg",
+  ],
+  "men-denim-prince": [
+    "/products/men-denim-prince/01.jpg",
+    "/products/men-denim-prince/02.jpg",
+    "/products/men-denim-prince/03.jpg",
+  ],
+  "men-denim-r-w-shorts-cut-off": [
+    "/products/men-denim-r-w-shorts-cut-off/01.jpg",
+  ],
+  "men-denim-ramone-jeans": [
+    "/products/men-denim-ramone-jeans/01.jpg",
+  ],
+  "men-denim-rawley-chinos-slim": [
+    "/products/men-denim-rawley-chinos-slim/01.jpg",
+    "/products/men-denim-rawley-chinos-slim/02.jpg",
+    "/products/men-denim-rawley-chinos-slim/03.jpg",
+  ],
+  "men-denim-reggie-chino-shorts": [
+    "/products/men-denim-reggie-chino-shorts/01.jpg",
+    "/products/men-denim-reggie-chino-shorts/02.jpg",
+    "/products/men-denim-reggie-chino-shorts/03.jpg",
+  ],
+  "men-denim-relax-shorts-1": [
+    "/products/men-denim-relax-shorts-1/01.jpg",
+    "/products/men-denim-relax-shorts-1/02.jpg",
+    "/products/men-denim-relax-shorts-1/03.jpg",
+  ],
+  "men-denim-relaxed-skinny-5pkt": [
+    "/products/men-denim-relaxed-skinny-5pkt/01.jpg",
+    "/products/men-denim-relaxed-skinny-5pkt/02.jpg",
+  ],
+  "men-denim-rock-relaxed-shorts": [
+    "/products/men-denim-rock-relaxed-shorts/01.jpg",
+    "/products/men-denim-rock-relaxed-shorts/02.jpg",
+    "/products/men-denim-rock-relaxed-shorts/03.jpg",
+  ],
+  "men-denim-roy-shorts": [
+    "/products/men-denim-roy-shorts/01.jpg",
+    "/products/men-denim-roy-shorts/02.jpg",
+    "/products/men-denim-roy-shorts/03.jpg",
+  ],
+  "men-denim-sean-trouser": [
+    "/products/men-denim-sean-trouser/01.jpg",
+  ],
+  "men-denim-seven-trs": [
+    "/products/men-denim-seven-trs/01.jpg",
+    "/products/men-denim-seven-trs/02.jpg",
+  ],
   "men-denim-shorts-sliq-cut-off-bright-na": [
     "/products/men-denim-shorts-sliq-cut-off-bright-na/01.jpg",
+  ],
+  "men-denim-sigge-shorts": [
+    "/products/men-denim-sigge-shorts/01.jpg",
+    "/products/men-denim-sigge-shorts/02.jpg",
+    "/products/men-denim-sigge-shorts/03.jpg",
+  ],
+  "men-denim-skinny-5pkt-malcolm": [
+    "/products/men-denim-skinny-5pkt-malcolm/01.jpg",
+    "/products/men-denim-skinny-5pkt-malcolm/02.jpg",
+    "/products/men-denim-skinny-5pkt-malcolm/03.jpg",
+  ],
+  "men-denim-skinny-5pkt-premiumprice-1": [
+    "/products/men-denim-skinny-5pkt-premiumprice-1/01.jpg",
+    "/products/men-denim-skinny-5pkt-premiumprice-1/02.jpg",
+    "/products/men-denim-skinny-5pkt-premiumprice-1/03.jpg",
+  ],
+  "men-denim-skinny-denim-5-pkt-panel": [
+    "/products/men-denim-skinny-denim-5-pkt-panel/01.jpg",
+  ],
+  "men-denim-skinny-l-w-bargain-1": [
+    "/products/men-denim-skinny-l-w-bargain-1/01.jpg",
+    "/products/men-denim-skinny-l-w-bargain-1/02.jpg",
+    "/products/men-denim-skinny-l-w-bargain-1/03.jpg",
+  ],
+  "men-denim-slim-5pkt": [
+    "/products/men-denim-slim-5pkt/01.jpg",
+    "/products/men-denim-slim-5pkt/02.jpg",
+    "/products/men-denim-slim-5pkt/03.jpg",
+  ],
+  "men-denim-slim-5pkt-midprice": [
+    "/products/men-denim-slim-5pkt-midprice/01.jpg",
+    "/products/men-denim-slim-5pkt-midprice/02.jpg",
+    "/products/men-denim-slim-5pkt-midprice/03.jpg",
+  ],
+  "men-denim-snake-fancy-denim": [
+    "/products/men-denim-snake-fancy-denim/01.jpg",
+  ],
+  "men-denim-soil-5pocket-slim-washed-black": [
+    "/products/men-denim-soil-5pocket-slim-washed-black/01.jpg",
+  ],
+  "men-denim-soil-slim-denim": [
+    "/products/men-denim-soil-slim-denim/01.jpg",
+  ],
+  "men-denim-sonny-denim": [
+    "/products/men-denim-sonny-denim/01.jpg",
+    "/products/men-denim-sonny-denim/02.jpg",
+    "/products/men-denim-sonny-denim/03.jpg",
+  ],
+  "men-denim-sonny-pants": [
+    "/products/men-denim-sonny-pants/01.jpg",
+    "/products/men-denim-sonny-pants/02.jpg",
+    "/products/men-denim-sonny-pants/03.jpg",
+  ],
+  "men-denim-sonny-shorts": [
+    "/products/men-denim-sonny-shorts/01.jpg",
+  ],
+  "men-denim-spartan-trs": [
+    "/products/men-denim-spartan-trs/01.jpg",
+  ],
+  "men-denim-straight-5pkt": [
+    "/products/men-denim-straight-5pkt/01.jpg",
+    "/products/men-denim-straight-5pkt/02.jpg",
+  ],
+  "men-denim-straight-mezzo-1": [
+    "/products/men-denim-straight-mezzo-1/01.jpg",
+    "/products/men-denim-straight-mezzo-1/02.jpg",
+  ],
+  "men-denim-tech-stretch-skinny": [
+    "/products/men-denim-tech-stretch-skinny/01.jpg",
+    "/products/men-denim-tech-stretch-skinny/02.jpg",
+    "/products/men-denim-tech-stretch-skinny/03.jpg",
+  ],
+  "men-denim-teddy-jogger": [
+    "/products/men-denim-teddy-jogger/01.jpg",
+    "/products/men-denim-teddy-jogger/02.jpg",
+    "/products/men-denim-teddy-jogger/03.jpg",
+  ],
+  "men-denim-thunder-shorts": [
+    "/products/men-denim-thunder-shorts/01.jpg",
+  ],
+  "men-denim-tic-tac-pleated-trousers": [
+    "/products/men-denim-tic-tac-pleated-trousers/01.jpg",
+    "/products/men-denim-tic-tac-pleated-trousers/02.jpg",
+  ],
+  "men-denim-timberlake-pocket": [
+    "/products/men-denim-timberlake-pocket/01.jpg",
+  ],
+  "men-denim-tuck-classic-sweatpants": [
+    "/products/men-denim-tuck-classic-sweatpants/01.jpg",
+    "/products/men-denim-tuck-classic-sweatpants/02.jpg",
+    "/products/men-denim-tuck-classic-sweatpants/03.jpg",
+  ],
+  "men-denim-vincent-sweatpants": [
+    "/products/men-denim-vincent-sweatpants/01.jpg",
+    "/products/men-denim-vincent-sweatpants/02.jpg",
+    "/products/men-denim-vincent-sweatpants/03.jpg",
+  ],
+  "men-denim-wagner": [
+    "/products/men-denim-wagner/01.jpg",
+  ],
+  "men-denim-wave-linen": [
+    "/products/men-denim-wave-linen/01.jpg",
+    "/products/men-denim-wave-linen/02.jpg",
+    "/products/men-denim-wave-linen/03.jpg",
+  ],
+  "men-denim-wave-relaxed-shorts": [
+    "/products/men-denim-wave-relaxed-shorts/01.jpg",
+    "/products/men-denim-wave-relaxed-shorts/02.jpg",
+    "/products/men-denim-wave-relaxed-shorts/03.jpg",
+  ],
+  "men-denim-wave-shorts": [
+    "/products/men-denim-wave-shorts/01.jpg",
+    "/products/men-denim-wave-shorts/02.jpg",
+    "/products/men-denim-wave-shorts/03.jpg",
+  ],
+  "men-denim-west-denim-1": [
+    "/products/men-denim-west-denim-1/01.jpg",
+    "/products/men-denim-west-denim-1/02.jpg",
+  ],
+  "men-denim-wyatt": [
+    "/products/men-denim-wyatt/01.jpg",
+  ],
+  "men-denim-zen-shorts": [
+    "/products/men-denim-zen-shorts/01.jpg",
+  ],
+  "men-footwear-ace-brogue-shoe-pq": [
+    "/products/men-footwear-ace-brogue-shoe-pq/01.jpg",
+  ],
+  "men-footwear-adde-blusher-shoe": [
+    "/products/men-footwear-adde-blusher-shoe/01.jpg",
   ],
   "men-footwear-akoni-flatshoe": [
     "/products/men-footwear-akoni-flatshoe/01.jpg",
@@ -141,6 +2082,99 @@ export const PRODUCT_IMAGES: Record<string, string[]> = {
     "/products/men-footwear-al-car-shoe/01.jpg",
     "/products/men-footwear-al-car-shoe/02.jpg",
   ],
+  "men-footwear-algot-strap-sandal": [
+    "/products/men-footwear-algot-strap-sandal/01.jpg",
+  ],
+  "men-footwear-ares-boot": [
+    "/products/men-footwear-ares-boot/01.jpg",
+  ],
+  "men-footwear-arne-boot": [
+    "/products/men-footwear-arne-boot/01.jpg",
+  ],
+  "men-footwear-art-leather-sneaker-pq": [
+    "/products/men-footwear-art-leather-sneaker-pq/01.jpg",
+    "/products/men-footwear-art-leather-sneaker-pq/02.jpg",
+  ],
+  "men-footwear-blank-espadrill": [
+    "/products/men-footwear-blank-espadrill/01.jpg",
+    "/products/men-footwear-blank-espadrill/02.jpg",
+    "/products/men-footwear-blank-espadrill/03.jpg",
+  ],
+  "men-footwear-bruno-basket-sneaker": [
+    "/products/men-footwear-bruno-basket-sneaker/01.jpg",
+  ],
+  "men-footwear-caleb-sock-runner": [
+    "/products/men-footwear-caleb-sock-runner/01.jpg",
+  ],
+  "men-footwear-cam-car-shoe": [
+    "/products/men-footwear-cam-car-shoe/01.jpg",
+  ],
+  "men-footwear-casper-boot": [
+    "/products/men-footwear-casper-boot/01.jpg",
+  ],
+  "men-footwear-cay-shoe": [
+    "/products/men-footwear-cay-shoe/01.jpg",
+  ],
+  "men-footwear-cecil": [
+    "/products/men-footwear-cecil/01.jpg",
+  ],
+  "men-footwear-christer-sock-runner-1": [
+    "/products/men-footwear-christer-sock-runner-1/01.jpg",
+    "/products/men-footwear-christer-sock-runner-1/02.jpg",
+    "/products/men-footwear-christer-sock-runner-1/03.jpg",
+  ],
+  "men-footwear-cirrus-knit-court-sneaker": [
+    "/products/men-footwear-cirrus-knit-court-sneaker/01.jpg",
+    "/products/men-footwear-cirrus-knit-court-sneaker/02.jpg",
+    "/products/men-footwear-cirrus-knit-court-sneaker/03.jpg",
+  ],
+  "men-footwear-cleo-braded-shoe": [
+    "/products/men-footwear-cleo-braded-shoe/01.jpg",
+    "/products/men-footwear-cleo-braded-shoe/02.jpg",
+  ],
+  "men-footwear-cloud-runner": [
+    "/products/men-footwear-cloud-runner/01.jpg",
+    "/products/men-footwear-cloud-runner/02.jpg",
+  ],
+  "men-footwear-curtis-midcut-sneaker": [
+    "/products/men-footwear-curtis-midcut-sneaker/01.jpg",
+    "/products/men-footwear-curtis-midcut-sneaker/02.jpg",
+    "/products/men-footwear-curtis-midcut-sneaker/03.jpg",
+  ],
+  "men-footwear-cyan-sock-runner": [
+    "/products/men-footwear-cyan-sock-runner/01.jpg",
+  ],
+  "men-footwear-dagger-sandal": [
+    "/products/men-footwear-dagger-sandal/01.jpg",
+  ],
+  "men-footwear-daniel-runner": [
+    "/products/men-footwear-daniel-runner/01.jpg",
+    "/products/men-footwear-daniel-runner/02.jpg",
+  ],
+  "men-footwear-don-derby-shoe-1": [
+    "/products/men-footwear-don-derby-shoe-1/01.jpg",
+    "/products/men-footwear-don-derby-shoe-1/02.jpg",
+    "/products/men-footwear-don-derby-shoe-1/03.jpg",
+  ],
+  "men-footwear-duncan-desert-boot": [
+    "/products/men-footwear-duncan-desert-boot/01.jpg",
+    "/products/men-footwear-duncan-desert-boot/02.jpg",
+    "/products/men-footwear-duncan-desert-boot/03.jpg",
+  ],
+  "men-footwear-dusk-runner": [
+    "/products/men-footwear-dusk-runner/01.jpg",
+  ],
+  "men-footwear-edgar-high-top": [
+    "/products/men-footwear-edgar-high-top/01.jpg",
+  ],
+  "men-footwear-edge-high-top-sneaker": [
+    "/products/men-footwear-edge-high-top-sneaker/01.jpg",
+  ],
+  "men-footwear-edwin-monkstrap-shoe": [
+    "/products/men-footwear-edwin-monkstrap-shoe/01.jpg",
+    "/products/men-footwear-edwin-monkstrap-shoe/02.jpg",
+    "/products/men-footwear-edwin-monkstrap-shoe/03.jpg",
+  ],
   "men-footwear-emil-derby-shoe": [
     "/products/men-footwear-emil-derby-shoe/01.jpg",
     "/products/men-footwear-emil-derby-shoe/02.jpg",
@@ -149,66 +2183,1233 @@ export const PRODUCT_IMAGES: Record<string, string[]> = {
     "/products/men-footwear-ethan/01.jpg",
     "/products/men-footwear-ethan/02.jpg",
   ],
+  "men-footwear-even-mocc-boot": [
+    "/products/men-footwear-even-mocc-boot/01.jpg",
+    "/products/men-footwear-even-mocc-boot/02.jpg",
+  ],
+  "men-footwear-fabian-trekk-sneaker": [
+    "/products/men-footwear-fabian-trekk-sneaker/01.jpg",
+  ],
+  "men-footwear-filo-runner": [
+    "/products/men-footwear-filo-runner/01.jpg",
+    "/products/men-footwear-filo-runner/02.jpg",
+  ],
+  "men-footwear-freddan-canvas-boot": [
+    "/products/men-footwear-freddan-canvas-boot/01.jpg",
+    "/products/men-footwear-freddan-canvas-boot/02.jpg",
+  ],
+  "men-footwear-gabbe-heavy-shoe-pq": [
+    "/products/men-footwear-gabbe-heavy-shoe-pq/01.jpg",
+  ],
+  "men-footwear-gogo-slip-on-sneaker": [
+    "/products/men-footwear-gogo-slip-on-sneaker/01.jpg",
+    "/products/men-footwear-gogo-slip-on-sneaker/02.jpg",
+  ],
+  "men-footwear-gus-sneaker": [
+    "/products/men-footwear-gus-sneaker/01.jpg",
+    "/products/men-footwear-gus-sneaker/02.jpg",
+  ],
   "men-footwear-harris-cross-sandal-pq": [
     "/products/men-footwear-harris-cross-sandal-pq/01.jpg",
+  ],
+  "men-footwear-henry-court-pq": [
+    "/products/men-footwear-henry-court-pq/01.jpg",
+    "/products/men-footwear-henry-court-pq/02.jpg",
+  ],
+  "men-footwear-ivy-webbing-runner": [
+    "/products/men-footwear-ivy-webbing-runner/01.jpg",
+  ],
+  "men-footwear-jacob-high-top-sneaker": [
+    "/products/men-footwear-jacob-high-top-sneaker/01.jpg",
+    "/products/men-footwear-jacob-high-top-sneaker/02.jpg",
+    "/products/men-footwear-jacob-high-top-sneaker/03.jpg",
+  ],
+  "men-footwear-james-strap-sandal-pq": [
+    "/products/men-footwear-james-strap-sandal-pq/01.jpg",
+    "/products/men-footwear-james-strap-sandal-pq/02.jpg",
+    "/products/men-footwear-james-strap-sandal-pq/03.jpg",
+  ],
+  "men-footwear-juan-brouge-wingtip": [
+    "/products/men-footwear-juan-brouge-wingtip/01.jpg",
+  ],
+  "men-footwear-jutha-boot": [
+    "/products/men-footwear-jutha-boot/01.jpg",
+  ],
+  "men-footwear-kelvin": [
+    "/products/men-footwear-kelvin/01.jpg",
+    "/products/men-footwear-kelvin/02.jpg",
+  ],
+  "men-footwear-kent-car-shoe-pq": [
+    "/products/men-footwear-kent-car-shoe-pq/01.jpg",
+    "/products/men-footwear-kent-car-shoe-pq/02.jpg",
+  ],
+  "men-footwear-knut-knitted-runner": [
+    "/products/men-footwear-knut-knitted-runner/01.jpg",
+    "/products/men-footwear-knut-knitted-runner/02.jpg",
+    "/products/men-footwear-knut-knitted-runner/03.jpg",
   ],
   "men-footwear-kobe-boot": [
     "/products/men-footwear-kobe-boot/01.jpg",
     "/products/men-footwear-kobe-boot/02.jpg",
+  ],
+  "men-footwear-kobe-chelsea-boot": [
+    "/products/men-footwear-kobe-chelsea-boot/01.jpg",
+    "/products/men-footwear-kobe-chelsea-boot/02.jpg",
+    "/products/men-footwear-kobe-chelsea-boot/03.jpg",
+  ],
+  "men-footwear-kronos-high-top": [
+    "/products/men-footwear-kronos-high-top/01.jpg",
+  ],
+  "men-footwear-kurt-sandal": [
+    "/products/men-footwear-kurt-sandal/01.jpg",
+    "/products/men-footwear-kurt-sandal/02.jpg",
+    "/products/men-footwear-kurt-sandal/03.jpg",
+  ],
+  "men-footwear-lasse-boot": [
+    "/products/men-footwear-lasse-boot/01.jpg",
+  ],
+  "men-footwear-leif-boot-1": [
+    "/products/men-footwear-leif-boot-1/01.jpg",
+  ],
+  "men-footwear-leo-boot": [
+    "/products/men-footwear-leo-boot/01.jpg",
+  ],
+  "men-footwear-leon-retro-runner": [
+    "/products/men-footwear-leon-retro-runner/01.jpg",
+    "/products/men-footwear-leon-retro-runner/02.jpg",
+  ],
+  "men-footwear-liam-runner": [
+    "/products/men-footwear-liam-runner/01.jpg",
+    "/products/men-footwear-liam-runner/02.jpg",
+    "/products/men-footwear-liam-runner/03.jpg",
+  ],
+  "men-footwear-luke-crepe-derby-pq": [
+    "/products/men-footwear-luke-crepe-derby-pq/01.jpg",
+    "/products/men-footwear-luke-crepe-derby-pq/02.jpg",
+  ],
+  "men-footwear-malte-mule-jacquard": [
+    "/products/men-footwear-malte-mule-jacquard/01.jpg",
+  ],
+  "men-footwear-malte-mule-pq": [
+    "/products/men-footwear-malte-mule-pq/01.jpg",
+  ],
+  "men-footwear-marc-pq-sandal": [
+    "/products/men-footwear-marc-pq-sandal/01.jpg",
+    "/products/men-footwear-marc-pq-sandal/02.jpg",
+    "/products/men-footwear-marc-pq-sandal/03.jpg",
+  ],
+  "men-footwear-max-shoe": [
+    "/products/men-footwear-max-shoe/01.jpg",
+  ],
+  "men-footwear-michael-runner": [
+    "/products/men-footwear-michael-runner/01.jpg",
+    "/products/men-footwear-michael-runner/02.jpg",
+  ],
+  "men-footwear-milton-shoe": [
+    "/products/men-footwear-milton-shoe/01.jpg",
+    "/products/men-footwear-milton-shoe/02.jpg",
+    "/products/men-footwear-milton-shoe/03.jpg",
+  ],
+  "men-footwear-moore-shoe": [
+    "/products/men-footwear-moore-shoe/01.jpg",
+  ],
+  "men-footwear-murdoch-canvas-shoe": [
+    "/products/men-footwear-murdoch-canvas-shoe/01.jpg",
+  ],
+  "men-footwear-nicke-knit-shoe": [
+    "/products/men-footwear-nicke-knit-shoe/01.jpg",
+    "/products/men-footwear-nicke-knit-shoe/02.jpg",
+  ],
+  "men-footwear-nigel-shoe-pq": [
+    "/products/men-footwear-nigel-shoe-pq/01.jpg",
+  ],
+  "men-footwear-nohar-sneaker": [
+    "/products/men-footwear-nohar-sneaker/01.jpg",
+    "/products/men-footwear-nohar-sneaker/02.jpg",
+    "/products/men-footwear-nohar-sneaker/03.jpg",
+  ],
+  "men-footwear-orkhan-pq": [
+    "/products/men-footwear-orkhan-pq/01.jpg",
+    "/products/men-footwear-orkhan-pq/02.jpg",
+  ],
+  "men-footwear-paco-loafer": [
+    "/products/men-footwear-paco-loafer/01.jpg",
+    "/products/men-footwear-paco-loafer/02.jpg",
+    "/products/men-footwear-paco-loafer/03.jpg",
+  ],
+  "men-footwear-palle-loafer-pq": [
+    "/products/men-footwear-palle-loafer-pq/01.jpg",
+    "/products/men-footwear-palle-loafer-pq/02.jpg",
+    "/products/men-footwear-palle-loafer-pq/03.jpg",
+  ],
+  "men-footwear-pontus-espadrill": [
+    "/products/men-footwear-pontus-espadrill/01.jpg",
+    "/products/men-footwear-pontus-espadrill/02.jpg",
+    "/products/men-footwear-pontus-espadrill/03.jpg",
+  ],
+  "men-footwear-rafael-runner": [
+    "/products/men-footwear-rafael-runner/01.jpg",
+  ],
+  "men-footwear-rambo-runner": [
+    "/products/men-footwear-rambo-runner/01.jpg",
+  ],
+  "men-footwear-ravel-runner": [
+    "/products/men-footwear-ravel-runner/01.jpg",
+    "/products/men-footwear-ravel-runner/02.jpg",
+    "/products/men-footwear-ravel-runner/03.jpg",
+  ],
+  "men-footwear-red-high-top-sneaker": [
+    "/products/men-footwear-red-high-top-sneaker/01.jpg",
+    "/products/men-footwear-red-high-top-sneaker/02.jpg",
+  ],
+  "men-footwear-rex-runner-09090": [
+    "/products/men-footwear-rex-runner-09090/01.jpg",
+  ],
+  "men-footwear-rille-loafer": [
+    "/products/men-footwear-rille-loafer/01.jpg",
+    "/products/men-footwear-rille-loafer/02.jpg",
+  ],
+  "men-footwear-river-loafer-pq": [
+    "/products/men-footwear-river-loafer-pq/01.jpg",
+    "/products/men-footwear-river-loafer-pq/02.jpg",
+  ],
+  "men-footwear-ryder-loafer-pq": [
+    "/products/men-footwear-ryder-loafer-pq/01.jpg",
+    "/products/men-footwear-ryder-loafer-pq/02.jpg",
+  ],
+  "men-footwear-sackarias-sporty-sandal": [
+    "/products/men-footwear-sackarias-sporty-sandal/01.jpg",
+  ],
+  "men-footwear-seed-court-sneaker": [
+    "/products/men-footwear-seed-court-sneaker/01.jpg",
+    "/products/men-footwear-seed-court-sneaker/02.jpg",
+    "/products/men-footwear-seed-court-sneaker/03.jpg",
+  ],
+  "men-footwear-sergei-boot-pq": [
+    "/products/men-footwear-sergei-boot-pq/01.jpg",
+    "/products/men-footwear-sergei-boot-pq/02.jpg",
+    "/products/men-footwear-sergei-boot-pq/03.jpg",
+  ],
+  "men-footwear-skule-badges-sneaker": [
+    "/products/men-footwear-skule-badges-sneaker/01.jpg",
+    "/products/men-footwear-skule-badges-sneaker/02.jpg",
+  ],
+  "men-footwear-skule-sneaker": [
+    "/products/men-footwear-skule-sneaker/01.jpg",
+    "/products/men-footwear-skule-sneaker/02.jpg",
+    "/products/men-footwear-skule-sneaker/03.jpg",
+  ],
+  "men-footwear-sonny-loafer": [
+    "/products/men-footwear-sonny-loafer/01.jpg",
+    "/products/men-footwear-sonny-loafer/02.jpg",
+    "/products/men-footwear-sonny-loafer/03.jpg",
+  ],
+  "men-footwear-steiner-pq": [
+    "/products/men-footwear-steiner-pq/01.jpg",
+  ],
+  "men-footwear-toivo-slipper": [
+    "/products/men-footwear-toivo-slipper/01.jpg",
+  ],
+  "men-footwear-tommen-1": [
+    "/products/men-footwear-tommen-1/01.jpg",
+    "/products/men-footwear-tommen-1/02.jpg",
+    "/products/men-footwear-tommen-1/03.jpg",
+  ],
+  "men-footwear-tompa-boot": [
+    "/products/men-footwear-tompa-boot/01.jpg",
+  ],
+  "men-footwear-tyko": [
+    "/products/men-footwear-tyko/01.jpg",
+    "/products/men-footwear-tyko/02.jpg",
+    "/products/men-footwear-tyko/03.jpg",
+  ],
+  "men-footwear-wade-chukka-boot": [
+    "/products/men-footwear-wade-chukka-boot/01.jpg",
+    "/products/men-footwear-wade-chukka-boot/02.jpg",
+  ],
+  "men-footwear-willow-pq": [
+    "/products/men-footwear-willow-pq/01.jpg",
+    "/products/men-footwear-willow-pq/02.jpg",
+    "/products/men-footwear-willow-pq/03.jpg",
+  ],
+  "men-footwear-willow-runner": [
+    "/products/men-footwear-willow-runner/01.jpg",
+    "/products/men-footwear-willow-runner/02.jpg",
+    "/products/men-footwear-willow-runner/03.jpg",
+  ],
+  "men-footwear-zain-zipp-boot": [
+    "/products/men-footwear-zain-zipp-boot/01.jpg",
+  ],
+  "men-shirts-almodovar": [
+    "/products/men-shirts-almodovar/01.jpg",
+    "/products/men-shirts-almodovar/02.jpg",
+    "/products/men-shirts-almodovar/03.jpg",
+  ],
+  "men-shirts-apple-shirt": [
+    "/products/men-shirts-apple-shirt/01.jpg",
+  ],
+  "men-shirts-arthur-slim-fit-shirt": [
+    "/products/men-shirts-arthur-slim-fit-shirt/01.jpg",
+    "/products/men-shirts-arthur-slim-fit-shirt/02.jpg",
+    "/products/men-shirts-arthur-slim-fit-shirt/03.jpg",
+  ],
+  "men-shirts-arty-cut-off-shirt": [
+    "/products/men-shirts-arty-cut-off-shirt/01.jpg",
+    "/products/men-shirts-arty-cut-off-shirt/02.jpg",
+    "/products/men-shirts-arty-cut-off-shirt/03.jpg",
+  ],
+  "men-shirts-arty-shirt": [
+    "/products/men-shirts-arty-shirt/01.jpg",
+  ],
+  "men-shirts-axe-shirt": [
+    "/products/men-shirts-axe-shirt/01.jpg",
+  ],
+  "men-shirts-banana-mandarin-shirt": [
+    "/products/men-shirts-banana-mandarin-shirt/01.jpg",
+    "/products/men-shirts-banana-mandarin-shirt/02.jpg",
+  ],
+  "men-shirts-bd-check-gerald-c": [
+    "/products/men-shirts-bd-check-gerald-c/01.jpg",
+    "/products/men-shirts-bd-check-gerald-c/02.jpg",
+    "/products/men-shirts-bd-check-gerald-c/03.jpg",
+  ],
+  "men-shirts-bill-check-shirt": [
+    "/products/men-shirts-bill-check-shirt/01.jpg",
+    "/products/men-shirts-bill-check-shirt/02.jpg",
+    "/products/men-shirts-bill-check-shirt/03.jpg",
+  ],
+  "men-shirts-birch-relaxed-shirt-check": [
+    "/products/men-shirts-birch-relaxed-shirt-check/01.jpg",
+  ],
+  "men-shirts-boris": [
+    "/products/men-shirts-boris/01.jpg",
+    "/products/men-shirts-boris/02.jpg",
+    "/products/men-shirts-boris/03.jpg",
   ],
   "men-shirts-bryn-flanel-check": [
     "/products/men-shirts-bryn-flanel-check/01.jpg",
     "/products/men-shirts-bryn-flanel-check/02.jpg",
     "/products/men-shirts-bryn-flanel-check/03.jpg",
   ],
+  "men-shirts-ca-berlin": [
+    "/products/men-shirts-ca-berlin/01.jpg",
+    "/products/men-shirts-ca-berlin/02.jpg",
+    "/products/men-shirts-ca-berlin/03.jpg",
+  ],
   "men-shirts-ca-gustavsberg-tvp": [
     "/products/men-shirts-ca-gustavsberg-tvp/01.jpg",
     "/products/men-shirts-ca-gustavsberg-tvp/02.jpg",
     "/products/men-shirts-ca-gustavsberg-tvp/03.jpg",
+  ],
+  "men-shirts-ca-hugh-linen-shirt-tvp-r": [
+    "/products/men-shirts-ca-hugh-linen-shirt-tvp-r/01.jpg",
+    "/products/men-shirts-ca-hugh-linen-shirt-tvp-r/02.jpg",
+    "/products/men-shirts-ca-hugh-linen-shirt-tvp-r/03.jpg",
+  ],
+  "men-shirts-ca-mark-flanel-tvp": [
+    "/products/men-shirts-ca-mark-flanel-tvp/01.jpg",
+    "/products/men-shirts-ca-mark-flanel-tvp/02.jpg",
+    "/products/men-shirts-ca-mark-flanel-tvp/03.jpg",
+  ],
+  "men-shirts-connor-collarless-shirt": [
+    "/products/men-shirts-connor-collarless-shirt/01.jpg",
+  ],
+  "men-shirts-crosscheck-shirt": [
+    "/products/men-shirts-crosscheck-shirt/01.jpg",
+  ],
+  "men-shirts-csp-td-flame-shirt": [
+    "/products/men-shirts-csp-td-flame-shirt/01.jpg",
+  ],
+  "men-shirts-curt-graphic": [
+    "/products/men-shirts-curt-graphic/01.jpg",
+  ],
+  "men-shirts-dean-cord-jkt": [
+    "/products/men-shirts-dean-cord-jkt/01.jpg",
+  ],
+  "men-shirts-dominique-uniform-shirt": [
+    "/products/men-shirts-dominique-uniform-shirt/01.jpg",
+  ],
+  "men-shirts-drape-ls-shirt": [
+    "/products/men-shirts-drape-ls-shirt/01.jpg",
+    "/products/men-shirts-drape-ls-shirt/02.jpg",
+    "/products/men-shirts-drape-ls-shirt/03.jpg",
+  ],
+  "men-shirts-dusty-french-placket-check": [
+    "/products/men-shirts-dusty-french-placket-check/01.jpg",
+  ],
+  "men-shirts-dusty-french-placket-linen": [
+    "/products/men-shirts-dusty-french-placket-linen/01.jpg",
+    "/products/men-shirts-dusty-french-placket-linen/02.jpg",
+    "/products/men-shirts-dusty-french-placket-linen/03.jpg",
+  ],
+  "men-shirts-earnie-fatigue-shirt": [
+    "/products/men-shirts-earnie-fatigue-shirt/01.jpg",
+  ],
+  "men-shirts-earp-shirt": [
+    "/products/men-shirts-earp-shirt/01.jpg",
+  ],
+  "men-shirts-emerald-grandad-shirt-oxfor": [
+    "/products/men-shirts-emerald-grandad-shirt-oxfor/01.jpg",
+  ],
+  "men-shirts-fagan-ss": [
+    "/products/men-shirts-fagan-ss/01.jpg",
+    "/products/men-shirts-fagan-ss/02.jpg",
+  ],
+  "men-shirts-falkon": [
+    "/products/men-shirts-falkon/01.jpg",
+  ],
+  "men-shirts-florance-woven-tee": [
+    "/products/men-shirts-florance-woven-tee/01.jpg",
+  ],
+  "men-shirts-frame-easy-iron": [
+    "/products/men-shirts-frame-easy-iron/01.jpg",
+    "/products/men-shirts-frame-easy-iron/02.jpg",
+    "/products/men-shirts-frame-easy-iron/03.jpg",
+  ],
+  "men-shirts-frame-easy-iron-fancy": [
+    "/products/men-shirts-frame-easy-iron-fancy/01.jpg",
+    "/products/men-shirts-frame-easy-iron-fancy/02.jpg",
+    "/products/men-shirts-frame-easy-iron-fancy/03.jpg",
+  ],
+  "men-shirts-frame-slim-ss": [
+    "/products/men-shirts-frame-slim-ss/01.jpg",
+    "/products/men-shirts-frame-slim-ss/02.jpg",
+    "/products/men-shirts-frame-slim-ss/03.jpg",
+  ],
+  "men-shirts-fs-connery-tuxedo-shirt": [
+    "/products/men-shirts-fs-connery-tuxedo-shirt/01.jpg",
+    "/products/men-shirts-fs-connery-tuxedo-shirt/02.jpg",
+  ],
+  "men-shirts-hank-hawaii-shirt": [
+    "/products/men-shirts-hank-hawaii-shirt/01.jpg",
+    "/products/men-shirts-hank-hawaii-shirt/02.jpg",
+    "/products/men-shirts-hank-hawaii-shirt/03.jpg",
+  ],
+  "men-shirts-hel-stripe-shirt": [
+    "/products/men-shirts-hel-stripe-shirt/01.jpg",
+    "/products/men-shirts-hel-stripe-shirt/02.jpg",
   ],
   "men-shirts-howie-ss-shirt": [
     "/products/men-shirts-howie-ss-shirt/01.jpg",
     "/products/men-shirts-howie-ss-shirt/02.jpg",
     "/products/men-shirts-howie-ss-shirt/03.jpg",
   ],
+  "men-shirts-jack-aop": [
+    "/products/men-shirts-jack-aop/01.jpg",
+  ],
+  "men-shirts-just-ss-denim-shirt": [
+    "/products/men-shirts-just-ss-denim-shirt/01.jpg",
+  ],
+  "men-shirts-kim-check-w-denim-collar": [
+    "/products/men-shirts-kim-check-w-denim-collar/01.jpg",
+  ],
+  "men-shirts-kurt-check": [
+    "/products/men-shirts-kurt-check/01.jpg",
+    "/products/men-shirts-kurt-check/02.jpg",
+    "/products/men-shirts-kurt-check/03.jpg",
+  ],
+  "men-shirts-legolas": [
+    "/products/men-shirts-legolas/01.jpg",
+    "/products/men-shirts-legolas/02.jpg",
+  ],
+  "men-shirts-lotus-check-jkt": [
+    "/products/men-shirts-lotus-check-jkt/01.jpg",
+  ],
+  "men-shirts-mandarine-coma": [
+    "/products/men-shirts-mandarine-coma/01.jpg",
+  ],
+  "men-shirts-mandarine-lang": [
+    "/products/men-shirts-mandarine-lang/01.jpg",
+    "/products/men-shirts-mandarine-lang/02.jpg",
+  ],
+  "men-shirts-mandarine-raf": [
+    "/products/men-shirts-mandarine-raf/01.jpg",
+    "/products/men-shirts-mandarine-raf/02.jpg",
+  ],
+  "men-shirts-oliver-oxford-shirt": [
+    "/products/men-shirts-oliver-oxford-shirt/01.jpg",
+    "/products/men-shirts-oliver-oxford-shirt/02.jpg",
+    "/products/men-shirts-oliver-oxford-shirt/03.jpg",
+  ],
+  "men-shirts-pablo-popover-shirt": [
+    "/products/men-shirts-pablo-popover-shirt/01.jpg",
+  ],
+  "men-shirts-pat-ls-bd-oxford": [
+    "/products/men-shirts-pat-ls-bd-oxford/01.jpg",
+    "/products/men-shirts-pat-ls-bd-oxford/02.jpg",
+    "/products/men-shirts-pat-ls-bd-oxford/03.jpg",
+  ],
+  "men-shirts-pat-ls-bd-oxford-check-buffalo": [
+    "/products/men-shirts-pat-ls-bd-oxford-check-buffalo/01.jpg",
+  ],
+  "men-shirts-pat-ls-bd-pocketflap": [
+    "/products/men-shirts-pat-ls-bd-pocketflap/01.jpg",
+    "/products/men-shirts-pat-ls-bd-pocketflap/02.jpg",
+  ],
+  "men-shirts-pat-ls-oxford": [
+    "/products/men-shirts-pat-ls-oxford/01.jpg",
+    "/products/men-shirts-pat-ls-oxford/02.jpg",
+  ],
+  "men-shirts-pat-ls-shaggy-flanel-check": [
+    "/products/men-shirts-pat-ls-shaggy-flanel-check/01.jpg",
+    "/products/men-shirts-pat-ls-shaggy-flanel-check/02.jpg",
+    "/products/men-shirts-pat-ls-shaggy-flanel-check/03.jpg",
+  ],
+  "men-shirts-pat-ls-shirting": [
+    "/products/men-shirts-pat-ls-shirting/01.jpg",
+    "/products/men-shirts-pat-ls-shirting/02.jpg",
+    "/products/men-shirts-pat-ls-shirting/03.jpg",
+  ],
+  "men-shirts-pat-ls-spring-flanell": [
+    "/products/men-shirts-pat-ls-spring-flanell/01.jpg",
+    "/products/men-shirts-pat-ls-spring-flanell/02.jpg",
+    "/products/men-shirts-pat-ls-spring-flanell/03.jpg",
+  ],
+  "men-shirts-pear-shirt": [
+    "/products/men-shirts-pear-shirt/01.jpg",
+    "/products/men-shirts-pear-shirt/02.jpg",
+  ],
+  "men-shirts-pete-bd-ls-poplin": [
+    "/products/men-shirts-pete-bd-ls-poplin/01.jpg",
+    "/products/men-shirts-pete-bd-ls-poplin/02.jpg",
+    "/products/men-shirts-pete-bd-ls-poplin/03.jpg",
+  ],
+  "men-shirts-pete-ls-slub-plaid": [
+    "/products/men-shirts-pete-ls-slub-plaid/01.jpg",
+    "/products/men-shirts-pete-ls-slub-plaid/02.jpg",
+  ],
+  "men-shirts-pete-ss-neps": [
+    "/products/men-shirts-pete-ss-neps/01.jpg",
+  ],
+  "men-shirts-pine-regular-shirt-poplin": [
+    "/products/men-shirts-pine-regular-shirt-poplin/01.jpg",
+  ],
+  "men-shirts-pine-shirt-fancy-stripe": [
+    "/products/men-shirts-pine-shirt-fancy-stripe/01.jpg",
+    "/products/men-shirts-pine-shirt-fancy-stripe/02.jpg",
+    "/products/men-shirts-pine-shirt-fancy-stripe/03.jpg",
+  ],
+  "men-shirts-re-done-shirt": [
+    "/products/men-shirts-re-done-shirt/01.jpg",
+  ],
+  "men-shirts-resort-shirt": [
+    "/products/men-shirts-resort-shirt/01.jpg",
+    "/products/men-shirts-resort-shirt/02.jpg",
+  ],
+  "men-shirts-rik-hood-shacket": [
+    "/products/men-shirts-rik-hood-shacket/01.jpg",
+    "/products/men-shirts-rik-hood-shacket/02.jpg",
+  ],
   "men-shirts-s-s-hugo-stretch-c-r": [
     "/products/men-shirts-s-s-hugo-stretch-c-r/01.jpg",
     "/products/men-shirts-s-s-hugo-stretch-c-r/02.jpg",
+  ],
+  "men-shirts-sam-ls": [
+    "/products/men-shirts-sam-ls/01.jpg",
+    "/products/men-shirts-sam-ls/02.jpg",
+  ],
+  "men-shirts-shaggy-ss": [
+    "/products/men-shirts-shaggy-ss/01.jpg",
+    "/products/men-shirts-shaggy-ss/02.jpg",
+  ],
+  "men-shirts-speed-4-td-big-dot": [
+    "/products/men-shirts-speed-4-td-big-dot/01.jpg",
+  ],
+  "men-shirts-ss-big-dot": [
+    "/products/men-shirts-ss-big-dot/01.jpg",
+  ],
+  "men-shirts-ss-hugo-stretch": [
+    "/products/men-shirts-ss-hugo-stretch/01.jpg",
+    "/products/men-shirts-ss-hugo-stretch/02.jpg",
+    "/products/men-shirts-ss-hugo-stretch/03.jpg",
+  ],
+  "men-shirts-ss-linen-mot-tvp-r": [
+    "/products/men-shirts-ss-linen-mot-tvp-r/01.jpg",
+    "/products/men-shirts-ss-linen-mot-tvp-r/02.jpg",
+    "/products/men-shirts-ss-linen-mot-tvp-r/03.jpg",
+  ],
+  "men-shirts-ss-small-dot": [
+    "/products/men-shirts-ss-small-dot/01.jpg",
+    "/products/men-shirts-ss-small-dot/02.jpg",
+  ],
+  "men-shirts-stuart-shirt": [
+    "/products/men-shirts-stuart-shirt/01.jpg",
+    "/products/men-shirts-stuart-shirt/02.jpg",
+    "/products/men-shirts-stuart-shirt/03.jpg",
+  ],
+  "men-shirts-stylo-slim-shirt": [
+    "/products/men-shirts-stylo-slim-shirt/01.jpg",
+    "/products/men-shirts-stylo-slim-shirt/02.jpg",
+    "/products/men-shirts-stylo-slim-shirt/03.jpg",
+  ],
+  "men-shirts-sven-overshirt": [
+    "/products/men-shirts-sven-overshirt/01.jpg",
+  ],
+  "men-shirts-switch-shirt": [
+    "/products/men-shirts-switch-shirt/01.jpg",
+  ],
+  "men-shirts-td-baseball-stripe": [
+    "/products/men-shirts-td-baseball-stripe/01.jpg",
+  ],
+  "men-shirts-td-brando-stripe": [
+    "/products/men-shirts-td-brando-stripe/01.jpg",
+  ],
+  "men-shirts-td-check-big-gingham-open": [
+    "/products/men-shirts-td-check-big-gingham-open/01.jpg",
+    "/products/men-shirts-td-check-big-gingham-open/02.jpg",
+  ],
+  "men-shirts-td-check-rossi": [
+    "/products/men-shirts-td-check-rossi/01.jpg",
   ],
   "men-shirts-td-hugo-slim-fit-stretch-pq": [
     "/products/men-shirts-td-hugo-slim-fit-stretch-pq/01.jpg",
     "/products/men-shirts-td-hugo-slim-fit-stretch-pq/02.jpg",
     "/products/men-shirts-td-hugo-slim-fit-stretch-pq/03.jpg",
   ],
+  "men-shirts-td-l-s-liam": [
+    "/products/men-shirts-td-l-s-liam/01.jpg",
+  ],
+  "men-shirts-td-mika-new-jaquard": [
+    "/products/men-shirts-td-mika-new-jaquard/01.jpg",
+  ],
+  "men-shirts-td-morgan-shadow-check": [
+    "/products/men-shirts-td-morgan-shadow-check/01.jpg",
+  ],
+  "men-shirts-td-print-orchid": [
+    "/products/men-shirts-td-print-orchid/01.jpg",
+    "/products/men-shirts-td-print-orchid/02.jpg",
+  ],
+  "men-shirts-td-print-scaly-shirt": [
+    "/products/men-shirts-td-print-scaly-shirt/01.jpg",
+  ],
+  "men-shirts-td-print-sky-dot": [
+    "/products/men-shirts-td-print-sky-dot/01.jpg",
+  ],
+  "men-shirts-td-roger-eller-td-poplin-29-by": [
+    "/products/men-shirts-td-roger-eller-td-poplin-29-by/01.jpg",
+    "/products/men-shirts-td-roger-eller-td-poplin-29-by/02.jpg",
+    "/products/men-shirts-td-roger-eller-td-poplin-29-by/03.jpg",
+  ],
+  "men-shirts-td-shadow-check": [
+    "/products/men-shirts-td-shadow-check/01.jpg",
+  ],
+  "men-shirts-td-small-check": [
+    "/products/men-shirts-td-small-check/01.jpg",
+  ],
+  "men-shirts-td-small-dot": [
+    "/products/men-shirts-td-small-dot/01.jpg",
+    "/products/men-shirts-td-small-dot/02.jpg",
+    "/products/men-shirts-td-small-dot/03.jpg",
+  ],
+  "men-shirts-td-stretch-skinny": [
+    "/products/men-shirts-td-stretch-skinny/01.jpg",
+    "/products/men-shirts-td-stretch-skinny/02.jpg",
+  ],
+  "men-shirts-td-stripe-brody": [
+    "/products/men-shirts-td-stripe-brody/01.jpg",
+    "/products/men-shirts-td-stripe-brody/02.jpg",
+  ],
+  "men-shirts-td-stripe-dave": [
+    "/products/men-shirts-td-stripe-dave/01.jpg",
+  ],
+  "men-shirts-td-stripe-in-stripe": [
+    "/products/men-shirts-td-stripe-in-stripe/01.jpg",
+  ],
   "men-shirts-td-ulrik": [
     "/products/men-shirts-td-ulrik/01.jpg",
     "/products/men-shirts-td-ulrik/02.jpg",
     "/products/men-shirts-td-ulrik/03.jpg",
   ],
+  "men-shirts-telia-shirt": [
+    "/products/men-shirts-telia-shirt/01.jpg",
+  ],
+  "men-tshirts-2-pk-v-n-ss-slim-fit": [
+    "/products/men-tshirts-2-pk-v-n-ss-slim-fit/01.jpg",
+  ],
+  "men-tshirts-3-pk-r-neck-ss-basic": [
+    "/products/men-tshirts-3-pk-r-neck-ss-basic/01.jpg",
+    "/products/men-tshirts-3-pk-r-neck-ss-basic/02.jpg",
+    "/products/men-tshirts-3-pk-r-neck-ss-basic/03.jpg",
+  ],
+  "men-tshirts-baloo-crew": [
+    "/products/men-tshirts-baloo-crew/01.jpg",
+    "/products/men-tshirts-baloo-crew/02.jpg",
+  ],
+  "men-tshirts-beast-sweater": [
+    "/products/men-tshirts-beast-sweater/01.jpg",
+  ],
+  "men-tshirts-brooklyn-polo": [
+    "/products/men-tshirts-brooklyn-polo/01.jpg",
+  ],
+  "men-tshirts-chapman-ls-offer": [
+    "/products/men-tshirts-chapman-ls-offer/01.jpg",
+  ],
+  "men-tshirts-christmas-fun": [
+    "/products/men-tshirts-christmas-fun/01.jpg",
+    "/products/men-tshirts-christmas-fun/02.jpg",
+    "/products/men-tshirts-christmas-fun/03.jpg",
+  ],
+  "men-tshirts-cure-henley": [
+    "/products/men-tshirts-cure-henley/01.jpg",
+  ],
+  "men-tshirts-curtis-tee": [
+    "/products/men-tshirts-curtis-tee/01.jpg",
+  ],
+  "men-tshirts-damien-tee": [
+    "/products/men-tshirts-damien-tee/01.jpg",
+  ],
+  "men-tshirts-dark-tee-fancy": [
+    "/products/men-tshirts-dark-tee-fancy/01.jpg",
+  ],
+  "men-tshirts-dominic": [
+    "/products/men-tshirts-dominic/01.jpg",
+  ],
+  "men-tshirts-edgar-trash": [
+    "/products/men-tshirts-edgar-trash/01.jpg",
+  ],
+  "men-tshirts-eric-sweater": [
+    "/products/men-tshirts-eric-sweater/01.jpg",
+  ],
+  "men-tshirts-fav-polo-solid": [
+    "/products/men-tshirts-fav-polo-solid/01.jpg",
+    "/products/men-tshirts-fav-polo-solid/02.jpg",
+    "/products/men-tshirts-fav-polo-solid/03.jpg",
+  ],
   "men-tshirts-fortuna-t-shirt": [
     "/products/men-tshirts-fortuna-t-shirt/01.jpg",
   ],
+  "men-tshirts-freddy-stripe": [
+    "/products/men-tshirts-freddy-stripe/01.jpg",
+    "/products/men-tshirts-freddy-stripe/02.jpg",
+  ],
+  "men-tshirts-gaston-crew": [
+    "/products/men-tshirts-gaston-crew/01.jpg",
+  ],
+  "men-tshirts-goofy-sweater": [
+    "/products/men-tshirts-goofy-sweater/01.jpg",
+    "/products/men-tshirts-goofy-sweater/02.jpg",
+  ],
+  "men-tshirts-hairy-knitted-mockneck": [
+    "/products/men-tshirts-hairy-knitted-mockneck/01.jpg",
+  ],
+  "men-tshirts-harvey-hood": [
+    "/products/men-tshirts-harvey-hood/01.jpg",
+    "/products/men-tshirts-harvey-hood/02.jpg",
+    "/products/men-tshirts-harvey-hood/03.jpg",
+  ],
+  "men-tshirts-iggy-knit": [
+    "/products/men-tshirts-iggy-knit/01.jpg",
+    "/products/men-tshirts-iggy-knit/02.jpg",
+    "/products/men-tshirts-iggy-knit/03.jpg",
+  ],
+  "men-tshirts-inside-out-ls": [
+    "/products/men-tshirts-inside-out-ls/01.jpg",
+  ],
+  "men-tshirts-jack-cosy-winter": [
+    "/products/men-tshirts-jack-cosy-winter/01.jpg",
+    "/products/men-tshirts-jack-cosy-winter/02.jpg",
+  ],
+  "men-tshirts-jack-ss-drapey-tee": [
+    "/products/men-tshirts-jack-ss-drapey-tee/01.jpg",
+    "/products/men-tshirts-jack-ss-drapey-tee/02.jpg",
+  ],
+  "men-tshirts-jeff-zip-pocket": [
+    "/products/men-tshirts-jeff-zip-pocket/01.jpg",
+    "/products/men-tshirts-jeff-zip-pocket/02.jpg",
+  ],
+  "men-tshirts-jesper-tee": [
+    "/products/men-tshirts-jesper-tee/01.jpg",
+  ],
+  "men-tshirts-johnny-knit": [
+    "/products/men-tshirts-johnny-knit/01.jpg",
+    "/products/men-tshirts-johnny-knit/02.jpg",
+  ],
+  "men-tshirts-joseph-cneck": [
+    "/products/men-tshirts-joseph-cneck/01.jpg",
+  ],
+  "men-tshirts-joshua-hood-w-stripe": [
+    "/products/men-tshirts-joshua-hood-w-stripe/01.jpg",
+  ],
+  "men-tshirts-kane-stripe": [
+    "/products/men-tshirts-kane-stripe/01.jpg",
+  ],
+  "men-tshirts-kim-hood": [
+    "/products/men-tshirts-kim-hood/01.jpg",
+  ],
+  "men-tshirts-l-s-polo-gnocci-tvp": [
+    "/products/men-tshirts-l-s-polo-gnocci-tvp/01.jpg",
+    "/products/men-tshirts-l-s-polo-gnocci-tvp/02.jpg",
+    "/products/men-tshirts-l-s-polo-gnocci-tvp/03.jpg",
+  ],
+  "men-tshirts-leeds-v-neck": [
+    "/products/men-tshirts-leeds-v-neck/01.jpg",
+    "/products/men-tshirts-leeds-v-neck/02.jpg",
+  ],
+  "men-tshirts-line-rug-hoodie": [
+    "/products/men-tshirts-line-rug-hoodie/01.jpg",
+    "/products/men-tshirts-line-rug-hoodie/02.jpg",
+  ],
+  "men-tshirts-markus-r-neck-strucutre": [
+    "/products/men-tshirts-markus-r-neck-strucutre/01.jpg",
+    "/products/men-tshirts-markus-r-neck-strucutre/02.jpg",
+    "/products/men-tshirts-markus-r-neck-strucutre/03.jpg",
+  ],
+  "men-tshirts-maxence": [
+    "/products/men-tshirts-maxence/01.jpg",
+  ],
+  "men-tshirts-merino": [
+    "/products/men-tshirts-merino/01.jpg",
+    "/products/men-tshirts-merino/02.jpg",
+    "/products/men-tshirts-merino/03.jpg",
+  ],
+  "men-tshirts-merlin-r-neck-stripe": [
+    "/products/men-tshirts-merlin-r-neck-stripe/01.jpg",
+    "/products/men-tshirts-merlin-r-neck-stripe/02.jpg",
+  ],
+  "men-tshirts-mike-tee": [
+    "/products/men-tshirts-mike-tee/01.jpg",
+    "/products/men-tshirts-mike-tee/02.jpg",
+    "/products/men-tshirts-mike-tee/03.jpg",
+  ],
+  "men-tshirts-morris-sweater": [
+    "/products/men-tshirts-morris-sweater/01.jpg",
+  ],
+  "men-tshirts-neue-boxy-tee": [
+    "/products/men-tshirts-neue-boxy-tee/01.jpg",
+  ],
+  "men-tshirts-nigel-cneck": [
+    "/products/men-tshirts-nigel-cneck/01.jpg",
+  ],
+  "men-tshirts-oat-tee-1": [
+    "/products/men-tshirts-oat-tee-1/01.jpg",
+    "/products/men-tshirts-oat-tee-1/02.jpg",
+    "/products/men-tshirts-oat-tee-1/03.jpg",
+  ],
   "men-tshirts-paul-r-neck": [
     "/products/men-tshirts-paul-r-neck/01.jpg",
+  ],
+  "men-tshirts-paul-v-neck": [
+    "/products/men-tshirts-paul-v-neck/01.jpg",
+  ],
+  "men-tshirts-pennemo-knit": [
+    "/products/men-tshirts-pennemo-knit/01.jpg",
+    "/products/men-tshirts-pennemo-knit/02.jpg",
+    "/products/men-tshirts-pennemo-knit/03.jpg",
+  ],
+  "men-tshirts-petar-sweater-1": [
+    "/products/men-tshirts-petar-sweater-1/01.jpg",
+    "/products/men-tshirts-petar-sweater-1/02.jpg",
+  ],
+  "men-tshirts-peter-slim-fit-polo": [
+    "/products/men-tshirts-peter-slim-fit-polo/01.jpg",
+    "/products/men-tshirts-peter-slim-fit-polo/02.jpg",
+    "/products/men-tshirts-peter-slim-fit-polo/03.jpg",
+  ],
+  "men-tshirts-pocketknit": [
+    "/products/men-tshirts-pocketknit/01.jpg",
+    "/products/men-tshirts-pocketknit/02.jpg",
+    "/products/men-tshirts-pocketknit/03.jpg",
+  ],
+  "men-tshirts-polo-s-s-highline": [
+    "/products/men-tshirts-polo-s-s-highline/01.jpg",
+    "/products/men-tshirts-polo-s-s-highline/02.jpg",
+    "/products/men-tshirts-polo-s-s-highline/03.jpg",
+  ],
+  "men-tshirts-printed-longsleeve-tee": [
+    "/products/men-tshirts-printed-longsleeve-tee/01.jpg",
+  ],
+  "men-tshirts-printed-sweatshirt-19-99": [
+    "/products/men-tshirts-printed-sweatshirt-19-99/01.jpg",
+    "/products/men-tshirts-printed-sweatshirt-19-99/02.jpg",
+  ],
+  "men-tshirts-printed-tee-9-99": [
+    "/products/men-tshirts-printed-tee-9-99/01.jpg",
+    "/products/men-tshirts-printed-tee-9-99/02.jpg",
+  ],
+  "men-tshirts-r-neck-allington": [
+    "/products/men-tshirts-r-neck-allington/01.jpg",
+    "/products/men-tshirts-r-neck-allington/02.jpg",
+    "/products/men-tshirts-r-neck-allington/03.jpg",
+  ],
+  "men-tshirts-r-neck-andy": [
+    "/products/men-tshirts-r-neck-andy/01.jpg",
+    "/products/men-tshirts-r-neck-andy/02.jpg",
+  ],
+  "men-tshirts-r-neck-astrix-lamswool": [
+    "/products/men-tshirts-r-neck-astrix-lamswool/01.jpg",
+    "/products/men-tshirts-r-neck-astrix-lamswool/02.jpg",
+    "/products/men-tshirts-r-neck-astrix-lamswool/03.jpg",
+  ],
+  "men-tshirts-r-neck-corso": [
+    "/products/men-tshirts-r-neck-corso/01.jpg",
+    "/products/men-tshirts-r-neck-corso/02.jpg",
+  ],
+  "men-tshirts-r-neck-ls-slim-fit": [
+    "/products/men-tshirts-r-neck-ls-slim-fit/01.jpg",
+    "/products/men-tshirts-r-neck-ls-slim-fit/02.jpg",
+    "/products/men-tshirts-r-neck-ls-slim-fit/03.jpg",
+  ],
+  "men-tshirts-r-neck-merino-pisa": [
+    "/products/men-tshirts-r-neck-merino-pisa/01.jpg",
+    "/products/men-tshirts-r-neck-merino-pisa/02.jpg",
+    "/products/men-tshirts-r-neck-merino-pisa/03.jpg",
+  ],
+  "men-tshirts-r-neck-ss-basic-fit": [
+    "/products/men-tshirts-r-neck-ss-basic-fit/01.jpg",
+    "/products/men-tshirts-r-neck-ss-basic-fit/02.jpg",
+  ],
+  "men-tshirts-r-neck-ss-slim-fit": [
+    "/products/men-tshirts-r-neck-ss-slim-fit/01.jpg",
+    "/products/men-tshirts-r-neck-ss-slim-fit/02.jpg",
+    "/products/men-tshirts-r-neck-ss-slim-fit/03.jpg",
+  ],
+  "men-tshirts-raw-basic-knit": [
+    "/products/men-tshirts-raw-basic-knit/01.jpg",
+    "/products/men-tshirts-raw-basic-knit/02.jpg",
+  ],
+  "men-tshirts-regular-longsleeve-tee": [
+    "/products/men-tshirts-regular-longsleeve-tee/01.jpg",
   ],
   "men-tshirts-riley-t-shirt": [
     "/products/men-tshirts-riley-t-shirt/01.jpg",
     "/products/men-tshirts-riley-t-shirt/02.jpg",
     "/products/men-tshirts-riley-t-shirt/03.jpg",
   ],
+  "men-tshirts-ripley-r-neck": [
+    "/products/men-tshirts-ripley-r-neck/01.jpg",
+    "/products/men-tshirts-ripley-r-neck/02.jpg",
+    "/products/men-tshirts-ripley-r-neck/03.jpg",
+  ],
+  "men-tshirts-rob-tee": [
+    "/products/men-tshirts-rob-tee/01.jpg",
+    "/products/men-tshirts-rob-tee/02.jpg",
+  ],
+  "men-tshirts-roll-up-tee": [
+    "/products/men-tshirts-roll-up-tee/01.jpg",
+    "/products/men-tshirts-roll-up-tee/02.jpg",
+    "/products/men-tshirts-roll-up-tee/03.jpg",
+  ],
+  "men-tshirts-rollerneck-blenheim-tvp": [
+    "/products/men-tshirts-rollerneck-blenheim-tvp/01.jpg",
+    "/products/men-tshirts-rollerneck-blenheim-tvp/02.jpg",
+    "/products/men-tshirts-rollerneck-blenheim-tvp/03.jpg",
+  ],
+  "men-tshirts-rollerneck-charlie-tvp": [
+    "/products/men-tshirts-rollerneck-charlie-tvp/01.jpg",
+    "/products/men-tshirts-rollerneck-charlie-tvp/02.jpg",
+    "/products/men-tshirts-rollerneck-charlie-tvp/03.jpg",
+  ],
+  "men-tshirts-rollerneck-etienne": [
+    "/products/men-tshirts-rollerneck-etienne/01.jpg",
+    "/products/men-tshirts-rollerneck-etienne/02.jpg",
+  ],
+  "men-tshirts-ronny-long": [
+    "/products/men-tshirts-ronny-long/01.jpg",
+    "/products/men-tshirts-ronny-long/02.jpg",
+    "/products/men-tshirts-ronny-long/03.jpg",
+  ],
+  "men-tshirts-ross-heat": [
+    "/products/men-tshirts-ross-heat/01.jpg",
+  ],
+  "men-tshirts-rye-hood": [
+    "/products/men-tshirts-rye-hood/01.jpg",
+  ],
+  "men-tshirts-s-s-polo-harley": [
+    "/products/men-tshirts-s-s-polo-harley/01.jpg",
+    "/products/men-tshirts-s-s-polo-harley/02.jpg",
+  ],
+  "men-tshirts-samuel-tee": [
+    "/products/men-tshirts-samuel-tee/01.jpg",
+  ],
+  "men-tshirts-sebastian": [
+    "/products/men-tshirts-sebastian/01.jpg",
+  ],
+  "men-tshirts-stripe-tee": [
+    "/products/men-tshirts-stripe-tee/01.jpg",
+  ],
+  "men-tshirts-studio-altitude-knitted-polo": [
+    "/products/men-tshirts-studio-altitude-knitted-polo/01.jpg",
+  ],
+  "men-tshirts-tail-tee": [
+    "/products/men-tshirts-tail-tee/01.jpg",
+    "/products/men-tshirts-tail-tee/02.jpg",
+    "/products/men-tshirts-tail-tee/03.jpg",
+  ],
+  "men-tshirts-taz-tee": [
+    "/products/men-tshirts-taz-tee/01.jpg",
+    "/products/men-tshirts-taz-tee/02.jpg",
+  ],
+  "men-tshirts-tiernan": [
+    "/products/men-tshirts-tiernan/01.jpg",
+    "/products/men-tshirts-tiernan/02.jpg",
+    "/products/men-tshirts-tiernan/03.jpg",
+  ],
+  "men-tshirts-v-5-linen-t-shirt": [
+    "/products/men-tshirts-v-5-linen-t-shirt/01.jpg",
+  ],
+  "men-tshirts-v-neck-allington-tvp": [
+    "/products/men-tshirts-v-neck-allington-tvp/01.jpg",
+    "/products/men-tshirts-v-neck-allington-tvp/02.jpg",
+  ],
   "men-tshirts-v-neck-ls-slim": [
     "/products/men-tshirts-v-neck-ls-slim/01.jpg",
+  ],
+  "men-tshirts-v-neck-milan-tvp": [
+    "/products/men-tshirts-v-neck-milan-tvp/01.jpg",
+    "/products/men-tshirts-v-neck-milan-tvp/02.jpg",
+    "/products/men-tshirts-v-neck-milan-tvp/03.jpg",
+  ],
+  "men-tshirts-v-neck-ss-basic-3-pk": [
+    "/products/men-tshirts-v-neck-ss-basic-3-pk/01.jpg",
+    "/products/men-tshirts-v-neck-ss-basic-3-pk/02.jpg",
+  ],
+  "men-tshirts-v-neck-ss-slim-fit": [
+    "/products/men-tshirts-v-neck-ss-slim-fit/01.jpg",
+    "/products/men-tshirts-v-neck-ss-slim-fit/02.jpg",
+    "/products/men-tshirts-v-neck-ss-slim-fit/03.jpg",
+  ],
+  "men-tshirts-vintage-tee": [
+    "/products/men-tshirts-vintage-tee/01.jpg",
+  ],
+  "men-tshirts-viscious-knit": [
+    "/products/men-tshirts-viscious-knit/01.jpg",
   ],
   "men-tshirts-wales-sweater": [
     "/products/men-tshirts-wales-sweater/01.jpg",
     "/products/men-tshirts-wales-sweater/02.jpg",
     "/products/men-tshirts-wales-sweater/03.jpg",
   ],
+  "men-tshirts-washed-hoodie-1": [
+    "/products/men-tshirts-washed-hoodie-1/01.jpg",
+    "/products/men-tshirts-washed-hoodie-1/02.jpg",
+    "/products/men-tshirts-washed-hoodie-1/03.jpg",
+  ],
+  "men-tshirts-washington-sweatshirt": [
+    "/products/men-tshirts-washington-sweatshirt/01.jpg",
+  ],
+  "men-tshirts-westwood-knit": [
+    "/products/men-tshirts-westwood-knit/01.jpg",
+  ],
+  "men-tshirts-wet-tee-1": [
+    "/products/men-tshirts-wet-tee-1/01.jpg",
+    "/products/men-tshirts-wet-tee-1/02.jpg",
+    "/products/men-tshirts-wet-tee-1/03.jpg",
+  ],
+  "men-tshirts-yet-tee": [
+    "/products/men-tshirts-yet-tee/01.jpg",
+    "/products/men-tshirts-yet-tee/02.jpg",
+  ],
+  "men-tshirts-zero-tee": [
+    "/products/men-tshirts-zero-tee/01.jpg",
+    "/products/men-tshirts-zero-tee/02.jpg",
+    "/products/men-tshirts-zero-tee/03.jpg",
+  ],
+  "men-tshirts-zorrow-clean": [
+    "/products/men-tshirts-zorrow-clean/01.jpg",
+  ],
   "men-tshirts-zorrow-detailed": [
     "/products/men-tshirts-zorrow-detailed/01.jpg",
   ],
+  "sale-kids-2-p-basic-cotton-tights-sg": [
+    "/products/sale-kids-2-p-basic-cotton-tights-sg/01.jpg",
+    "/products/sale-kids-2-p-basic-cotton-tights-sg/02.jpg",
+    "/products/sale-kids-2-p-basic-cotton-tights-sg/03.jpg",
+  ],
+  "sale-kids-2-p-keri": [
+    "/products/sale-kids-2-p-keri/01.jpg",
+    "/products/sale-kids-2-p-keri/02.jpg",
+    "/products/sale-kids-2-p-keri/03.jpg",
+  ],
+  "sale-kids-2-p-pelin-pointelle": [
+    "/products/sale-kids-2-p-pelin-pointelle/01.jpg",
+    "/products/sale-kids-2-p-pelin-pointelle/02.jpg",
+    "/products/sale-kids-2-p-pelin-pointelle/03.jpg",
+  ],
+  "sale-kids-anthea-2p-pj": [
+    "/products/sale-kids-anthea-2p-pj/01.jpg",
+    "/products/sale-kids-anthea-2p-pj/02.jpg",
+    "/products/sale-kids-anthea-2p-pj/03.jpg",
+  ],
+  "sale-kids-anthea-pj": [
+    "/products/sale-kids-anthea-pj/01.jpg",
+    "/products/sale-kids-anthea-pj/02.jpg",
+    "/products/sale-kids-anthea-pj/03.jpg",
+  ],
+  "sale-kids-ashton": [
+    "/products/sale-kids-ashton/01.jpg",
+    "/products/sale-kids-ashton/02.jpg",
+    "/products/sale-kids-ashton/03.jpg",
+  ],
+  "sale-kids-august-s-s-2-p-snug-fit-pj": [
+    "/products/sale-kids-august-s-s-2-p-snug-fit-pj/01.jpg",
+    "/products/sale-kids-august-s-s-2-p-snug-fit-pj/02.jpg",
+    "/products/sale-kids-august-s-s-2-p-snug-fit-pj/03.jpg",
+  ],
+  "sale-kids-ben-basic-crewneck-sb": [
+    "/products/sale-kids-ben-basic-crewneck-sb/01.jpg",
+    "/products/sale-kids-ben-basic-crewneck-sb/02.jpg",
+    "/products/sale-kids-ben-basic-crewneck-sb/03.jpg",
+  ],
+  "sale-kids-ben-fancy-crewneck-sb": [
+    "/products/sale-kids-ben-fancy-crewneck-sb/01.jpg",
+    "/products/sale-kids-ben-fancy-crewneck-sb/02.jpg",
+    "/products/sale-kids-ben-fancy-crewneck-sb/03.jpg",
+  ],
   "sale-kids-bertil-basic-2-pack-s-s-sb": [
     "/products/sale-kids-bertil-basic-2-pack-s-s-sb/01.jpg",
+  ],
+  "sale-kids-dennis-onepiece-sb": [
+    "/products/sale-kids-dennis-onepiece-sb/01.jpg",
+    "/products/sale-kids-dennis-onepiece-sb/02.jpg",
+  ],
+  "sale-kids-diamanda-tights-sg": [
+    "/products/sale-kids-diamanda-tights-sg/01.jpg",
+    "/products/sale-kids-diamanda-tights-sg/02.jpg",
+  ],
+  "sale-kids-ella-5-p-shaftless": [
+    "/products/sale-kids-ella-5-p-shaftless/01.jpg",
+    "/products/sale-kids-ella-5-p-shaftless/02.jpg",
+  ],
+  "sale-kids-emma-3-p-terry-chenille": [
+    "/products/sale-kids-emma-3-p-terry-chenille/01.jpg",
+    "/products/sale-kids-emma-3-p-terry-chenille/02.jpg",
+    "/products/sale-kids-emma-3-p-terry-chenille/03.jpg",
+  ],
+  "sale-kids-freja-2-pack": [
+    "/products/sale-kids-freja-2-pack/01.jpg",
+  ],
+  "sale-kids-gullan-5-p-ankle-sock": [
+    "/products/sale-kids-gullan-5-p-ankle-sock/01.jpg",
+    "/products/sale-kids-gullan-5-p-ankle-sock/02.jpg",
+    "/products/sale-kids-gullan-5-p-ankle-sock/03.jpg",
+  ],
+  "sale-kids-joel-fancy-sweatpants-sb": [
+    "/products/sale-kids-joel-fancy-sweatpants-sb/01.jpg",
+    "/products/sale-kids-joel-fancy-sweatpants-sb/02.jpg",
+    "/products/sale-kids-joel-fancy-sweatpants-sb/03.jpg",
+  ],
+  "sale-kids-jogger-wilson-79": [
+    "/products/sale-kids-jogger-wilson-79/01.jpg",
+    "/products/sale-kids-jogger-wilson-79/02.jpg",
+    "/products/sale-kids-jogger-wilson-79/03.jpg",
+  ],
+  "sale-kids-liam-2-pack-tanktop-sb": [
+    "/products/sale-kids-liam-2-pack-tanktop-sb/01.jpg",
+    "/products/sale-kids-liam-2-pack-tanktop-sb/02.jpg",
+    "/products/sale-kids-liam-2-pack-tanktop-sb/03.jpg",
+  ],
+  "sale-kids-logan-l-s-raglan": [
+    "/products/sale-kids-logan-l-s-raglan/01.jpg",
+    "/products/sale-kids-logan-l-s-raglan/02.jpg",
+    "/products/sale-kids-logan-l-s-raglan/03.jpg",
+  ],
+  "sale-kids-lurex-tights-sg": [
+    "/products/sale-kids-lurex-tights-sg/01.jpg",
+    "/products/sale-kids-lurex-tights-sg/02.jpg",
+    "/products/sale-kids-lurex-tights-sg/03.jpg",
+  ],
+  "sale-kids-majken-maxi-dress": [
+    "/products/sale-kids-majken-maxi-dress/01.jpg",
+  ],
+  "sale-kids-malaga-2-p": [
+    "/products/sale-kids-malaga-2-p/01.jpg",
+    "/products/sale-kids-malaga-2-p/02.jpg",
+    "/products/sale-kids-malaga-2-p/03.jpg",
+  ],
+  "sale-kids-marie-7-p-sg": [
+    "/products/sale-kids-marie-7-p-sg/01.jpg",
+    "/products/sale-kids-marie-7-p-sg/02.jpg",
+    "/products/sale-kids-marie-7-p-sg/03.jpg",
+  ],
+  "sale-kids-maxi-2-pack": [
+    "/products/sale-kids-maxi-2-pack/01.jpg",
+    "/products/sale-kids-maxi-2-pack/02.jpg",
+    "/products/sale-kids-maxi-2-pack/03.jpg",
+  ],
+  "sale-kids-mia": [
+    "/products/sale-kids-mia/01.jpg",
+    "/products/sale-kids-mia/02.jpg",
+    "/products/sale-kids-mia/03.jpg",
+  ],
+  "sale-kids-microtights-2pk-sg": [
+    "/products/sale-kids-microtights-2pk-sg/01.jpg",
+    "/products/sale-kids-microtights-2pk-sg/02.jpg",
+    "/products/sale-kids-microtights-2pk-sg/03.jpg",
+  ],
+  "sale-kids-milly-onesie-pj": [
+    "/products/sale-kids-milly-onesie-pj/01.jpg",
+    "/products/sale-kids-milly-onesie-pj/02.jpg",
+    "/products/sale-kids-milly-onesie-pj/03.jpg",
+  ],
+  "sale-kids-mimmi": [
+    "/products/sale-kids-mimmi/01.jpg",
+    "/products/sale-kids-mimmi/02.jpg",
+  ],
+  "sale-kids-mums": [
+    "/products/sale-kids-mums/01.jpg",
+    "/products/sale-kids-mums/02.jpg",
+    "/products/sale-kids-mums/03.jpg",
+  ],
+  "sale-kids-nelly-2-pack-s-l": [
+    "/products/sale-kids-nelly-2-pack-s-l/01.jpg",
+    "/products/sale-kids-nelly-2-pack-s-l/02.jpg",
+  ],
+  "sale-kids-nora": [
+    "/products/sale-kids-nora/01.jpg",
+    "/products/sale-kids-nora/02.jpg",
+    "/products/sale-kids-nora/03.jpg",
+  ],
+  "sale-kids-oscar-l-s-tee-sb": [
+    "/products/sale-kids-oscar-l-s-tee-sb/01.jpg",
+    "/products/sale-kids-oscar-l-s-tee-sb/02.jpg",
+    "/products/sale-kids-oscar-l-s-tee-sb/03.jpg",
+  ],
+  "sale-kids-pelle-basic-s-s-jersey-polo-sb": [
+    "/products/sale-kids-pelle-basic-s-s-jersey-polo-sb/01.jpg",
+    "/products/sale-kids-pelle-basic-s-s-jersey-polo-sb/02.jpg",
+    "/products/sale-kids-pelle-basic-s-s-jersey-polo-sb/03.jpg",
+  ],
+  "sale-kids-raf-basic-rollerneck-sb-2-p": [
+    "/products/sale-kids-raf-basic-rollerneck-sb-2-p/01.jpg",
+    "/products/sale-kids-raf-basic-rollerneck-sb-2-p/02.jpg",
+    "/products/sale-kids-raf-basic-rollerneck-sb-2-p/03.jpg",
+  ],
+  "sale-kids-rakel-3p": [
+    "/products/sale-kids-rakel-3p/01.jpg",
+    "/products/sale-kids-rakel-3p/02.jpg",
+  ],
+  "sale-kids-rally-2p-tights": [
+    "/products/sale-kids-rally-2p-tights/01.jpg",
+    "/products/sale-kids-rally-2p-tights/02.jpg",
+    "/products/sale-kids-rally-2p-tights/03.jpg",
+  ],
+  "sale-kids-rebecca-basic-tanktop": [
+    "/products/sale-kids-rebecca-basic-tanktop/01.jpg",
+    "/products/sale-kids-rebecca-basic-tanktop/02.jpg",
+    "/products/sale-kids-rebecca-basic-tanktop/03.jpg",
+  ],
+  "sale-kids-rick-l-s-henley-sb": [
+    "/products/sale-kids-rick-l-s-henley-sb/01.jpg",
+    "/products/sale-kids-rick-l-s-henley-sb/02.jpg",
+    "/products/sale-kids-rick-l-s-henley-sb/03.jpg",
+  ],
+  "sale-kids-romy-2p": [
+    "/products/sale-kids-romy-2p/01.jpg",
+    "/products/sale-kids-romy-2p/02.jpg",
+    "/products/sale-kids-romy-2p/03.jpg",
+  ],
+  "sale-kids-romy-3pack-tanktop": [
+    "/products/sale-kids-romy-3pack-tanktop/01.jpg",
+    "/products/sale-kids-romy-3pack-tanktop/02.jpg",
+    "/products/sale-kids-romy-3pack-tanktop/03.jpg",
+  ],
+  "sale-kids-sara-2-p-legging-w-lace": [
+    "/products/sale-kids-sara-2-p-legging-w-lace/01.jpg",
+    "/products/sale-kids-sara-2-p-legging-w-lace/02.jpg",
+    "/products/sale-kids-sara-2-p-legging-w-lace/03.jpg",
+  ],
+  "sale-kids-skeleton-1p-tights": [
+    "/products/sale-kids-skeleton-1p-tights/01.jpg",
   ],
   "sale-kids-slim-cheapo-79": [
     "/products/sale-kids-slim-cheapo-79/01.jpg",
@@ -218,59 +3419,841 @@ export const PRODUCT_IMAGES: Record<string, string[]> = {
     "/products/sale-kids-torkel-basic-2-pack-tanktop-sb/02.jpg",
     "/products/sale-kids-torkel-basic-2-pack-tanktop-sb/03.jpg",
   ],
+  "sale-kids-tp-max-jersey-pants-sb": [
+    "/products/sale-kids-tp-max-jersey-pants-sb/01.jpg",
+    "/products/sale-kids-tp-max-jersey-pants-sb/02.jpg",
+    "/products/sale-kids-tp-max-jersey-pants-sb/03.jpg",
+  ],
+  "sale-kids-vibeke-2-p": [
+    "/products/sale-kids-vibeke-2-p/01.jpg",
+  ],
+  "sale-kids-viveka-5-p-rib-shaftless": [
+    "/products/sale-kids-viveka-5-p-rib-shaftless/01.jpg",
+    "/products/sale-kids-viveka-5-p-rib-shaftless/02.jpg",
+    "/products/sale-kids-viveka-5-p-rib-shaftless/03.jpg",
+  ],
+  "sale-kids-werter-5-p-shaftless-bb": [
+    "/products/sale-kids-werter-5-p-shaftless-bb/01.jpg",
+    "/products/sale-kids-werter-5-p-shaftless-bb/02.jpg",
+  ],
+  "sale-kids-werter-5-p-shaftless-sb": [
+    "/products/sale-kids-werter-5-p-shaftless-sb/01.jpg",
+    "/products/sale-kids-werter-5-p-shaftless-sb/02.jpg",
+    "/products/sale-kids-werter-5-p-shaftless-sb/03.jpg",
+  ],
+  "sale-men-2-pk-v-n-ss-slim-fit": [
+    "/products/sale-men-2-pk-v-n-ss-slim-fit/01.jpg",
+  ],
+  "sale-men-benny-shorts-1": [
+    "/products/sale-men-benny-shorts-1/01.jpg",
+    "/products/sale-men-benny-shorts-1/02.jpg",
+    "/products/sale-men-benny-shorts-1/03.jpg",
+  ],
+  "sale-men-billy-cargo-pants": [
+    "/products/sale-men-billy-cargo-pants/01.jpg",
+    "/products/sale-men-billy-cargo-pants/02.jpg",
+    "/products/sale-men-billy-cargo-pants/03.jpg",
+  ],
+  "sale-men-bruce-denim": [
+    "/products/sale-men-bruce-denim/01.jpg",
+    "/products/sale-men-bruce-denim/02.jpg",
+    "/products/sale-men-bruce-denim/03.jpg",
+  ],
+  "sale-men-bruce-skinny": [
+    "/products/sale-men-bruce-skinny/01.jpg",
+    "/products/sale-men-bruce-skinny/02.jpg",
+    "/products/sale-men-bruce-skinny/03.jpg",
+  ],
   "sale-men-bryn-flanel-check": [
     "/products/sale-men-bryn-flanel-check/01.jpg",
     "/products/sale-men-bryn-flanel-check/02.jpg",
     "/products/sale-men-bryn-flanel-check/03.jpg",
+  ],
+  "sale-men-bull-trousers": [
+    "/products/sale-men-bull-trousers/01.jpg",
+  ],
+  "sale-men-ca-berlin": [
+    "/products/sale-men-ca-berlin/01.jpg",
+    "/products/sale-men-ca-berlin/02.jpg",
+    "/products/sale-men-ca-berlin/03.jpg",
+  ],
+  "sale-men-ca-gustavsberg-tvp": [
+    "/products/sale-men-ca-gustavsberg-tvp/01.jpg",
+    "/products/sale-men-ca-gustavsberg-tvp/02.jpg",
+    "/products/sale-men-ca-gustavsberg-tvp/03.jpg",
+  ],
+  "sale-men-california-jogger-1": [
+    "/products/sale-men-california-jogger-1/01.jpg",
+    "/products/sale-men-california-jogger-1/02.jpg",
+    "/products/sale-men-california-jogger-1/03.jpg",
+  ],
+  "sale-men-cobra-constructed": [
+    "/products/sale-men-cobra-constructed/01.jpg",
+    "/products/sale-men-cobra-constructed/02.jpg",
+    "/products/sale-men-cobra-constructed/03.jpg",
+  ],
+  "sale-men-curtis-tee": [
+    "/products/sale-men-curtis-tee/01.jpg",
   ],
   "sale-men-dean-drawstring-trousers": [
     "/products/sale-men-dean-drawstring-trousers/01.jpg",
     "/products/sale-men-dean-drawstring-trousers/02.jpg",
     "/products/sale-men-dean-drawstring-trousers/03.jpg",
   ],
+  "sale-men-falkon": [
+    "/products/sale-men-falkon/01.jpg",
+  ],
+  "sale-men-fortuna-t-shirt": [
+    "/products/sale-men-fortuna-t-shirt/01.jpg",
+  ],
+  "sale-men-godfather-slim-chino": [
+    "/products/sale-men-godfather-slim-chino/01.jpg",
+    "/products/sale-men-godfather-slim-chino/02.jpg",
+    "/products/sale-men-godfather-slim-chino/03.jpg",
+  ],
+  "sale-men-howie-ss-shirt": [
+    "/products/sale-men-howie-ss-shirt/01.jpg",
+    "/products/sale-men-howie-ss-shirt/02.jpg",
+    "/products/sale-men-howie-ss-shirt/03.jpg",
+  ],
   "sale-men-jerry-jogger-bottoms": [
     "/products/sale-men-jerry-jogger-bottoms/01.jpg",
     "/products/sale-men-jerry-jogger-bottoms/02.jpg",
     "/products/sale-men-jerry-jogger-bottoms/03.jpg",
+  ],
+  "sale-men-jesper-tee": [
+    "/products/sale-men-jesper-tee/01.jpg",
+  ],
+  "sale-men-jonas-slim-5-pkt": [
+    "/products/sale-men-jonas-slim-5-pkt/01.jpg",
+    "/products/sale-men-jonas-slim-5-pkt/02.jpg",
+    "/products/sale-men-jonas-slim-5-pkt/03.jpg",
+  ],
+  "sale-men-jonte-skinny-jogger-24-99": [
+    "/products/sale-men-jonte-skinny-jogger-24-99/01.jpg",
+    "/products/sale-men-jonte-skinny-jogger-24-99/02.jpg",
+    "/products/sale-men-jonte-skinny-jogger-24-99/03.jpg",
+  ],
+  "sale-men-kurt-check": [
+    "/products/sale-men-kurt-check/01.jpg",
+    "/products/sale-men-kurt-check/02.jpg",
+    "/products/sale-men-kurt-check/03.jpg",
+  ],
+  "sale-men-manson-trs": [
+    "/products/sale-men-manson-trs/01.jpg",
+    "/products/sale-men-manson-trs/02.jpg",
+    "/products/sale-men-manson-trs/03.jpg",
+  ],
+  "sale-men-matt-regular-trs": [
+    "/products/sale-men-matt-regular-trs/01.jpg",
+  ],
+  "sale-men-nova-denim-5-pkt": [
+    "/products/sale-men-nova-denim-5-pkt/01.jpg",
+  ],
+  "sale-men-ole-cargo": [
+    "/products/sale-men-ole-cargo/01.jpg",
+  ],
+  "sale-men-oz-trousers": [
+    "/products/sale-men-oz-trousers/01.jpg",
+    "/products/sale-men-oz-trousers/02.jpg",
+    "/products/sale-men-oz-trousers/03.jpg",
+  ],
+  "sale-men-pablo-popover-shirt": [
+    "/products/sale-men-pablo-popover-shirt/01.jpg",
+  ],
+  "sale-men-r-neck-allington": [
+    "/products/sale-men-r-neck-allington/01.jpg",
+    "/products/sale-men-r-neck-allington/02.jpg",
+    "/products/sale-men-r-neck-allington/03.jpg",
+  ],
+  "sale-men-rawley-chinos-slim": [
+    "/products/sale-men-rawley-chinos-slim/01.jpg",
+    "/products/sale-men-rawley-chinos-slim/02.jpg",
+    "/products/sale-men-rawley-chinos-slim/03.jpg",
+  ],
+  "sale-men-relaxed-skinny-5pkt": [
+    "/products/sale-men-relaxed-skinny-5pkt/01.jpg",
+    "/products/sale-men-relaxed-skinny-5pkt/02.jpg",
+  ],
+  "sale-men-riley-t-shirt": [
+    "/products/sale-men-riley-t-shirt/01.jpg",
+    "/products/sale-men-riley-t-shirt/02.jpg",
+    "/products/sale-men-riley-t-shirt/03.jpg",
+  ],
+  "sale-men-roll-up-tee": [
+    "/products/sale-men-roll-up-tee/01.jpg",
+    "/products/sale-men-roll-up-tee/02.jpg",
+    "/products/sale-men-roll-up-tee/03.jpg",
+  ],
+  "sale-men-s-s-hugo-stretch-c-r": [
+    "/products/sale-men-s-s-hugo-stretch-c-r/01.jpg",
+    "/products/sale-men-s-s-hugo-stretch-c-r/02.jpg",
+  ],
+  "sale-men-sigge-shorts": [
+    "/products/sale-men-sigge-shorts/01.jpg",
+    "/products/sale-men-sigge-shorts/02.jpg",
+    "/products/sale-men-sigge-shorts/03.jpg",
+  ],
+  "sale-men-skinny-5pkt-malcolm": [
+    "/products/sale-men-skinny-5pkt-malcolm/01.jpg",
+    "/products/sale-men-skinny-5pkt-malcolm/02.jpg",
+    "/products/sale-men-skinny-5pkt-malcolm/03.jpg",
+  ],
+  "sale-men-skinny-5pkt-premiumprice-1": [
+    "/products/sale-men-skinny-5pkt-premiumprice-1/01.jpg",
+    "/products/sale-men-skinny-5pkt-premiumprice-1/02.jpg",
+    "/products/sale-men-skinny-5pkt-premiumprice-1/03.jpg",
+  ],
+  "sale-men-skinny-denim-5-pkt-panel": [
+    "/products/sale-men-skinny-denim-5-pkt-panel/01.jpg",
+  ],
+  "sale-men-skinny-l-w-bargain-1": [
+    "/products/sale-men-skinny-l-w-bargain-1/01.jpg",
+    "/products/sale-men-skinny-l-w-bargain-1/02.jpg",
+    "/products/sale-men-skinny-l-w-bargain-1/03.jpg",
+  ],
+  "sale-men-slim-5pkt": [
+    "/products/sale-men-slim-5pkt/01.jpg",
+    "/products/sale-men-slim-5pkt/02.jpg",
+    "/products/sale-men-slim-5pkt/03.jpg",
+  ],
+  "sale-men-slim-5pkt-midprice": [
+    "/products/sale-men-slim-5pkt-midprice/01.jpg",
+    "/products/sale-men-slim-5pkt-midprice/02.jpg",
+    "/products/sale-men-slim-5pkt-midprice/03.jpg",
+  ],
+  "sale-men-sonny-denim": [
+    "/products/sale-men-sonny-denim/01.jpg",
+    "/products/sale-men-sonny-denim/02.jpg",
+    "/products/sale-men-sonny-denim/03.jpg",
+  ],
+  "sale-men-sonny-pants": [
+    "/products/sale-men-sonny-pants/01.jpg",
+    "/products/sale-men-sonny-pants/02.jpg",
+    "/products/sale-men-sonny-pants/03.jpg",
+  ],
+  "sale-men-straight-5pkt": [
+    "/products/sale-men-straight-5pkt/01.jpg",
+    "/products/sale-men-straight-5pkt/02.jpg",
+  ],
+  "sale-men-tail-tee": [
+    "/products/sale-men-tail-tee/01.jpg",
+    "/products/sale-men-tail-tee/02.jpg",
+    "/products/sale-men-tail-tee/03.jpg",
+  ],
+  "sale-men-td-hugo-slim-fit-stretch-pq": [
+    "/products/sale-men-td-hugo-slim-fit-stretch-pq/01.jpg",
+    "/products/sale-men-td-hugo-slim-fit-stretch-pq/02.jpg",
+    "/products/sale-men-td-hugo-slim-fit-stretch-pq/03.jpg",
+  ],
+  "sale-men-td-roger-eller-td-poplin-29-by": [
+    "/products/sale-men-td-roger-eller-td-poplin-29-by/01.jpg",
+    "/products/sale-men-td-roger-eller-td-poplin-29-by/02.jpg",
+    "/products/sale-men-td-roger-eller-td-poplin-29-by/03.jpg",
+  ],
+  "sale-men-td-ulrik": [
+    "/products/sale-men-td-ulrik/01.jpg",
+    "/products/sale-men-td-ulrik/02.jpg",
+    "/products/sale-men-td-ulrik/03.jpg",
+  ],
+  "sale-men-wave-linen": [
+    "/products/sale-men-wave-linen/01.jpg",
+    "/products/sale-men-wave-linen/02.jpg",
+    "/products/sale-men-wave-linen/03.jpg",
+  ],
+  "sale-men-zero-tee": [
+    "/products/sale-men-zero-tee/01.jpg",
+    "/products/sale-men-zero-tee/02.jpg",
+    "/products/sale-men-zero-tee/03.jpg",
   ],
   "sale-women-aguilera-maxidress": [
     "/products/sale-women-aguilera-maxidress/01.jpg",
     "/products/sale-women-aguilera-maxidress/02.jpg",
     "/products/sale-women-aguilera-maxidress/03.jpg",
   ],
+  "sale-women-ariana-dress-speed": [
+    "/products/sale-women-ariana-dress-speed/01.jpg",
+  ],
+  "sale-women-bali-wide-trousers": [
+    "/products/sale-women-bali-wide-trousers/01.jpg",
+  ],
+  "sale-women-boyfriend-lw-denim": [
+    "/products/sale-women-boyfriend-lw-denim/01.jpg",
+  ],
+  "sale-women-canasta-joggers": [
+    "/products/sale-women-canasta-joggers/01.jpg",
+    "/products/sale-women-canasta-joggers/02.jpg",
+  ],
+  "sale-women-caramella": [
+    "/products/sale-women-caramella/01.jpg",
+  ],
+  "sale-women-culotte": [
+    "/products/sale-women-culotte/01.jpg",
+    "/products/sale-women-culotte/02.jpg",
+  ],
+  "sale-women-cypress-leather-pants": [
+    "/products/sale-women-cypress-leather-pants/01.jpg",
+  ],
+  "sale-women-darby": [
+    "/products/sale-women-darby/01.jpg",
+  ],
+  "sale-women-dina": [
+    "/products/sale-women-dina/01.jpg",
+    "/products/sale-women-dina/02.jpg",
+    "/products/sale-women-dina/03.jpg",
+  ],
+  "sale-women-ed-luna-5pkt": [
+    "/products/sale-women-ed-luna-5pkt/01.jpg",
+    "/products/sale-women-ed-luna-5pkt/02.jpg",
+    "/products/sale-women-ed-luna-5pkt/03.jpg",
+  ],
+  "sale-women-elsa-high-waist": [
+    "/products/sale-women-elsa-high-waist/01.jpg",
+  ],
+  "sale-women-glans-tunic": [
+    "/products/sale-women-glans-tunic/01.jpg",
+    "/products/sale-women-glans-tunic/02.jpg",
+  ],
+  "sale-women-han": [
+    "/products/sale-women-han/01.jpg",
+    "/products/sale-women-han/02.jpg",
+  ],
   "sale-women-harem-trousers": [
     "/products/sale-women-harem-trousers/01.jpg",
     "/products/sale-women-harem-trousers/02.jpg",
     "/products/sale-women-harem-trousers/03.jpg",
   ],
+  "sale-women-hayes": [
+    "/products/sale-women-hayes/01.jpg",
+    "/products/sale-women-hayes/02.jpg",
+    "/products/sale-women-hayes/03.jpg",
+  ],
+  "sale-women-hilton": [
+    "/products/sale-women-hilton/01.jpg",
+    "/products/sale-women-hilton/02.jpg",
+    "/products/sale-women-hilton/03.jpg",
+  ],
+  "sale-women-kim-superskinny-low-waist": [
+    "/products/sale-women-kim-superskinny-low-waist/01.jpg",
+    "/products/sale-women-kim-superskinny-low-waist/02.jpg",
+    "/products/sale-women-kim-superskinny-low-waist/03.jpg",
+  ],
+  "sale-women-kosmos": [
+    "/products/sale-women-kosmos/01.jpg",
+  ],
+  "sale-women-leo-jogger": [
+    "/products/sale-women-leo-jogger/01.jpg",
+  ],
+  "sale-women-lou-shirt-dress": [
+    "/products/sale-women-lou-shirt-dress/01.jpg",
+  ],
+  "sale-women-mandy-ankle-treggings": [
+    "/products/sale-women-mandy-ankle-treggings/01.jpg",
+  ],
+  "sale-women-maserati-dress": [
+    "/products/sale-women-maserati-dress/01.jpg",
+    "/products/sale-women-maserati-dress/02.jpg",
+  ],
+  "sale-women-mc-gyda-blouse": [
+    "/products/sale-women-mc-gyda-blouse/01.jpg",
+  ],
+  "sale-women-mc-hayes-trs": [
+    "/products/sale-women-mc-hayes-trs/01.jpg",
+  ],
+  "sale-women-mimi-superstretch-s5": [
+    "/products/sale-women-mimi-superstretch-s5/01.jpg",
+  ],
+  "sale-women-missy-elliot-long-shirt": [
+    "/products/sale-women-missy-elliot-long-shirt/01.jpg",
+    "/products/sale-women-missy-elliot-long-shirt/02.jpg",
+    "/products/sale-women-missy-elliot-long-shirt/03.jpg",
+  ],
+  "sale-women-oracle-jumpsiut": [
+    "/products/sale-women-oracle-jumpsiut/01.jpg",
+    "/products/sale-women-oracle-jumpsiut/02.jpg",
+  ],
+  "sale-women-penny-tregging": [
+    "/products/sale-women-penny-tregging/01.jpg",
+  ],
+  "sale-women-rachel-dress": [
+    "/products/sale-women-rachel-dress/01.jpg",
+  ],
   "sale-women-rihanna-dress": [
     "/products/sale-women-rihanna-dress/01.jpg",
+  ],
+  "sale-women-sanne-treggings-1": [
+    "/products/sale-women-sanne-treggings-1/01.jpg",
+    "/products/sale-women-sanne-treggings-1/02.jpg",
+    "/products/sale-women-sanne-treggings-1/03.jpg",
+  ],
+  "sale-women-skinny-ankel-denim": [
+    "/products/sale-women-skinny-ankel-denim/01.jpg",
+    "/products/sale-women-skinny-ankel-denim/02.jpg",
+    "/products/sale-women-skinny-ankel-denim/03.jpg",
+  ],
+  "sale-women-skinny-ankle-r-w-brooklyn": [
+    "/products/sale-women-skinny-ankle-r-w-brooklyn/01.jpg",
+    "/products/sale-women-skinny-ankle-r-w-brooklyn/02.jpg",
+    "/products/sale-women-skinny-ankle-r-w-brooklyn/03.jpg",
+  ],
+  "sale-women-skinny-denim-1": [
+    "/products/sale-women-skinny-denim-1/01.jpg",
+    "/products/sale-women-skinny-denim-1/02.jpg",
+    "/products/sale-women-skinny-denim-1/03.jpg",
+  ],
+  "sale-women-skinny-high-waist-black": [
+    "/products/sale-women-skinny-high-waist-black/01.jpg",
+  ],
+  "sale-women-skinny-rw-shaping": [
+    "/products/sale-women-skinny-rw-shaping/01.jpg",
+    "/products/sale-women-skinny-rw-shaping/02.jpg",
+    "/products/sale-women-skinny-rw-shaping/03.jpg",
+  ],
+  "sale-women-skinny-shaping": [
+    "/products/sale-women-skinny-shaping/01.jpg",
+    "/products/sale-women-skinny-shaping/02.jpg",
+  ],
+  "sale-women-slim-rw-ancle-denim": [
+    "/products/sale-women-slim-rw-ancle-denim/01.jpg",
+    "/products/sale-women-slim-rw-ancle-denim/02.jpg",
+  ],
+  "sale-women-space-treggings-s5": [
+    "/products/sale-women-space-treggings-s5/01.jpg",
+  ],
+  "sale-women-speed-pavlova-dress": [
+    "/products/sale-women-speed-pavlova-dress/01.jpg",
+    "/products/sale-women-speed-pavlova-dress/02.jpg",
+  ],
+  "sale-women-stella-treggings-1": [
+    "/products/sale-women-stella-treggings-1/01.jpg",
+    "/products/sale-women-stella-treggings-1/02.jpg",
+    "/products/sale-women-stella-treggings-1/03.jpg",
+  ],
+  "sale-women-super-skinny-denim": [
+    "/products/sale-women-super-skinny-denim/01.jpg",
+    "/products/sale-women-super-skinny-denim/02.jpg",
+    "/products/sale-women-super-skinny-denim/03.jpg",
+  ],
+  "sale-women-syringa-jumpsuit": [
+    "/products/sale-women-syringa-jumpsuit/01.jpg",
+  ],
+  "sale-women-tess-cn-unique": [
+    "/products/sale-women-tess-cn-unique/01.jpg",
+    "/products/sale-women-tess-cn-unique/02.jpg",
+    "/products/sale-women-tess-cn-unique/03.jpg",
+  ],
+  "sale-women-vermont-fancy": [
+    "/products/sale-women-vermont-fancy/01.jpg",
+    "/products/sale-women-vermont-fancy/02.jpg",
+  ],
+  "sale-women-vintage-ankle-h-w": [
+    "/products/sale-women-vintage-ankle-h-w/01.jpg",
+    "/products/sale-women-vintage-ankle-h-w/02.jpg",
+  ],
+  "sale-women-virginia-blouse": [
+    "/products/sale-women-virginia-blouse/01.jpg",
+  ],
+  "sale-women-webra": [
+    "/products/sale-women-webra/01.jpg",
+  ],
+  "sale-women-west-coast-blouse": [
+    "/products/sale-women-west-coast-blouse/01.jpg",
+  ],
+  "women-denim-africa-velvet-skirt": [
+    "/products/women-denim-africa-velvet-skirt/01.jpg",
+  ],
+  "women-denim-ak-tilda-skirt": [
+    "/products/women-denim-ak-tilda-skirt/01.jpg",
+  ],
+  "women-denim-alicia-wrap-skirt": [
+    "/products/women-denim-alicia-wrap-skirt/01.jpg",
+    "/products/women-denim-alicia-wrap-skirt/02.jpg",
+    "/products/women-denim-alicia-wrap-skirt/03.jpg",
+  ],
+  "women-denim-astrid-playsuit": [
+    "/products/women-denim-astrid-playsuit/01.jpg",
+    "/products/women-denim-astrid-playsuit/02.jpg",
+  ],
+  "women-denim-bali-wide-trousers": [
+    "/products/women-denim-bali-wide-trousers/01.jpg",
+  ],
+  "women-denim-barton-pleated-midi-skirt": [
+    "/products/women-denim-barton-pleated-midi-skirt/01.jpg",
+  ],
+  "women-denim-barza": [
+    "/products/women-denim-barza/01.jpg",
+    "/products/women-denim-barza/02.jpg",
+    "/products/women-denim-barza/03.jpg",
+  ],
+  "women-denim-bibbi-trouser-c": [
+    "/products/women-denim-bibbi-trouser-c/01.jpg",
+  ],
+  "women-denim-boyfriend-l-w": [
+    "/products/women-denim-boyfriend-l-w/01.jpg",
+  ],
+  "women-denim-boyfriend-lw-denim": [
+    "/products/women-denim-boyfriend-lw-denim/01.jpg",
+  ],
+  "women-denim-brandy-skirt": [
+    "/products/women-denim-brandy-skirt/01.jpg",
+  ],
+  "women-denim-brooke-straight-cropped-plain": [
+    "/products/women-denim-brooke-straight-cropped-plain/01.jpg",
+  ],
+  "women-denim-canasta-joggers": [
+    "/products/women-denim-canasta-joggers/01.jpg",
+    "/products/women-denim-canasta-joggers/02.jpg",
+  ],
+  "women-denim-ce-w-duchamp-skirt": [
+    "/products/women-denim-ce-w-duchamp-skirt/01.jpg",
+  ],
+  "women-denim-challe-biker": [
+    "/products/women-denim-challe-biker/01.jpg",
+    "/products/women-denim-challe-biker/02.jpg",
+  ],
+  "women-denim-cherry-skirt": [
+    "/products/women-denim-cherry-skirt/01.jpg",
+  ],
+  "women-denim-cs-rosie": [
+    "/products/women-denim-cs-rosie/01.jpg",
+  ],
+  "women-denim-culotte": [
+    "/products/women-denim-culotte/01.jpg",
+    "/products/women-denim-culotte/02.jpg",
+    "/products/women-denim-culotte/03.jpg",
+  ],
+  "women-denim-curvy-jeggings-hw-ankle": [
+    "/products/women-denim-curvy-jeggings-hw-ankle/01.jpg",
+    "/products/women-denim-curvy-jeggings-hw-ankle/02.jpg",
+    "/products/women-denim-curvy-jeggings-hw-ankle/03.jpg",
+  ],
+  "women-denim-cypress-leather-pants": [
+    "/products/women-denim-cypress-leather-pants/01.jpg",
+  ],
+  "women-denim-daf-skirt": [
+    "/products/women-denim-daf-skirt/01.jpg",
+  ],
+  "women-denim-daiquiri-pull-on-trs": [
+    "/products/women-denim-daiquiri-pull-on-trs/01.jpg",
+    "/products/women-denim-daiquiri-pull-on-trs/02.jpg",
+    "/products/women-denim-daiquiri-pull-on-trs/03.jpg",
   ],
   "women-denim-didi-denim": [
     "/products/women-denim-didi-denim/01.jpg",
     "/products/women-denim-didi-denim/02.jpg",
     "/products/women-denim-didi-denim/03.jpg",
   ],
+  "women-denim-dina": [
+    "/products/women-denim-dina/01.jpg",
+    "/products/women-denim-dina/02.jpg",
+    "/products/women-denim-dina/03.jpg",
+  ],
+  "women-denim-eagel-pu-pants-slim-rw": [
+    "/products/women-denim-eagel-pu-pants-slim-rw/01.jpg",
+    "/products/women-denim-eagel-pu-pants-slim-rw/02.jpg",
+    "/products/women-denim-eagel-pu-pants-slim-rw/03.jpg",
+  ],
+  "women-denim-ed-luna-5pkt": [
+    "/products/women-denim-ed-luna-5pkt/01.jpg",
+    "/products/women-denim-ed-luna-5pkt/02.jpg",
+    "/products/women-denim-ed-luna-5pkt/03.jpg",
+  ],
+  "women-denim-elsa-high-waist": [
+    "/products/women-denim-elsa-high-waist/01.jpg",
+  ],
+  "women-denim-essential-rex": [
+    "/products/women-denim-essential-rex/01.jpg",
+  ],
+  "women-denim-feather-jeggings-l-w": [
+    "/products/women-denim-feather-jeggings-l-w/01.jpg",
+    "/products/women-denim-feather-jeggings-l-w/02.jpg",
+    "/products/women-denim-feather-jeggings-l-w/03.jpg",
+  ],
+  "women-denim-gigi-denim-dungaree": [
+    "/products/women-denim-gigi-denim-dungaree/01.jpg",
+    "/products/women-denim-gigi-denim-dungaree/02.jpg",
+  ],
+  "women-denim-ginger-skirt": [
+    "/products/women-denim-ginger-skirt/01.jpg",
+  ],
+  "women-denim-grace-lace": [
+    "/products/women-denim-grace-lace/01.jpg",
+  ],
   "women-denim-harem-trousers": [
     "/products/women-denim-harem-trousers/01.jpg",
     "/products/women-denim-harem-trousers/02.jpg",
     "/products/women-denim-harem-trousers/03.jpg",
   ],
+  "women-denim-hayes": [
+    "/products/women-denim-hayes/01.jpg",
+    "/products/women-denim-hayes/02.jpg",
+    "/products/women-denim-hayes/03.jpg",
+  ],
+  "women-denim-isaac-denim": [
+    "/products/women-denim-isaac-denim/01.jpg",
+    "/products/women-denim-isaac-denim/02.jpg",
+    "/products/women-denim-isaac-denim/03.jpg",
+  ],
+  "women-denim-jade-denim-petite-trs": [
+    "/products/women-denim-jade-denim-petite-trs/01.jpg",
+    "/products/women-denim-jade-denim-petite-trs/02.jpg",
+    "/products/women-denim-jade-denim-petite-trs/03.jpg",
+  ],
+  "women-denim-jamica-trousers": [
+    "/products/women-denim-jamica-trousers/01.jpg",
+  ],
+  "women-denim-jessy-skirt": [
+    "/products/women-denim-jessy-skirt/01.jpg",
+    "/products/women-denim-jessy-skirt/02.jpg",
+    "/products/women-denim-jessy-skirt/03.jpg",
+  ],
   "women-denim-jodi-skirt": [
     "/products/women-denim-jodi-skirt/01.jpg",
   ],
+  "women-denim-joplin-jumpsuit": [
+    "/products/women-denim-joplin-jumpsuit/01.jpg",
+  ],
+  "women-denim-judy-basic-skirt": [
+    "/products/women-denim-judy-basic-skirt/01.jpg",
+  ],
+  "women-denim-julia": [
+    "/products/women-denim-julia/01.jpg",
+    "/products/women-denim-julia/02.jpg",
+    "/products/women-denim-julia/03.jpg",
+  ],
+  "women-denim-julia-denim-petite-trs": [
+    "/products/women-denim-julia-denim-petite-trs/01.jpg",
+    "/products/women-denim-julia-denim-petite-trs/02.jpg",
+    "/products/women-denim-julia-denim-petite-trs/03.jpg",
+  ],
+  "women-denim-kendall-rw-denim-trs": [
+    "/products/women-denim-kendall-rw-denim-trs/01.jpg",
+    "/products/women-denim-kendall-rw-denim-trs/02.jpg",
+    "/products/women-denim-kendall-rw-denim-trs/03.jpg",
+  ],
+  "women-denim-kendall-skirt-ed": [
+    "/products/women-denim-kendall-skirt-ed/01.jpg",
+  ],
+  "women-denim-kim-superskinny-low-waist": [
+    "/products/women-denim-kim-superskinny-low-waist/01.jpg",
+    "/products/women-denim-kim-superskinny-low-waist/02.jpg",
+    "/products/women-denim-kim-superskinny-low-waist/03.jpg",
+  ],
+  "women-denim-leo-jogger": [
+    "/products/women-denim-leo-jogger/01.jpg",
+  ],
+  "women-denim-leo-satin-pinafore": [
+    "/products/women-denim-leo-satin-pinafore/01.jpg",
+  ],
+  "women-denim-leon": [
+    "/products/women-denim-leon/01.jpg",
+  ],
   "women-denim-lory-sweatpants-1": [
     "/products/women-denim-lory-sweatpants-1/01.jpg",
+  ],
+  "women-denim-mandy-ankle-treggings": [
+    "/products/women-denim-mandy-ankle-treggings/01.jpg",
+  ],
+  "women-denim-mc-hayes-trs": [
+    "/products/women-denim-mc-hayes-trs/01.jpg",
+  ],
+  "women-denim-mimi-superstretch-s5": [
+    "/products/women-denim-mimi-superstretch-s5/01.jpg",
+  ],
+  "women-denim-oracle-jumpsiut": [
+    "/products/women-denim-oracle-jumpsiut/01.jpg",
+    "/products/women-denim-oracle-jumpsiut/02.jpg",
+  ],
+  "women-denim-penny-tregging": [
+    "/products/women-denim-penny-tregging/01.jpg",
+  ],
+  "women-denim-perrie-emb-speed": [
+    "/products/women-denim-perrie-emb-speed/01.jpg",
+  ],
+  "women-denim-perrie-slim-mom-denim-trs": [
+    "/products/women-denim-perrie-slim-mom-denim-trs/01.jpg",
+    "/products/women-denim-perrie-slim-mom-denim-trs/02.jpg",
+    "/products/women-denim-perrie-slim-mom-denim-trs/03.jpg",
+  ],
+  "women-denim-premium-anna-skirt": [
+    "/products/women-denim-premium-anna-skirt/01.jpg",
   ],
   "women-denim-raven-skirt": [
     "/products/women-denim-raven-skirt/01.jpg",
     "/products/women-denim-raven-skirt/02.jpg",
     "/products/women-denim-raven-skirt/03.jpg",
   ],
+  "women-denim-roses-denim": [
+    "/products/women-denim-roses-denim/01.jpg",
+    "/products/women-denim-roses-denim/02.jpg",
+  ],
+  "women-denim-rudolf-zip": [
+    "/products/women-denim-rudolf-zip/01.jpg",
+  ],
+  "women-denim-sanne-treggings-1": [
+    "/products/women-denim-sanne-treggings-1/01.jpg",
+    "/products/women-denim-sanne-treggings-1/02.jpg",
+    "/products/women-denim-sanne-treggings-1/03.jpg",
+  ],
+  "women-denim-shaping-skinny-h-w": [
+    "/products/women-denim-shaping-skinny-h-w/01.jpg",
+    "/products/women-denim-shaping-skinny-h-w/02.jpg",
+    "/products/women-denim-shaping-skinny-h-w/03.jpg",
+  ],
+  "women-denim-shaping-skinny-r-w": [
+    "/products/women-denim-shaping-skinny-r-w/01.jpg",
+    "/products/women-denim-shaping-skinny-r-w/02.jpg",
+    "/products/women-denim-shaping-skinny-r-w/03.jpg",
+  ],
+  "women-denim-shaping-skinny-r-w-ankle": [
+    "/products/women-denim-shaping-skinny-r-w-ankle/01.jpg",
+  ],
   "women-denim-skinny-ankel-denim": [
     "/products/women-denim-skinny-ankel-denim/01.jpg",
     "/products/women-denim-skinny-ankel-denim/02.jpg",
     "/products/women-denim-skinny-ankel-denim/03.jpg",
+  ],
+  "women-denim-skinny-ankle-h-w": [
+    "/products/women-denim-skinny-ankle-h-w/01.jpg",
+    "/products/women-denim-skinny-ankle-h-w/02.jpg",
+  ],
+  "women-denim-skinny-ankle-r-w-brooklyn": [
+    "/products/women-denim-skinny-ankle-r-w-brooklyn/01.jpg",
+    "/products/women-denim-skinny-ankle-r-w-brooklyn/02.jpg",
+    "/products/women-denim-skinny-ankle-r-w-brooklyn/03.jpg",
+  ],
+  "women-denim-skinny-ankle-r-w-luxe": [
+    "/products/women-denim-skinny-ankle-r-w-luxe/01.jpg",
+  ],
+  "women-denim-skinny-denim-1": [
+    "/products/women-denim-skinny-denim-1/01.jpg",
+    "/products/women-denim-skinny-denim-1/02.jpg",
+    "/products/women-denim-skinny-denim-1/03.jpg",
+  ],
+  "women-denim-skinny-h-w-coated": [
+    "/products/women-denim-skinny-h-w-coated/01.jpg",
+  ],
+  "women-denim-skinny-high-waist-black": [
+    "/products/women-denim-skinny-high-waist-black/01.jpg",
+  ],
+  "women-denim-skinny-hw-ankle-phoenix-14-99": [
+    "/products/women-denim-skinny-hw-ankle-phoenix-14-99/01.jpg",
+    "/products/women-denim-skinny-hw-ankle-phoenix-14-99/02.jpg",
+    "/products/women-denim-skinny-hw-ankle-phoenix-14-99/03.jpg",
+  ],
+  "women-denim-skinny-rw-shaping": [
+    "/products/women-denim-skinny-rw-shaping/01.jpg",
+    "/products/women-denim-skinny-rw-shaping/02.jpg",
+    "/products/women-denim-skinny-rw-shaping/03.jpg",
+  ],
+  "women-denim-skinny-shaping": [
+    "/products/women-denim-skinny-shaping/01.jpg",
+    "/products/women-denim-skinny-shaping/02.jpg",
+  ],
+  "women-denim-slim-boyfriend-rw": [
+    "/products/women-denim-slim-boyfriend-rw/01.jpg",
+    "/products/women-denim-slim-boyfriend-rw/02.jpg",
+  ],
+  "women-denim-slim-rw-ancle-denim": [
+    "/products/women-denim-slim-rw-ancle-denim/01.jpg",
+    "/products/women-denim-slim-rw-ancle-denim/02.jpg",
+  ],
+  "women-denim-space-treggings-s5": [
+    "/products/women-denim-space-treggings-s5/01.jpg",
+  ],
+  "women-denim-stella-treggings-1": [
+    "/products/women-denim-stella-treggings-1/01.jpg",
+    "/products/women-denim-stella-treggings-1/02.jpg",
+    "/products/women-denim-stella-treggings-1/03.jpg",
+  ],
+  "women-denim-straight-h-w-ankle": [
+    "/products/women-denim-straight-h-w-ankle/01.jpg",
+  ],
+  "women-denim-straight-r-w": [
+    "/products/women-denim-straight-r-w/01.jpg",
+    "/products/women-denim-straight-r-w/02.jpg",
+    "/products/women-denim-straight-r-w/03.jpg",
+  ],
+  "women-denim-sunflower": [
+    "/products/women-denim-sunflower/01.jpg",
+  ],
+  "women-denim-super-skinny-denim": [
+    "/products/women-denim-super-skinny-denim/01.jpg",
+    "/products/women-denim-super-skinny-denim/02.jpg",
+    "/products/women-denim-super-skinny-denim/03.jpg",
+  ],
+  "women-denim-super-skinny-l-w-epic": [
+    "/products/women-denim-super-skinny-l-w-epic/01.jpg",
+    "/products/women-denim-super-skinny-l-w-epic/02.jpg",
+    "/products/women-denim-super-skinny-l-w-epic/03.jpg",
+  ],
+  "women-denim-super-soft": [
+    "/products/women-denim-super-soft/01.jpg",
+    "/products/women-denim-super-soft/02.jpg",
+    "/products/women-denim-super-soft/03.jpg",
+  ],
+  "women-denim-superstretch-fancy-denim": [
+    "/products/women-denim-superstretch-fancy-denim/01.jpg",
+    "/products/women-denim-superstretch-fancy-denim/02.jpg",
+  ],
+  "women-denim-syringa-jumpsuit": [
+    "/products/women-denim-syringa-jumpsuit/01.jpg",
+  ],
+  "women-denim-tanja-skirt": [
+    "/products/women-denim-tanja-skirt/01.jpg",
+    "/products/women-denim-tanja-skirt/02.jpg",
+    "/products/women-denim-tanja-skirt/03.jpg",
+  ],
+  "women-denim-taylor-ripped-jeans": [
+    "/products/women-denim-taylor-ripped-jeans/01.jpg",
+  ],
+  "women-denim-thomas-paperbag-wide": [
+    "/products/women-denim-thomas-paperbag-wide/01.jpg",
+    "/products/women-denim-thomas-paperbag-wide/02.jpg",
+    "/products/women-denim-thomas-paperbag-wide/03.jpg",
+  ],
+  "women-denim-tikki-pull-on-trs": [
+    "/products/women-denim-tikki-pull-on-trs/01.jpg",
+    "/products/women-denim-tikki-pull-on-trs/02.jpg",
+    "/products/women-denim-tikki-pull-on-trs/03.jpg",
+  ],
+  "women-denim-venus-leggings": [
+    "/products/women-denim-venus-leggings/01.jpg",
+  ],
+  "women-denim-vermont-fancy": [
+    "/products/women-denim-vermont-fancy/01.jpg",
+    "/products/women-denim-vermont-fancy/02.jpg",
+  ],
+  "women-denim-vermont-fluid-essential": [
+    "/products/women-denim-vermont-fluid-essential/01.jpg",
+  ],
+  "women-denim-victoria-1": [
+    "/products/women-denim-victoria-1/01.jpg",
+    "/products/women-denim-victoria-1/02.jpg",
+  ],
+  "women-denim-vintage-cropped-h-w": [
+    "/products/women-denim-vintage-cropped-h-w/01.jpg",
+    "/products/women-denim-vintage-cropped-h-w/02.jpg",
+    "/products/women-denim-vintage-cropped-h-w/03.jpg",
+  ],
+  "women-denim-w-althea-skirt": [
+    "/products/women-denim-w-althea-skirt/01.jpg",
+  ],
+  "women-denim-w-dylan": [
+    "/products/women-denim-w-dylan/01.jpg",
+    "/products/women-denim-w-dylan/02.jpg",
+  ],
+  "women-denim-w-enzo-1": [
+    "/products/women-denim-w-enzo-1/01.jpg",
+  ],
+  "women-denim-w-luka": [
+    "/products/women-denim-w-luka/01.jpg",
+    "/products/women-denim-w-luka/02.jpg",
+    "/products/women-denim-w-luka/03.jpg",
+  ],
+  "women-dresses-ada-woven-dress": [
+    "/products/women-dresses-ada-woven-dress/01.jpg",
+    "/products/women-dresses-ada-woven-dress/02.jpg",
   ],
   "women-dresses-aguilera-maxidress": [
     "/products/women-dresses-aguilera-maxidress/01.jpg",
@@ -281,34 +4264,579 @@ export const PRODUCT_IMAGES: Record<string, string[]> = {
     "/products/women-dresses-alcazar-strap-dress/01.jpg",
     "/products/women-dresses-alcazar-strap-dress/02.jpg",
   ],
+  "women-dresses-anna-belted-dress": [
+    "/products/women-dresses-anna-belted-dress/01.jpg",
+    "/products/women-dresses-anna-belted-dress/02.jpg",
+  ],
+  "women-dresses-ariana-dress-speed": [
+    "/products/women-dresses-ariana-dress-speed/01.jpg",
+  ],
+  "women-dresses-beatle-dress": [
+    "/products/women-dresses-beatle-dress/01.jpg",
+    "/products/women-dresses-beatle-dress/02.jpg",
+  ],
+  "women-dresses-biker-dress": [
+    "/products/women-dresses-biker-dress/01.jpg",
+    "/products/women-dresses-biker-dress/02.jpg",
+    "/products/women-dresses-biker-dress/03.jpg",
+  ],
+  "women-dresses-caramella": [
+    "/products/women-dresses-caramella/01.jpg",
+  ],
+  "women-dresses-ce-w-pablo-slip-dress": [
+    "/products/women-dresses-ce-w-pablo-slip-dress/01.jpg",
+  ],
+  "women-dresses-chantei-new-chantilly": [
+    "/products/women-dresses-chantei-new-chantilly/01.jpg",
+  ],
+  "women-dresses-cherry-dress": [
+    "/products/women-dresses-cherry-dress/01.jpg",
+    "/products/women-dresses-cherry-dress/02.jpg",
+    "/products/women-dresses-cherry-dress/03.jpg",
+  ],
+  "women-dresses-chung-woven-dress": [
+    "/products/women-dresses-chung-woven-dress/01.jpg",
+  ],
+  "women-dresses-colette-dress": [
+    "/products/women-dresses-colette-dress/01.jpg",
+    "/products/women-dresses-colette-dress/02.jpg",
+  ],
+  "women-dresses-cora-dress": [
+    "/products/women-dresses-cora-dress/01.jpg",
+    "/products/women-dresses-cora-dress/02.jpg",
+    "/products/women-dresses-cora-dress/03.jpg",
+  ],
+  "women-dresses-corinne-jumpsuit": [
+    "/products/women-dresses-corinne-jumpsuit/01.jpg",
+    "/products/women-dresses-corinne-jumpsuit/02.jpg",
+  ],
+  "women-dresses-cosmo-maxi": [
+    "/products/women-dresses-cosmo-maxi/01.jpg",
+    "/products/women-dresses-cosmo-maxi/02.jpg",
+  ],
+  "women-dresses-cs-picadilly-dress": [
+    "/products/women-dresses-cs-picadilly-dress/01.jpg",
+  ],
+  "women-dresses-cs-ulla": [
+    "/products/women-dresses-cs-ulla/01.jpg",
+    "/products/women-dresses-cs-ulla/02.jpg",
+  ],
+  "women-dresses-demogorgon-lace-dress": [
+    "/products/women-dresses-demogorgon-lace-dress/01.jpg",
+  ],
+  "women-dresses-donna-lace-dress": [
+    "/products/women-dresses-donna-lace-dress/01.jpg",
+  ],
+  "women-dresses-doris-jumpsuit": [
+    "/products/women-dresses-doris-jumpsuit/01.jpg",
+    "/products/women-dresses-doris-jumpsuit/02.jpg",
+    "/products/women-dresses-doris-jumpsuit/03.jpg",
+  ],
+  "women-dresses-down-the-aisle-dress": [
+    "/products/women-dresses-down-the-aisle-dress/01.jpg",
+  ],
+  "women-dresses-ellen": [
+    "/products/women-dresses-ellen/01.jpg",
+  ],
+  "women-dresses-envy-lace": [
+    "/products/women-dresses-envy-lace/01.jpg",
+  ],
+  "women-dresses-eve-dress-eller-annan": [
+    "/products/women-dresses-eve-dress-eller-annan/01.jpg",
+  ],
+  "women-dresses-first-kiss-dress": [
+    "/products/women-dresses-first-kiss-dress/01.jpg",
+  ],
+  "women-dresses-ft-jewel-dress": [
+    "/products/women-dresses-ft-jewel-dress/01.jpg",
+  ],
+  "women-dresses-ft-kermit-lace-dress": [
+    "/products/women-dresses-ft-kermit-lace-dress/01.jpg",
+  ],
+  "women-dresses-gem-dress": [
+    "/products/women-dresses-gem-dress/01.jpg",
+  ],
+  "women-dresses-han": [
+    "/products/women-dresses-han/01.jpg",
+    "/products/women-dresses-han/02.jpg",
+  ],
   "women-dresses-hilton": [
     "/products/women-dresses-hilton/01.jpg",
     "/products/women-dresses-hilton/02.jpg",
     "/products/women-dresses-hilton/03.jpg",
   ],
+  "women-dresses-hola-price-dress": [
+    "/products/women-dresses-hola-price-dress/01.jpg",
+    "/products/women-dresses-hola-price-dress/02.jpg",
+  ],
+  "women-dresses-inez-jumpsuit": [
+    "/products/women-dresses-inez-jumpsuit/01.jpg",
+    "/products/women-dresses-inez-jumpsuit/02.jpg",
+  ],
+  "women-dresses-ivy-jumpsuit-w": [
+    "/products/women-dresses-ivy-jumpsuit-w/01.jpg",
+    "/products/women-dresses-ivy-jumpsuit-w/02.jpg",
+    "/products/women-dresses-ivy-jumpsuit-w/03.jpg",
+  ],
+  "women-dresses-katsu": [
+    "/products/women-dresses-katsu/01.jpg",
+  ],
+  "women-dresses-kendall": [
+    "/products/women-dresses-kendall/01.jpg",
+  ],
+  "women-dresses-kennington-strap-dress": [
+    "/products/women-dresses-kennington-strap-dress/01.jpg",
+    "/products/women-dresses-kennington-strap-dress/02.jpg",
+    "/products/women-dresses-kennington-strap-dress/03.jpg",
+  ],
   "women-dresses-knit-dress": [
     "/products/women-dresses-knit-dress/01.jpg",
+  ],
+  "women-dresses-kosmos": [
+    "/products/women-dresses-kosmos/01.jpg",
+  ],
+  "women-dresses-krystal-woven-jumpsuit": [
+    "/products/women-dresses-krystal-woven-jumpsuit/01.jpg",
+  ],
+  "women-dresses-lea-jumpsuit": [
+    "/products/women-dresses-lea-jumpsuit/01.jpg",
+    "/products/women-dresses-lea-jumpsuit/02.jpg",
+    "/products/women-dresses-lea-jumpsuit/03.jpg",
   ],
   "women-dresses-lena-rib-dress-1": [
     "/products/women-dresses-lena-rib-dress-1/01.jpg",
     "/products/women-dresses-lena-rib-dress-1/02.jpg",
   ],
+  "women-dresses-lesli-nursing-dress": [
+    "/products/women-dresses-lesli-nursing-dress/01.jpg",
+  ],
+  "women-dresses-leslie-lace-nursing-dress": [
+    "/products/women-dresses-leslie-lace-nursing-dress/01.jpg",
+    "/products/women-dresses-leslie-lace-nursing-dress/02.jpg",
+  ],
+  "women-dresses-levina-long-sleeve": [
+    "/products/women-dresses-levina-long-sleeve/01.jpg",
+  ],
+  "women-dresses-levina-nursing-dress": [
+    "/products/women-dresses-levina-nursing-dress/01.jpg",
+    "/products/women-dresses-levina-nursing-dress/02.jpg",
+  ],
+  "women-dresses-louise-nursing-dress": [
+    "/products/women-dresses-louise-nursing-dress/01.jpg",
+    "/products/women-dresses-louise-nursing-dress/02.jpg",
+    "/products/women-dresses-louise-nursing-dress/03.jpg",
+  ],
+  "women-dresses-mango-dress": [
+    "/products/women-dresses-mango-dress/01.jpg",
+  ],
+  "women-dresses-marc-dress": [
+    "/products/women-dresses-marc-dress/01.jpg",
+    "/products/women-dresses-marc-dress/02.jpg",
+    "/products/women-dresses-marc-dress/03.jpg",
+  ],
+  "women-dresses-maserati": [
+    "/products/women-dresses-maserati/01.jpg",
+  ],
+  "women-dresses-maserati-dress": [
+    "/products/women-dresses-maserati-dress/01.jpg",
+    "/products/women-dresses-maserati-dress/02.jpg",
+  ],
+  "women-dresses-megumi": [
+    "/products/women-dresses-megumi/01.jpg",
+  ],
+  "women-dresses-melody-1": [
+    "/products/women-dresses-melody-1/01.jpg",
+    "/products/women-dresses-melody-1/02.jpg",
+  ],
+  "women-dresses-mia-playsuit": [
+    "/products/women-dresses-mia-playsuit/01.jpg",
+  ],
+  "women-dresses-milly": [
+    "/products/women-dresses-milly/01.jpg",
+  ],
+  "women-dresses-minne-mid": [
+    "/products/women-dresses-minne-mid/01.jpg",
+  ],
+  "women-dresses-napoli": [
+    "/products/women-dresses-napoli/01.jpg",
+  ],
+  "women-dresses-nevada-woven-dress": [
+    "/products/women-dresses-nevada-woven-dress/01.jpg",
+  ],
+  "women-dresses-newman-dress": [
+    "/products/women-dresses-newman-dress/01.jpg",
+  ],
+  "women-dresses-noora-jumpsuit": [
+    "/products/women-dresses-noora-jumpsuit/01.jpg",
+    "/products/women-dresses-noora-jumpsuit/02.jpg",
+    "/products/women-dresses-noora-jumpsuit/03.jpg",
+  ],
+  "women-dresses-nora-nursing-dress": [
+    "/products/women-dresses-nora-nursing-dress/01.jpg",
+    "/products/women-dresses-nora-nursing-dress/02.jpg",
+    "/products/women-dresses-nora-nursing-dress/03.jpg",
+  ],
+  "women-dresses-nova": [
+    "/products/women-dresses-nova/01.jpg",
+  ],
+  "women-dresses-occasional-daphne": [
+    "/products/women-dresses-occasional-daphne/01.jpg",
+  ],
+  "women-dresses-pam-dress": [
+    "/products/women-dresses-pam-dress/01.jpg",
+    "/products/women-dresses-pam-dress/02.jpg",
+  ],
+  "women-dresses-panda-dress": [
+    "/products/women-dresses-panda-dress/01.jpg",
+    "/products/women-dresses-panda-dress/02.jpg",
+    "/products/women-dresses-panda-dress/03.jpg",
+  ],
+  "women-dresses-poppy-jumpsuit": [
+    "/products/women-dresses-poppy-jumpsuit/01.jpg",
+  ],
+  "women-dresses-queenie-dress": [
+    "/products/women-dresses-queenie-dress/01.jpg",
+  ],
+  "women-dresses-rachel-dress": [
+    "/products/women-dresses-rachel-dress/01.jpg",
+  ],
+  "women-dresses-rania-tee-dress-j": [
+    "/products/women-dresses-rania-tee-dress-j/01.jpg",
+    "/products/women-dresses-rania-tee-dress-j/02.jpg",
+    "/products/women-dresses-rania-tee-dress-j/03.jpg",
+  ],
   "women-dresses-rihanna-dress": [
     "/products/women-dresses-rihanna-dress/01.jpg",
+  ],
+  "women-dresses-rome-dress": [
+    "/products/women-dresses-rome-dress/01.jpg",
+  ],
+  "women-dresses-roxy-dress-j": [
+    "/products/women-dresses-roxy-dress-j/01.jpg",
+  ],
+  "women-dresses-sabini-woven-dress": [
+    "/products/women-dresses-sabini-woven-dress/01.jpg",
+  ],
+  "women-dresses-sandy-off-shoulder": [
+    "/products/women-dresses-sandy-off-shoulder/01.jpg",
+  ],
+  "women-dresses-senja-nursing-dress": [
+    "/products/women-dresses-senja-nursing-dress/01.jpg",
+    "/products/women-dresses-senja-nursing-dress/02.jpg",
+    "/products/women-dresses-senja-nursing-dress/03.jpg",
+  ],
+  "women-dresses-shania-dress": [
+    "/products/women-dresses-shania-dress/01.jpg",
+  ],
+  "women-dresses-sheba-maxi-dress": [
+    "/products/women-dresses-sheba-maxi-dress/01.jpg",
+    "/products/women-dresses-sheba-maxi-dress/02.jpg",
+    "/products/women-dresses-sheba-maxi-dress/03.jpg",
+  ],
+  "women-dresses-sheffield-woven-dress": [
+    "/products/women-dresses-sheffield-woven-dress/01.jpg",
+  ],
+  "women-dresses-shiloh-woven-dress": [
+    "/products/women-dresses-shiloh-woven-dress/01.jpg",
+    "/products/women-dresses-shiloh-woven-dress/02.jpg",
+  ],
+  "women-dresses-shirtdress-lou": [
+    "/products/women-dresses-shirtdress-lou/01.jpg",
+    "/products/women-dresses-shirtdress-lou/02.jpg",
+    "/products/women-dresses-shirtdress-lou/03.jpg",
+  ],
+  "women-dresses-something-blue-dress": [
+    "/products/women-dresses-something-blue-dress/01.jpg",
+  ],
+  "women-dresses-speed-pavlova-dress": [
+    "/products/women-dresses-speed-pavlova-dress/01.jpg",
+    "/products/women-dresses-speed-pavlova-dress/02.jpg",
+  ],
+  "women-dresses-speedy-jumpsuit": [
+    "/products/women-dresses-speedy-jumpsuit/01.jpg",
+    "/products/women-dresses-speedy-jumpsuit/02.jpg",
+    "/products/women-dresses-speedy-jumpsuit/03.jpg",
+  ],
+  "women-dresses-summer-strap-dress": [
+    "/products/women-dresses-summer-strap-dress/01.jpg",
+    "/products/women-dresses-summer-strap-dress/02.jpg",
+  ],
+  "women-dresses-tess-cn-unique": [
+    "/products/women-dresses-tess-cn-unique/01.jpg",
+    "/products/women-dresses-tess-cn-unique/02.jpg",
+    "/products/women-dresses-tess-cn-unique/03.jpg",
+  ],
+  "women-dresses-tiffany-dress": [
+    "/products/women-dresses-tiffany-dress/01.jpg",
+    "/products/women-dresses-tiffany-dress/02.jpg",
+    "/products/women-dresses-tiffany-dress/03.jpg",
+  ],
+  "women-dresses-tony-woven-jumpsuit": [
+    "/products/women-dresses-tony-woven-jumpsuit/01.jpg",
+  ],
+  "women-dresses-trisha-tee-dress-1": [
+    "/products/women-dresses-trisha-tee-dress-1/01.jpg",
+    "/products/women-dresses-trisha-tee-dress-1/02.jpg",
+    "/products/women-dresses-trisha-tee-dress-1/03.jpg",
+  ],
+  "women-dresses-twist-dress": [
+    "/products/women-dresses-twist-dress/01.jpg",
+  ],
+  "women-dresses-under-my-skin-dress": [
+    "/products/women-dresses-under-my-skin-dress/01.jpg",
+    "/products/women-dresses-under-my-skin-dress/02.jpg",
+  ],
+  "women-dresses-vickan-frill-dress-1": [
+    "/products/women-dresses-vickan-frill-dress-1/01.jpg",
+    "/products/women-dresses-vickan-frill-dress-1/02.jpg",
+  ],
+  "women-dresses-wanda-dress": [
+    "/products/women-dresses-wanda-dress/01.jpg",
+    "/products/women-dresses-wanda-dress/02.jpg",
+    "/products/women-dresses-wanda-dress/03.jpg",
+  ],
+  "women-dresses-washington-dress": [
+    "/products/women-dresses-washington-dress/01.jpg",
+    "/products/women-dresses-washington-dress/02.jpg",
+    "/products/women-dresses-washington-dress/03.jpg",
+  ],
+  "women-dresses-waterloo-dress": [
+    "/products/women-dresses-waterloo-dress/01.jpg",
+  ],
+  "women-dresses-webra": [
+    "/products/women-dresses-webra/01.jpg",
+  ],
+  "women-dresses-wilma-dress-1": [
+    "/products/women-dresses-wilma-dress-1/01.jpg",
+    "/products/women-dresses-wilma-dress-1/02.jpg",
+    "/products/women-dresses-wilma-dress-1/03.jpg",
+  ],
+  "women-dresses-yoko": [
+    "/products/women-dresses-yoko/01.jpg",
+    "/products/women-dresses-yoko/02.jpg",
+  ],
+  "women-dresses-zipit-dress": [
+    "/products/women-dresses-zipit-dress/01.jpg",
+    "/products/women-dresses-zipit-dress/02.jpg",
+    "/products/women-dresses-zipit-dress/03.jpg",
+  ],
+  "women-dresses-zoey-woven-dress": [
+    "/products/women-dresses-zoey-woven-dress/01.jpg",
+  ],
+  "women-dresses-zoo": [
+    "/products/women-dresses-zoo/01.jpg",
+    "/products/women-dresses-zoo/02.jpg",
+    "/products/women-dresses-zoo/03.jpg",
+  ],
+  "women-footwear-abbie-wl-sneaker": [
+    "/products/women-footwear-abbie-wl-sneaker/01.jpg",
+  ],
+  "women-footwear-alicia-fancy-sandalette": [
+    "/products/women-footwear-alicia-fancy-sandalette/01.jpg",
+  ],
+  "women-footwear-allie": [
+    "/products/women-footwear-allie/01.jpg",
+    "/products/women-footwear-allie/02.jpg",
+  ],
+  "women-footwear-amber-biker-boot": [
+    "/products/women-footwear-amber-biker-boot/01.jpg",
+  ],
+  "women-footwear-ami-sandalette": [
+    "/products/women-footwear-ami-sandalette/01.jpg",
+  ],
+  "women-footwear-argentina": [
+    "/products/women-footwear-argentina/01.jpg",
+    "/products/women-footwear-argentina/02.jpg",
+  ],
+  "women-footwear-bella-boot": [
+    "/products/women-footwear-bella-boot/01.jpg",
   ],
   "women-footwear-berlin-boot": [
     "/products/women-footwear-berlin-boot/01.jpg",
   ],
+  "women-footwear-berlin-zip": [
+    "/products/women-footwear-berlin-zip/01.jpg",
+  ],
+  "women-footwear-bobby-cutout": [
+    "/products/women-footwear-bobby-cutout/01.jpg",
+    "/products/women-footwear-bobby-cutout/02.jpg",
+  ],
+  "women-footwear-bodil-elastic": [
+    "/products/women-footwear-bodil-elastic/01.jpg",
+  ],
+  "women-footwear-brenda-lace-up": [
+    "/products/women-footwear-brenda-lace-up/01.jpg",
+  ],
+  "women-footwear-brenda-sock-boot": [
+    "/products/women-footwear-brenda-sock-boot/01.jpg",
+  ],
+  "women-footwear-campaign-tina": [
+    "/products/women-footwear-campaign-tina/01.jpg",
+  ],
+  "women-footwear-carolina-ankel-padding-boot": [
+    "/products/women-footwear-carolina-ankel-padding-boot/01.jpg",
+    "/products/women-footwear-carolina-ankel-padding-boot/02.jpg",
+  ],
+  "women-footwear-carolina-boot": [
+    "/products/women-footwear-carolina-boot/01.jpg",
+    "/products/women-footwear-carolina-boot/02.jpg",
+    "/products/women-footwear-carolina-boot/03.jpg",
+  ],
+  "women-footwear-cayley-wl": [
+    "/products/women-footwear-cayley-wl/01.jpg",
+    "/products/women-footwear-cayley-wl/02.jpg",
+    "/products/women-footwear-cayley-wl/03.jpg",
+  ],
+  "women-footwear-christina-boot-1": [
+    "/products/women-footwear-christina-boot-1/01.jpg",
+    "/products/women-footwear-christina-boot-1/02.jpg",
+  ],
+  "women-footwear-christina-fancy": [
+    "/products/women-footwear-christina-fancy/01.jpg",
+  ],
+  "women-footwear-christina-fancy-boot": [
+    "/products/women-footwear-christina-fancy-boot/01.jpg",
+  ],
+  "women-footwear-christina-patent-boot": [
+    "/products/women-footwear-christina-patent-boot/01.jpg",
+  ],
+  "women-footwear-chuck-highshaft": [
+    "/products/women-footwear-chuck-highshaft/01.jpg",
+  ],
+  "women-footwear-cleo-highlift-sneaker-1": [
+    "/products/women-footwear-cleo-highlift-sneaker-1/01.jpg",
+    "/products/women-footwear-cleo-highlift-sneaker-1/02.jpg",
+    "/products/women-footwear-cleo-highlift-sneaker-1/03.jpg",
+  ],
+  "women-footwear-connie-mule": [
+    "/products/women-footwear-connie-mule/01.jpg",
+    "/products/women-footwear-connie-mule/02.jpg",
+  ],
+  "women-footwear-crochet-ballerina": [
+    "/products/women-footwear-crochet-ballerina/01.jpg",
+  ],
+  "women-footwear-david-bow-sneaker": [
+    "/products/women-footwear-david-bow-sneaker/01.jpg",
+    "/products/women-footwear-david-bow-sneaker/02.jpg",
+  ],
+  "women-footwear-duffy": [
+    "/products/women-footwear-duffy/01.jpg",
+    "/products/women-footwear-duffy/02.jpg",
+  ],
+  "women-footwear-ebba-slipon-sneaker": [
+    "/products/women-footwear-ebba-slipon-sneaker/01.jpg",
+  ],
+  "women-footwear-edward": [
+    "/products/women-footwear-edward/01.jpg",
+    "/products/women-footwear-edward/02.jpg",
+    "/products/women-footwear-edward/03.jpg",
+  ],
+  "women-footwear-edwin-ballerina": [
+    "/products/women-footwear-edwin-ballerina/01.jpg",
+  ],
+  "women-footwear-embla-boot": [
+    "/products/women-footwear-embla-boot/01.jpg",
+  ],
+  "women-footwear-estevez": [
+    "/products/women-footwear-estevez/01.jpg",
+  ],
   "women-footwear-eva-chelsea-boot": [
     "/products/women-footwear-eva-chelsea-boot/01.jpg",
+  ],
+  "women-footwear-evak-loafer": [
+    "/products/women-footwear-evak-loafer/01.jpg",
+  ],
+  "women-footwear-georgia-sandalette": [
+    "/products/women-footwear-georgia-sandalette/01.jpg",
+    "/products/women-footwear-georgia-sandalette/02.jpg",
   ],
   "women-footwear-glassig-espadrille": [
     "/products/women-footwear-glassig-espadrille/01.jpg",
     "/products/women-footwear-glassig-espadrille/02.jpg",
     "/products/women-footwear-glassig-espadrille/03.jpg",
   ],
+  "women-footwear-hadid-boot-fancy": [
+    "/products/women-footwear-hadid-boot-fancy/01.jpg",
+  ],
+  "women-footwear-hansel-chelsea": [
+    "/products/women-footwear-hansel-chelsea/01.jpg",
+    "/products/women-footwear-hansel-chelsea/02.jpg",
+  ],
+  "women-footwear-hansel-chelsea-pqm": [
+    "/products/women-footwear-hansel-chelsea-pqm/01.jpg",
+  ],
+  "women-footwear-haze-sandalette": [
+    "/products/women-footwear-haze-sandalette/01.jpg",
+  ],
+  "women-footwear-hilda": [
+    "/products/women-footwear-hilda/01.jpg",
+  ],
+  "women-footwear-hilda-platform": [
+    "/products/women-footwear-hilda-platform/01.jpg",
+  ],
+  "women-footwear-jenny-boot-fancy": [
+    "/products/women-footwear-jenny-boot-fancy/01.jpg",
+    "/products/women-footwear-jenny-boot-fancy/02.jpg",
+  ],
+  "women-footwear-jenny-elastic": [
+    "/products/women-footwear-jenny-elastic/01.jpg",
+    "/products/women-footwear-jenny-elastic/02.jpg",
+  ],
+  "women-footwear-jenny-highshaft": [
+    "/products/women-footwear-jenny-highshaft/01.jpg",
+  ],
+  "women-footwear-jin-sneaker": [
+    "/products/women-footwear-jin-sneaker/01.jpg",
+    "/products/women-footwear-jin-sneaker/02.jpg",
+  ],
   "women-footwear-joan-suede-boot": [
     "/products/women-footwear-joan-suede-boot/01.jpg",
+  ],
+  "women-footwear-kattis-fur-wl": [
+    "/products/women-footwear-kattis-fur-wl/01.jpg",
+    "/products/women-footwear-kattis-fur-wl/02.jpg",
+  ],
+  "women-footwear-kelly-pq": [
+    "/products/women-footwear-kelly-pq/01.jpg",
+    "/products/women-footwear-kelly-pq/02.jpg",
+  ],
+  "women-footwear-kendall-velvet-boot": [
+    "/products/women-footwear-kendall-velvet-boot/01.jpg",
+  ],
+  "women-footwear-lena-sneaker": [
+    "/products/women-footwear-lena-sneaker/01.jpg",
+    "/products/women-footwear-lena-sneaker/02.jpg",
+  ],
+  "women-footwear-love-cutout-ballerina": [
+    "/products/women-footwear-love-cutout-ballerina/01.jpg",
+  ],
+  "women-footwear-lucky-boot": [
+    "/products/women-footwear-lucky-boot/01.jpg",
+  ],
+  "women-footwear-madison-mid-heel": [
+    "/products/women-footwear-madison-mid-heel/01.jpg",
+  ],
+  "women-footwear-maiken-fur-sneaker": [
+    "/products/women-footwear-maiken-fur-sneaker/01.jpg",
+    "/products/women-footwear-maiken-fur-sneaker/02.jpg",
+  ],
+  "women-footwear-maiken-lace-up": [
+    "/products/women-footwear-maiken-lace-up/01.jpg",
+    "/products/women-footwear-maiken-lace-up/02.jpg",
+  ],
+  "women-footwear-manacor": [
+    "/products/women-footwear-manacor/01.jpg",
+  ],
+  "women-footwear-margit-winter": [
+    "/products/women-footwear-margit-winter/01.jpg",
+  ],
+  "women-footwear-mary-dtp": [
+    "/products/women-footwear-mary-dtp/01.jpg",
+    "/products/women-footwear-mary-dtp/02.jpg",
+    "/products/women-footwear-mary-dtp/03.jpg",
+  ],
+  "women-footwear-mela-platform-sandalette": [
+    "/products/women-footwear-mela-platform-sandalette/01.jpg",
   ],
   "women-footwear-mikki-slip-on-sneaker": [
     "/products/women-footwear-mikki-slip-on-sneaker/01.jpg",
@@ -316,28 +4844,533 @@ export const PRODUCT_IMAGES: Record<string, string[]> = {
   "women-footwear-mimmi-sneaker": [
     "/products/women-footwear-mimmi-sneaker/01.jpg",
   ],
+  "women-footwear-ol-adriana-pq": [
+    "/products/women-footwear-ol-adriana-pq/01.jpg",
+    "/products/women-footwear-ol-adriana-pq/02.jpg",
+  ],
+  "women-footwear-ol-akira-pq": [
+    "/products/women-footwear-ol-akira-pq/01.jpg",
+    "/products/women-footwear-ol-akira-pq/02.jpg",
+  ],
+  "women-footwear-ol-amber": [
+    "/products/women-footwear-ol-amber/01.jpg",
+    "/products/women-footwear-ol-amber/02.jpg",
+  ],
+  "women-footwear-ol-blixten-pq-sneaker": [
+    "/products/women-footwear-ol-blixten-pq-sneaker/01.jpg",
+  ],
+  "women-footwear-ol-dallas-pq": [
+    "/products/women-footwear-ol-dallas-pq/01.jpg",
+  ],
+  "women-footwear-ol-ellen-pq-w-l-sneaker": [
+    "/products/women-footwear-ol-ellen-pq-w-l-sneaker/01.jpg",
+  ],
+  "women-footwear-ol-iggy-pq": [
+    "/products/women-footwear-ol-iggy-pq/01.jpg",
+    "/products/women-footwear-ol-iggy-pq/02.jpg",
+  ],
+  "women-footwear-ol-jingle-sandalette": [
+    "/products/women-footwear-ol-jingle-sandalette/01.jpg",
+  ],
+  "women-footwear-ol-livingstone-pq": [
+    "/products/women-footwear-ol-livingstone-pq/01.jpg",
+  ],
+  "women-footwear-ol-margot-pq": [
+    "/products/women-footwear-ol-margot-pq/01.jpg",
+  ],
+  "women-footwear-ol-rory-pq": [
+    "/products/women-footwear-ol-rory-pq/01.jpg",
+    "/products/women-footwear-ol-rory-pq/02.jpg",
+    "/products/women-footwear-ol-rory-pq/03.jpg",
+  ],
+  "women-footwear-ol-staffan-pq-loafer": [
+    "/products/women-footwear-ol-staffan-pq-loafer/01.jpg",
+    "/products/women-footwear-ol-staffan-pq-loafer/02.jpg",
+    "/products/women-footwear-ol-staffan-pq-loafer/03.jpg",
+  ],
+  "women-footwear-ol-styxx-pq": [
+    "/products/women-footwear-ol-styxx-pq/01.jpg",
+    "/products/women-footwear-ol-styxx-pq/02.jpg",
+  ],
+  "women-footwear-ol-trance": [
+    "/products/women-footwear-ol-trance/01.jpg",
+    "/products/women-footwear-ol-trance/02.jpg",
+    "/products/women-footwear-ol-trance/03.jpg",
+  ],
+  "women-footwear-ol-zandra": [
+    "/products/women-footwear-ol-zandra/01.jpg",
+    "/products/women-footwear-ol-zandra/02.jpg",
+  ],
+  "women-footwear-ossian": [
+    "/products/women-footwear-ossian/01.jpg",
+  ],
+  "women-footwear-pamela-semiboot": [
+    "/products/women-footwear-pamela-semiboot/01.jpg",
+  ],
+  "women-footwear-pauline-sandalette": [
+    "/products/women-footwear-pauline-sandalette/01.jpg",
+    "/products/women-footwear-pauline-sandalette/02.jpg",
+    "/products/women-footwear-pauline-sandalette/03.jpg",
+  ],
+  "women-footwear-river-1": [
+    "/products/women-footwear-river-1/01.jpg",
+    "/products/women-footwear-river-1/02.jpg",
+  ],
+  "women-footwear-sanremo": [
+    "/products/women-footwear-sanremo/01.jpg",
+    "/products/women-footwear-sanremo/02.jpg",
+  ],
+  "women-footwear-sivert-sneaker": [
+    "/products/women-footwear-sivert-sneaker/01.jpg",
+    "/products/women-footwear-sivert-sneaker/02.jpg",
+  ],
+  "women-footwear-soraya-pq": [
+    "/products/women-footwear-soraya-pq/01.jpg",
+  ],
+  "women-footwear-stella-sneaker-boot": [
+    "/products/women-footwear-stella-sneaker-boot/01.jpg",
+    "/products/women-footwear-stella-sneaker-boot/02.jpg",
+  ],
+  "women-footwear-sweetheart-boot": [
+    "/products/women-footwear-sweetheart-boot/01.jpg",
+    "/products/women-footwear-sweetheart-boot/02.jpg",
+  ],
+  "women-footwear-sweetheart-low-fancy": [
+    "/products/women-footwear-sweetheart-low-fancy/01.jpg",
+  ],
+  "women-footwear-telly": [
+    "/products/women-footwear-telly/01.jpg",
+  ],
+  "women-footwear-thelma-sandalette-v5": [
+    "/products/women-footwear-thelma-sandalette-v5/01.jpg",
+  ],
+  "women-footwear-tilde-fancy-sneaker": [
+    "/products/women-footwear-tilde-fancy-sneaker/01.jpg",
+    "/products/women-footwear-tilde-fancy-sneaker/02.jpg",
+  ],
+  "women-footwear-tilde-sneaker": [
+    "/products/women-footwear-tilde-sneaker/01.jpg",
+  ],
+  "women-footwear-tora-sneakerboot": [
+    "/products/women-footwear-tora-sneakerboot/01.jpg",
+  ],
+  "women-footwear-uma": [
+    "/products/women-footwear-uma/01.jpg",
+  ],
+  "women-footwear-vaughan-sneaker": [
+    "/products/women-footwear-vaughan-sneaker/01.jpg",
+    "/products/women-footwear-vaughan-sneaker/02.jpg",
+  ],
+  "women-footwear-vega-fancy-sneaker": [
+    "/products/women-footwear-vega-fancy-sneaker/01.jpg",
+    "/products/women-footwear-vega-fancy-sneaker/02.jpg",
+    "/products/women-footwear-vega-fancy-sneaker/03.jpg",
+  ],
+  "women-footwear-viola-boot": [
+    "/products/women-footwear-viola-boot/01.jpg",
+  ],
+  "women-footwear-wilder": [
+    "/products/women-footwear-wilder/01.jpg",
+  ],
+  "women-tops-adele-ls": [
+    "/products/women-tops-adele-ls/01.jpg",
+  ],
+  "women-tops-agnes-polo": [
+    "/products/women-tops-agnes-polo/01.jpg",
+  ],
+  "women-tops-alfie-knit-jumper-1": [
+    "/products/women-tops-alfie-knit-jumper-1/01.jpg",
+  ],
+  "women-tops-anita-tank-1": [
+    "/products/women-tops-anita-tank-1/01.jpg",
+    "/products/women-tops-anita-tank-1/02.jpg",
+    "/products/women-tops-anita-tank-1/03.jpg",
+  ],
+  "women-tops-annabel-v-neck": [
+    "/products/women-tops-annabel-v-neck/01.jpg",
+  ],
+  "women-tops-arizona-hood": [
+    "/products/women-tops-arizona-hood/01.jpg",
+    "/products/women-tops-arizona-hood/02.jpg",
+  ],
+  "women-tops-asteria-tank": [
+    "/products/women-tops-asteria-tank/01.jpg",
+    "/products/women-tops-asteria-tank/02.jpg",
+  ],
+  "women-tops-beatrice-ls-body": [
+    "/products/women-tops-beatrice-ls-body/01.jpg",
+  ],
+  "women-tops-bernie-top-ed": [
+    "/products/women-tops-bernie-top-ed/01.jpg",
+    "/products/women-tops-bernie-top-ed/02.jpg",
+    "/products/women-tops-bernie-top-ed/03.jpg",
+  ],
+  "women-tops-beyonce-cropped-tank": [
+    "/products/women-tops-beyonce-cropped-tank/01.jpg",
+    "/products/women-tops-beyonce-cropped-tank/02.jpg",
+  ],
+  "women-tops-billie": [
+    "/products/women-tops-billie/01.jpg",
+  ],
   "women-tops-bob-v-neck-tee": [
     "/products/women-tops-bob-v-neck-tee/01.jpg",
+  ],
+  "women-tops-bongo-ls": [
+    "/products/women-tops-bongo-ls/01.jpg",
+  ],
+  "women-tops-brooke-raw-cut-ss": [
+    "/products/women-tops-brooke-raw-cut-ss/01.jpg",
+    "/products/women-tops-brooke-raw-cut-ss/02.jpg",
+    "/products/women-tops-brooke-raw-cut-ss/03.jpg",
+  ],
+  "women-tops-camille-tee-1": [
+    "/products/women-tops-camille-tee-1/01.jpg",
+    "/products/women-tops-camille-tee-1/02.jpg",
   ],
   "women-tops-carolina-sweater-1": [
     "/products/women-tops-carolina-sweater-1/01.jpg",
     "/products/women-tops-carolina-sweater-1/02.jpg",
     "/products/women-tops-carolina-sweater-1/03.jpg",
   ],
+  "women-tops-cheryl-loose-tank-1": [
+    "/products/women-tops-cheryl-loose-tank-1/01.jpg",
+    "/products/women-tops-cheryl-loose-tank-1/02.jpg",
+    "/products/women-tops-cheryl-loose-tank-1/03.jpg",
+  ],
+  "women-tops-chloe-3-4-aop": [
+    "/products/women-tops-chloe-3-4-aop/01.jpg",
+  ],
+  "women-tops-claire-s-s": [
+    "/products/women-tops-claire-s-s/01.jpg",
+    "/products/women-tops-claire-s-s/02.jpg",
+    "/products/women-tops-claire-s-s/03.jpg",
+  ],
+  "women-tops-cora-t-shirt": [
+    "/products/women-tops-cora-t-shirt/01.jpg",
+    "/products/women-tops-cora-t-shirt/02.jpg",
+    "/products/women-tops-cora-t-shirt/03.jpg",
+  ],
+  "women-tops-cornell-ss-jumper": [
+    "/products/women-tops-cornell-ss-jumper/01.jpg",
+  ],
+  "women-tops-corsica": [
+    "/products/women-tops-corsica/01.jpg",
+    "/products/women-tops-corsica/02.jpg",
+    "/products/women-tops-corsica/03.jpg",
+  ],
+  "women-tops-crawl-printed-tank": [
+    "/products/women-tops-crawl-printed-tank/01.jpg",
+    "/products/women-tops-crawl-printed-tank/02.jpg",
+  ],
+  "women-tops-daphne-l-s": [
+    "/products/women-tops-daphne-l-s/01.jpg",
+  ],
+  "women-tops-darby": [
+    "/products/women-tops-darby/01.jpg",
+  ],
+  "women-tops-dawn-tee": [
+    "/products/women-tops-dawn-tee/01.jpg",
+  ],
+  "women-tops-diane": [
+    "/products/women-tops-diane/01.jpg",
+    "/products/women-tops-diane/02.jpg",
+    "/products/women-tops-diane/03.jpg",
+  ],
+  "women-tops-eclipse-blouse": [
+    "/products/women-tops-eclipse-blouse/01.jpg",
+    "/products/women-tops-eclipse-blouse/02.jpg",
+  ],
+  "women-tops-elvis-jumper": [
+    "/products/women-tops-elvis-jumper/01.jpg",
+  ],
+  "women-tops-fia-longsleeve-1": [
+    "/products/women-tops-fia-longsleeve-1/01.jpg",
+  ],
   "women-tops-frugan-longsleeve": [
     "/products/women-tops-frugan-longsleeve/01.jpg",
+  ],
+  "women-tops-gilberto-top": [
+    "/products/women-tops-gilberto-top/01.jpg",
+  ],
+  "women-tops-glans-tunic": [
+    "/products/women-tops-glans-tunic/01.jpg",
+    "/products/women-tops-glans-tunic/02.jpg",
+  ],
+  "women-tops-goldie-tank-top": [
+    "/products/women-tops-goldie-tank-top/01.jpg",
+  ],
+  "women-tops-granada-tank": [
+    "/products/women-tops-granada-tank/01.jpg",
+    "/products/women-tops-granada-tank/02.jpg",
+  ],
+  "women-tops-gwen": [
+    "/products/women-tops-gwen/01.jpg",
+  ],
+  "women-tops-halie-top": [
+    "/products/women-tops-halie-top/01.jpg",
+  ],
+  "women-tops-halter": [
+    "/products/women-tops-halter/01.jpg",
+    "/products/women-tops-halter/02.jpg",
+    "/products/women-tops-halter/03.jpg",
+  ],
+  "women-tops-helsinki": [
+    "/products/women-tops-helsinki/01.jpg",
+    "/products/women-tops-helsinki/02.jpg",
+    "/products/women-tops-helsinki/03.jpg",
+  ],
+  "women-tops-hepburn-strap-top": [
+    "/products/women-tops-hepburn-strap-top/01.jpg",
+  ],
+  "women-tops-javier": [
+    "/products/women-tops-javier/01.jpg",
+    "/products/women-tops-javier/02.jpg",
+    "/products/women-tops-javier/03.jpg",
+  ],
+  "women-tops-jerry-singoalla-top": [
+    "/products/women-tops-jerry-singoalla-top/01.jpg",
+  ],
+  "women-tops-jordan": [
+    "/products/women-tops-jordan/01.jpg",
+    "/products/women-tops-jordan/02.jpg",
+    "/products/women-tops-jordan/03.jpg",
+  ],
+  "women-tops-juan-lace-strap-top": [
+    "/products/women-tops-juan-lace-strap-top/01.jpg",
+    "/products/women-tops-juan-lace-strap-top/02.jpg",
+    "/products/women-tops-juan-lace-strap-top/03.jpg",
+  ],
+  "women-tops-kelly": [
+    "/products/women-tops-kelly/01.jpg",
+  ],
+  "women-tops-klein": [
+    "/products/women-tops-klein/01.jpg",
+    "/products/women-tops-klein/02.jpg",
+  ],
+  "women-tops-lee-1": [
+    "/products/women-tops-lee-1/01.jpg",
+    "/products/women-tops-lee-1/02.jpg",
+    "/products/women-tops-lee-1/03.jpg",
+  ],
+  "women-tops-leon-tee": [
+    "/products/women-tops-leon-tee/01.jpg",
+    "/products/women-tops-leon-tee/02.jpg",
+    "/products/women-tops-leon-tee/03.jpg",
+  ],
+  "women-tops-lima-l-s": [
+    "/products/women-tops-lima-l-s/01.jpg",
+    "/products/women-tops-lima-l-s/02.jpg",
+    "/products/women-tops-lima-l-s/03.jpg",
+  ],
+  "women-tops-lima-ss": [
+    "/products/women-tops-lima-ss/01.jpg",
+    "/products/women-tops-lima-ss/02.jpg",
+    "/products/women-tops-lima-ss/03.jpg",
   ],
   "women-tops-linni-tee-1": [
     "/products/women-tops-linni-tee-1/01.jpg",
     "/products/women-tops-linni-tee-1/02.jpg",
     "/products/women-tops-linni-tee-1/03.jpg",
   ],
+  "women-tops-livia-top": [
+    "/products/women-tops-livia-top/01.jpg",
+    "/products/women-tops-livia-top/02.jpg",
+    "/products/women-tops-livia-top/03.jpg",
+  ],
+  "women-tops-lizzie": [
+    "/products/women-tops-lizzie/01.jpg",
+    "/products/women-tops-lizzie/02.jpg",
+  ],
+  "women-tops-lottie-tee": [
+    "/products/women-tops-lottie-tee/01.jpg",
+    "/products/women-tops-lottie-tee/02.jpg",
+  ],
+  "women-tops-luwin-knit-jumper": [
+    "/products/women-tops-luwin-knit-jumper/01.jpg",
+    "/products/women-tops-luwin-knit-jumper/02.jpg",
+  ],
+  "women-tops-maddy-v-neck-tee": [
+    "/products/women-tops-maddy-v-neck-tee/01.jpg",
+    "/products/women-tops-maddy-v-neck-tee/02.jpg",
+    "/products/women-tops-maddy-v-neck-tee/03.jpg",
+  ],
+  "women-tops-maribelle": [
+    "/products/women-tops-maribelle/01.jpg",
+    "/products/women-tops-maribelle/02.jpg",
+  ],
+  "women-tops-mary-kate-l-s": [
+    "/products/women-tops-mary-kate-l-s/01.jpg",
+    "/products/women-tops-mary-kate-l-s/02.jpg",
+    "/products/women-tops-mary-kate-l-s/03.jpg",
+  ],
+  "women-tops-mc-gyda-blouse": [
+    "/products/women-tops-mc-gyda-blouse/01.jpg",
+  ],
+  "women-tops-midge-longsleeve": [
+    "/products/women-tops-midge-longsleeve/01.jpg",
+  ],
+  "women-tops-midge-top": [
+    "/products/women-tops-midge-top/01.jpg",
+  ],
+  "women-tops-miracle-velvet": [
+    "/products/women-tops-miracle-velvet/01.jpg",
+  ],
+  "women-tops-missy-elliot-long-shirt": [
+    "/products/women-tops-missy-elliot-long-shirt/01.jpg",
+    "/products/women-tops-missy-elliot-long-shirt/02.jpg",
+    "/products/women-tops-missy-elliot-long-shirt/03.jpg",
+  ],
+  "women-tops-mitch-top": [
+    "/products/women-tops-mitch-top/01.jpg",
+  ],
+  "women-tops-moa-tanktop": [
+    "/products/women-tops-moa-tanktop/01.jpg",
+    "/products/women-tops-moa-tanktop/02.jpg",
+    "/products/women-tops-moa-tanktop/03.jpg",
+  ],
+  "women-tops-molly-t-shirt": [
+    "/products/women-tops-molly-t-shirt/01.jpg",
+  ],
+  "women-tops-mona-top": [
+    "/products/women-tops-mona-top/01.jpg",
+    "/products/women-tops-mona-top/02.jpg",
+    "/products/women-tops-mona-top/03.jpg",
+  ],
+  "women-tops-nicky-long": [
+    "/products/women-tops-nicky-long/01.jpg",
+    "/products/women-tops-nicky-long/02.jpg",
+    "/products/women-tops-nicky-long/03.jpg",
+  ],
   "women-tops-nora-tee": [
     "/products/women-tops-nora-tee/01.jpg",
+  ],
+  "women-tops-novak-ruffle-tank": [
+    "/products/women-tops-novak-ruffle-tank/01.jpg",
+  ],
+  "women-tops-nt-maria-2-pack": [
+    "/products/women-tops-nt-maria-2-pack/01.jpg",
+    "/products/women-tops-nt-maria-2-pack/02.jpg",
+    "/products/women-tops-nt-maria-2-pack/03.jpg",
+  ],
+  "women-tops-ophelia-l-s": [
+    "/products/women-tops-ophelia-l-s/01.jpg",
+  ],
+  "women-tops-pablo-round-neck": [
+    "/products/women-tops-pablo-round-neck/01.jpg",
+    "/products/women-tops-pablo-round-neck/02.jpg",
+    "/products/women-tops-pablo-round-neck/03.jpg",
+  ],
+  "women-tops-pamela-tee": [
+    "/products/women-tops-pamela-tee/01.jpg",
+    "/products/women-tops-pamela-tee/02.jpg",
+    "/products/women-tops-pamela-tee/03.jpg",
+  ],
+  "women-tops-penny-70s-baseball": [
+    "/products/women-tops-penny-70s-baseball/01.jpg",
+    "/products/women-tops-penny-70s-baseball/02.jpg",
+    "/products/women-tops-penny-70s-baseball/03.jpg",
+  ],
+  "women-tops-perfect-tee": [
+    "/products/women-tops-perfect-tee/01.jpg",
+  ],
+  "women-tops-racer-tank-fancy-license": [
+    "/products/women-tops-racer-tank-fancy-license/01.jpg",
+  ],
+  "women-tops-rita-ringer-tee": [
+    "/products/women-tops-rita-ringer-tee/01.jpg",
+    "/products/women-tops-rita-ringer-tee/02.jpg",
+    "/products/women-tops-rita-ringer-tee/03.jpg",
+  ],
+  "women-tops-rut-jumper": [
+    "/products/women-tops-rut-jumper/01.jpg",
+    "/products/women-tops-rut-jumper/02.jpg",
+    "/products/women-tops-rut-jumper/03.jpg",
+  ],
+  "women-tops-sadie-strap": [
+    "/products/women-tops-sadie-strap/01.jpg",
+    "/products/women-tops-sadie-strap/02.jpg",
+  ],
+  "women-tops-sara-3-4": [
+    "/products/women-tops-sara-3-4/01.jpg",
+    "/products/women-tops-sara-3-4/02.jpg",
+    "/products/women-tops-sara-3-4/03.jpg",
+  ],
+  "women-tops-sara-s-s-2-pack": [
+    "/products/women-tops-sara-s-s-2-pack/01.jpg",
+    "/products/women-tops-sara-s-s-2-pack/02.jpg",
+    "/products/women-tops-sara-s-s-2-pack/03.jpg",
+  ],
+  "women-tops-silver-lake": [
+    "/products/women-tops-silver-lake/01.jpg",
+    "/products/women-tops-silver-lake/02.jpg",
+    "/products/women-tops-silver-lake/03.jpg",
+  ],
+  "women-tops-slash-tee": [
+    "/products/women-tops-slash-tee/01.jpg",
+    "/products/women-tops-slash-tee/02.jpg",
+  ],
+  "women-tops-stacy": [
+    "/products/women-tops-stacy/01.jpg",
+    "/products/women-tops-stacy/02.jpg",
+    "/products/women-tops-stacy/03.jpg",
   ],
   "women-tops-strap-top": [
     "/products/women-tops-strap-top/01.jpg",
     "/products/women-tops-strap-top/02.jpg",
     "/products/women-tops-strap-top/03.jpg",
+  ],
+  "women-tops-stressan-light-knit-jumper": [
+    "/products/women-tops-stressan-light-knit-jumper/01.jpg",
+    "/products/women-tops-stressan-light-knit-jumper/02.jpg",
+    "/products/women-tops-stressan-light-knit-jumper/03.jpg",
+  ],
+  "women-tops-svea-cropped-tank": [
+    "/products/women-tops-svea-cropped-tank/01.jpg",
+    "/products/women-tops-svea-cropped-tank/02.jpg",
+    "/products/women-tops-svea-cropped-tank/03.jpg",
+  ],
+  "women-tops-swift-jumper": [
+    "/products/women-tops-swift-jumper/01.jpg",
+  ],
+  "women-tops-tess-tee-1": [
+    "/products/women-tops-tess-tee-1/01.jpg",
+    "/products/women-tops-tess-tee-1/02.jpg",
+  ],
+  "women-tops-tina-nt-l-s": [
+    "/products/women-tops-tina-nt-l-s/01.jpg",
+    "/products/women-tops-tina-nt-l-s/02.jpg",
+    "/products/women-tops-tina-nt-l-s/03.jpg",
+  ],
+  "women-tops-tina-nt-s-s": [
+    "/products/women-tops-tina-nt-s-s/01.jpg",
+    "/products/women-tops-tina-nt-s-s/02.jpg",
+    "/products/women-tops-tina-nt-s-s/03.jpg",
+  ],
+  "women-tops-vero-tee-embellished": [
+    "/products/women-tops-vero-tee-embellished/01.jpg",
+  ],
+  "women-tops-verona-tank": [
+    "/products/women-tops-verona-tank/01.jpg",
+  ],
+  "women-tops-virginia-blouse": [
+    "/products/women-tops-virginia-blouse/01.jpg",
+  ],
+  "women-tops-volly-jumper-1": [
+    "/products/women-tops-volly-jumper-1/01.jpg",
+    "/products/women-tops-volly-jumper-1/02.jpg",
+    "/products/women-tops-volly-jumper-1/03.jpg",
+  ],
+  "women-tops-wallace-2in1-tee-xs-l": [
+    "/products/women-tops-wallace-2in1-tee-xs-l/01.jpg",
+  ],
+  "women-tops-willow-2-in-1-tank": [
+    "/products/women-tops-willow-2-in-1-tank/01.jpg",
+  ],
+  "women-tops-zoe-sweater": [
+    "/products/women-tops-zoe-sweater/01.jpg",
+    "/products/women-tops-zoe-sweater/02.jpg",
+  ],
+  "women-tops-zola-wide-sleeve-sweat": [
+    "/products/women-tops-zola-wide-sleeve-sweat/01.jpg",
   ],
 };
