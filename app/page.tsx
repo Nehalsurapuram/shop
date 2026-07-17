@@ -227,6 +227,8 @@ export default function HomePage() {
         </div>
       </section>
 
+      <HeroBanners banners={ETHNIC_BANNERS} />
+
       <section className="border-y border-line bg-neutral-50">
         <div className="mx-auto grid max-w-[1400px] grid-cols-2 gap-8 px-4 py-12 lg:grid-cols-4 lg:px-8">
           {PROMISES.map(([title, detail]) => (
@@ -237,8 +239,6 @@ export default function HomePage() {
           ))}
         </div>
       </section>
-
-      <HeroBanners banners={ETHNIC_BANNERS} />
     </>
   );
 }

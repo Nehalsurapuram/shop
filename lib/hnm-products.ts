@@ -4,10 +4,119 @@
  * Real product names and descriptions from the Kaggle H&M "Personalized Fashion
  * Recommendations" dataset. Categories listed here replace the placeholder names
  * in lib/catalog.ts; everything else keeps its generated copy.
- *
- * Empty until you run the importer:
- *   node scripts/import-hnm.mjs --data <path-to-extracted-hnm-dataset>
  */
 export type HnmProduct = { name: string; description: string };
 
-export const HNM_PRODUCTS: Record<string, HnmProduct[]> = {};
+export const HNM_PRODUCTS: Record<string, HnmProduct[]> = {
+  "women-dresses": [
+    { name: "Knit dress", description: "Short, fine-knit dress with a hood, waterfall neckline and long sleeves. Unlined." },
+    { name: "Rihanna dress", description: "Short-sleeved dress in slub jersey with an elasticated waist and side pockets." },
+    { name: "Alcazar strap dress", description: "Long, sleeveless dress in jersey with narrow shoulder straps and an elasticated seam at the waist. Unlined." },
+    { name: "Aguilera maxidress", description: "Strapless maxi dress in jersey with an elasticated seam at the waist and slits in the sides. Integral top with elastication at the top." },
+    { name: "Lena Rib Dress (1)", description: "Fitted, sleeveless dress in ribbed jersey." },
+    { name: "Hilton", description: "Strapless jersey dress with an elasticated waist. Inner top with elastication at the top." },
+  ],
+  "women-tops": [
+    { name: "Strap top", description: "Jersey top with narrow shoulder straps." },
+    { name: "Frugan longsleeve", description: "Fitted top in soft stretch jersey with a wide neckline and long sleeves." },
+    { name: "Carolina sweater (1)", description: "Long-sleeved top in sweatshirt fabric with ribbing at the cuffs and hem." },
+    { name: "Nora tee", description: "Top in soft slub jersey with a fake front pocket, short sleeves with sewn-in turn-ups, and a rounded hem." },
+    { name: "Linni tee (1)", description: "Short-sleeved top in jersey with sewn-in turn-ups on the sleeves." },
+    { name: "Bob v-neck tee", description: "Fitted top in soft stretch jersey with a V-neck and short sleeves." },
+  ],
+  "women-denim": [
+    { name: "Harem trousers", description: "Harem trousers in jersey with elastication at the waist and hems." },
+    { name: "Jodi skirt", description: "Short, bell-shaped skirt in stretch jersey with wide elastication at the waist. Unlined." },
+    { name: "Raven skirt", description: "Short jersey skirt with an elasticated waist." },
+    { name: "Skinny Ankel Denim", description: "Ankle-length jeans in washed stretch denim with fake front pockets, real back pockets and tapered legs. Wide jersey ribbing at the waist for best fit." },
+    { name: "Lory sweatpants (1)", description: "Sweatpants with an elasticated drawstring waist, zipped side pockets, a fake back pocket, low crotch and tapered legs with ribbed hems." },
+    { name: "Didi denim", description: "Jeans in washed, stretch denim with hard-worn details, a regular waist, front and back pockets and skinny legs." },
+  ],
+  "women-footwear": [
+    { name: "Eva chelsea boot", description: "Chelsea boots with elasticated gores in the sides and rubber soles." },
+    { name: "Mimmi sneaker", description: "Cotton trainers with closed lacing and a loop at the back. Fabric linings and insoles and rubber soles." },
+    { name: "Berlin boot", description: "Ankle boots in imitation suede with elastic gores in the sides, fabric linings and insoles and rubber soles. Heel 6.5 cm." },
+    { name: "JOAN SUEDE BOOT", description: "Ankle boots in suede with a loop at the top of each side, warm pile lining and insoles and rubber soles." },
+    { name: "GLASSIG ESPADRILLE", description: "Espadrilles in cotton with a braided jute trim around the soles and concealed elastic at the back of the heels. Fabric linings and insoles and patterned soles." },
+    { name: "MIKKI SLIP ON SNEAKER", description: "Slip-on trainers with elastic gores in the sides, a loop at the back, fabric linings and insoles and rubber soles." },
+  ],
+  "men-shirts": [
+    { name: "Bryn Flanel Check", description: "Shirt in checked flannel with a collar and chest pocket. Regular fit." },
+    { name: "Howie SS Shirt", description: "Shirt in a cotton weave with a button-down collar, classic front and yoke at the back. Open chest pocket, short sleeves with sewn-in turn-ups, and a rounded hem. Regular Fit – a classic fit with good room for movement and a gently tapered waist to create a comfortable, tailored silhouette." },
+    { name: "TD Hugo slim fit Stretch PQ", description: "Shirt in a stretch premium cotton blend with a narrow turn-down collar, French front and long sleeves with adjustable buttoning at the cuffs. Shaping seams at the back and a rounded hem. Slim fit with narrow shoulders and a tapered waist to create a fitted silhouette." },
+    { name: "TD Ulrik", description: "Shirt in premium cotton with an easy-iron finish. Turn-down collar, French front, long sleeves with adjustable buttoning at the cuffs, and a rounded hem. Slim fit with narrow shoulders and a tapered waist for a fitted silhouette." },
+    { name: "S/S Hugo Stretch C/R", description: "Short-sleeved, stretch shirt in a premium cotton blend with a narrow, turn-down collar. Slim fit – a fitted style with shaping seams at the back." },
+    { name: "CA Gustavsberg TVP", description: "Shirt in premium cotton with a cutaway collar, French front and yoke at the back. Long sleeves with adjustable buttoning at the cuffs, and a rounded hem. Varying pattern on the inside of the cuffs and collar stand. Slim Fit – a fit with narrow shoulders and a tapered waist for a fitted silhouette." },
+  ],
+  "men-tshirts": [
+    { name: "V-NECK LS SLIM", description: "Long-sleeved, V-neck T-shirt in stretch cotton-blend jersey. Slim fit." },
+    { name: "Wales sweater", description: "Long-sleeved jumper in a soft, textured-knit cotton blend with ribbing around the neckline, cuffs and hem." },
+    { name: "FORTUNA T-SHIRT", description: "Jersey T-shirt" },
+    { name: "PAUL R-NECK", description: "Long-sleeved  jumper in a soft, fine cotton knit with a round neck." },
+    { name: "RILEY T-SHIRT", description: "T-shirt in soft jersey with raw edges." },
+    { name: "ZORROW DETAILED", description: "Top in sweatshirt fabric with a wraparound funnel collar with a drawstring and ribbing at the cuffs and hem. Soft brushed inside." },
+  ],
+  "men-denim": [
+    { name: "Jerry jogger bottoms", description: "Trousers in sweatshirt fabric with an elasticated drawstring waist, side pockets, a back pocket and ribbed hems. Soft brushed inside." },
+    { name: "Dean Drawstring Trousers.", description: "Joggers in washed cotton twill with an elasticated drawstring waist, side and back pockets and elasticated hems. Loose fit." },
+    { name: "Billy cargo pants", description: "Cargo trousers in washed Oxford cotton with side pockets, back pockets and leg pockets with a flap and press-stud, seams at the knees and drawstring hems." },
+    { name: "Brandon denim cropped", description: "5-pocket knee-length shorts in washed denim with hard-worn details, a regular waist and button fly." },
+    { name: "Jersey harem shorts", description: "Knee-length shorts in sweatshirt fabric with a low crotch, elasticated drawstring waist, side pockets, back pockets and ribbed hems." },
+    { name: "Shorts-Sliq-Cut-Off-Bright-Na", description: "5-pocket low-rise shorts in washed denim with hard-worn details, a button fly and sewn-in turn-ups at the hems." },
+  ],
+  "men-footwear": [
+    { name: "Al Car Shoe", description: "Loafers in imitation suede with moccasin seams, decorative laces, fabric linings and insoles and rubber soles." },
+    { name: "Harris cross sandal PQ", description: "Leather sandals with rubber soles." },
+    { name: "Kobe boot", description: "Chelsea boots with elastic gores in the sides, cotton canvas linings and insoles and rubber soles. Heel 2.5 cm." },
+    { name: "Akoni Flatshoe", description: "Derby shoes with open lacing, fabric insoles, and imitation leather and fabric linings. Rubber soles." },
+    { name: "Emil Derby Shoe", description: "Derby shoes in imitation leather with open lacing and pointed toes. Fabric linings and insoles and rubber soles. Heel approx. 3 cm." },
+    { name: "Ethan", description: "Derby shoes with open lacing at the front. Fabric linings and insoles and rubber soles. Heel 2.5 cm." },
+  ],
+  "men-accessories": [
+    { name: "Cap Paco Solid CO", description: "Cap in a cotton blend with a small embroidered detail and adjustable plastic fastener at the back." },
+    { name: "Santa Hat", description: "Fine-knit hat with a pompom on top, a turned-up hem with a text motif, and a detachable pile beard." },
+    { name: "Glove Sune Leather", description: "Leather gloves with decorative stitching on the uppers. Soft, knitted lining." },
+    { name: "Peder knitted glove", description: "Gloves in a fine-knit wool blend with a Thinsulate™ lining." },
+    { name: "Haakan", description: "Gloves in soft leather with a wool-blend lining." },
+    { name: "Fingerless knitted 2-pk", description: "Fingerless gloves in a soft, fine knit." },
+  ],
+  "kids-baby": [
+    { name: "SWEATSHIRT  OC", description: "Sweatshirt in soft organic cotton with a  press-stud on one shoulder (sizes 12-18 months and 18-24 months without a press-stud). Brushed inside." },
+    { name: "Velour pyjama", description: "Velour pyjamas with an appliqué detail at the front and on the feet, and press-studs along one side and leg." },
+    { name: "Tanktop body white 3PACK", description: "Sleeveless bodysuits in soft organic cotton jersey with press-studs at the crotch." },
+    { name: "6P SS BODY", description: "Short-sleeved bodysuits in organic cotton jersey with press-studs at the crotch." },
+    { name: "FLEECE PYJAMA", description: "All-in-one pyjamas in soft, patterned fleece that fasten down the front and along one leg. Ribbing at the cuffs and hems." },
+    { name: "Sleep bag padded", description: "Lightly padded sleep bag in soft, patterned jersey with a jersey lining. The sleep bag is designed for indoor use only." },
+  ],
+  "kids-junior": [
+    { name: "Slim Cheapo 79", description: "5-pocket slim-fit jeans in washed denim with an adjustable elasticated waist, zip fly with a press-stud and slim legs." },
+    { name: "BERTIL Basic 2-pack S/S SB", description: "T-shirts in soft organic cotton jersey." },
+    { name: "TORKEL Basic 2-pack tanktop SB", description: "Vest tops in soft, ribbed organic cotton jersey." },
+    { name: "RAF basic rollerneck SB 2-p", description: "Long-sleeved, polo-neck tops in organic cotton jersey." },
+    { name: "ROMY 2p", description: "Vest tops in soft cotton jersey with narrow shoulder straps and picot trims." },
+    { name: "ELLA 5-p shaftless", description: "Fine-knit trainer socks with decorative elastication at the top." },
+  ],
+  "kids-teen": [
+    { name: "KOMPIS 2-pack L/S", description: "Long-sleeved tops in soft organic cotton." },
+    { name: "HONEY L/L Leggings", description: "Soft organic cotton jersey leggings with an elasticated waist." },
+    { name: "HELENA 2-pack tanktop", description: "Tops in soft organic cotton jersey." },
+    { name: "METS 2-p basic shorttop", description: "Crop tops in soft cotton jersey with a racer back and an elasticated hem." },
+    { name: "HARLEY 2-pack basic tee", description: "Short-sleeved tops in cotton jersey." },
+    { name: "NATE  basic S/S solid tee BB", description: "T-shirt in soft organic cotton jersey." },
+  ],
+  "sale-women": [
+    { name: "Harem trousers", description: "Harem trousers in jersey with elastication at the waist and hems." },
+    { name: "Rihanna dress", description: "Short-sleeved dress in slub jersey with an elasticated waist and side pockets." },
+    { name: "Aguilera maxidress", description: "Strapless maxi dress in jersey with an elasticated seam at the waist and slits in the sides. Integral top with elastication at the top." },
+  ],
+  "sale-men": [
+    { name: "Jerry jogger bottoms", description: "Trousers in sweatshirt fabric with an elasticated drawstring waist, side pockets, a back pocket and ribbed hems. Soft brushed inside." },
+    { name: "Bryn Flanel Check", description: "Shirt in checked flannel with a collar and chest pocket. Regular fit." },
+    { name: "Dean Drawstring Trousers.", description: "Joggers in washed cotton twill with an elasticated drawstring waist, side and back pockets and elasticated hems. Loose fit." },
+  ],
+  "sale-kids": [
+    { name: "Slim Cheapo 79", description: "5-pocket slim-fit jeans in washed denim with an adjustable elasticated waist, zip fly with a press-stud and slim legs." },
+    { name: "BERTIL Basic 2-pack S/S SB", description: "T-shirts in soft organic cotton jersey." },
+    { name: "TORKEL Basic 2-pack tanktop SB", description: "Vest tops in soft, ribbed organic cotton jersey." },
+  ],
+};

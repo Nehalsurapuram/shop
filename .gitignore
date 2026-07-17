@@ -37,6 +37,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# raw datasets — see .data/hnm/README.md
+/.data
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

@@ -5,4 +5,339 @@
  * own photos: drop files into `public/products/<slug>/` then run `npm run images`.
  * Products without an entry here fall back to keyword placeholder photography.
  */
-export const PRODUCT_IMAGES: Record<string, string[]> = {};
+export const PRODUCT_IMAGES: Record<string, string[]> = {
+  "kids-baby-6p-ss-body": [
+    "/products/kids-baby-6p-ss-body/01.jpg",
+  ],
+  "kids-baby-fleece-pyjama": [
+    "/products/kids-baby-fleece-pyjama/01.jpg",
+    "/products/kids-baby-fleece-pyjama/02.jpg",
+    "/products/kids-baby-fleece-pyjama/03.jpg",
+  ],
+  "kids-baby-sleep-bag-padded": [
+    "/products/kids-baby-sleep-bag-padded/01.jpg",
+    "/products/kids-baby-sleep-bag-padded/02.jpg",
+    "/products/kids-baby-sleep-bag-padded/03.jpg",
+  ],
+  "kids-baby-sweatshirt-oc": [
+    "/products/kids-baby-sweatshirt-oc/01.jpg",
+    "/products/kids-baby-sweatshirt-oc/02.jpg",
+  ],
+  "kids-baby-tanktop-body-white-3pack": [
+    "/products/kids-baby-tanktop-body-white-3pack/01.jpg",
+    "/products/kids-baby-tanktop-body-white-3pack/02.jpg",
+    "/products/kids-baby-tanktop-body-white-3pack/03.jpg",
+  ],
+  "kids-baby-velour-pyjama": [
+    "/products/kids-baby-velour-pyjama/01.jpg",
+    "/products/kids-baby-velour-pyjama/02.jpg",
+  ],
+  "kids-junior-bertil-basic-2-pack-s-s-sb": [
+    "/products/kids-junior-bertil-basic-2-pack-s-s-sb/01.jpg",
+  ],
+  "kids-junior-ella-5-p-shaftless": [
+    "/products/kids-junior-ella-5-p-shaftless/01.jpg",
+    "/products/kids-junior-ella-5-p-shaftless/02.jpg",
+  ],
+  "kids-junior-raf-basic-rollerneck-sb-2-p": [
+    "/products/kids-junior-raf-basic-rollerneck-sb-2-p/01.jpg",
+    "/products/kids-junior-raf-basic-rollerneck-sb-2-p/02.jpg",
+    "/products/kids-junior-raf-basic-rollerneck-sb-2-p/03.jpg",
+  ],
+  "kids-junior-romy-2p": [
+    "/products/kids-junior-romy-2p/01.jpg",
+    "/products/kids-junior-romy-2p/02.jpg",
+    "/products/kids-junior-romy-2p/03.jpg",
+  ],
+  "kids-junior-slim-cheapo-79": [
+    "/products/kids-junior-slim-cheapo-79/01.jpg",
+  ],
+  "kids-junior-torkel-basic-2-pack-tanktop-sb": [
+    "/products/kids-junior-torkel-basic-2-pack-tanktop-sb/01.jpg",
+    "/products/kids-junior-torkel-basic-2-pack-tanktop-sb/02.jpg",
+    "/products/kids-junior-torkel-basic-2-pack-tanktop-sb/03.jpg",
+  ],
+  "kids-teen-harley-2-pack-basic-tee": [
+    "/products/kids-teen-harley-2-pack-basic-tee/01.jpg",
+    "/products/kids-teen-harley-2-pack-basic-tee/02.jpg",
+    "/products/kids-teen-harley-2-pack-basic-tee/03.jpg",
+  ],
+  "kids-teen-helena-2-pack-tanktop": [
+    "/products/kids-teen-helena-2-pack-tanktop/01.jpg",
+    "/products/kids-teen-helena-2-pack-tanktop/02.jpg",
+    "/products/kids-teen-helena-2-pack-tanktop/03.jpg",
+  ],
+  "kids-teen-honey-l-l-leggings": [
+    "/products/kids-teen-honey-l-l-leggings/01.jpg",
+    "/products/kids-teen-honey-l-l-leggings/02.jpg",
+    "/products/kids-teen-honey-l-l-leggings/03.jpg",
+  ],
+  "kids-teen-kompis-2-pack-l-s": [
+    "/products/kids-teen-kompis-2-pack-l-s/01.jpg",
+    "/products/kids-teen-kompis-2-pack-l-s/02.jpg",
+  ],
+  "kids-teen-mets-2-p-basic-shorttop": [
+    "/products/kids-teen-mets-2-p-basic-shorttop/01.jpg",
+    "/products/kids-teen-mets-2-p-basic-shorttop/02.jpg",
+    "/products/kids-teen-mets-2-p-basic-shorttop/03.jpg",
+  ],
+  "kids-teen-nate-basic-s-s-solid-tee-bb": [
+    "/products/kids-teen-nate-basic-s-s-solid-tee-bb/01.jpg",
+    "/products/kids-teen-nate-basic-s-s-solid-tee-bb/02.jpg",
+    "/products/kids-teen-nate-basic-s-s-solid-tee-bb/03.jpg",
+  ],
+  "men-accessories-cap-paco-solid-co": [
+    "/products/men-accessories-cap-paco-solid-co/01.jpg",
+    "/products/men-accessories-cap-paco-solid-co/02.jpg",
+  ],
+  "men-accessories-fingerless-knitted-2-pk": [
+    "/products/men-accessories-fingerless-knitted-2-pk/01.jpg",
+  ],
+  "men-accessories-glove-sune-leather": [
+    "/products/men-accessories-glove-sune-leather/01.jpg",
+    "/products/men-accessories-glove-sune-leather/02.jpg",
+  ],
+  "men-accessories-haakan": [
+    "/products/men-accessories-haakan/01.jpg",
+    "/products/men-accessories-haakan/02.jpg",
+  ],
+  "men-accessories-peder-knitted-glove": [
+    "/products/men-accessories-peder-knitted-glove/01.jpg",
+    "/products/men-accessories-peder-knitted-glove/02.jpg",
+  ],
+  "men-accessories-santa-hat": [
+    "/products/men-accessories-santa-hat/01.jpg",
+  ],
+  "men-denim-billy-cargo-pants": [
+    "/products/men-denim-billy-cargo-pants/01.jpg",
+    "/products/men-denim-billy-cargo-pants/02.jpg",
+    "/products/men-denim-billy-cargo-pants/03.jpg",
+  ],
+  "men-denim-brandon-denim-cropped": [
+    "/products/men-denim-brandon-denim-cropped/01.jpg",
+  ],
+  "men-denim-dean-drawstring-trousers": [
+    "/products/men-denim-dean-drawstring-trousers/01.jpg",
+    "/products/men-denim-dean-drawstring-trousers/02.jpg",
+    "/products/men-denim-dean-drawstring-trousers/03.jpg",
+  ],
+  "men-denim-jerry-jogger-bottoms": [
+    "/products/men-denim-jerry-jogger-bottoms/01.jpg",
+    "/products/men-denim-jerry-jogger-bottoms/02.jpg",
+    "/products/men-denim-jerry-jogger-bottoms/03.jpg",
+  ],
+  "men-denim-jersey-harem-shorts": [
+    "/products/men-denim-jersey-harem-shorts/01.jpg",
+    "/products/men-denim-jersey-harem-shorts/02.jpg",
+  ],
+  "men-denim-shorts-sliq-cut-off-bright-na": [
+    "/products/men-denim-shorts-sliq-cut-off-bright-na/01.jpg",
+  ],
+  "men-footwear-akoni-flatshoe": [
+    "/products/men-footwear-akoni-flatshoe/01.jpg",
+    "/products/men-footwear-akoni-flatshoe/02.jpg",
+  ],
+  "men-footwear-al-car-shoe": [
+    "/products/men-footwear-al-car-shoe/01.jpg",
+    "/products/men-footwear-al-car-shoe/02.jpg",
+  ],
+  "men-footwear-emil-derby-shoe": [
+    "/products/men-footwear-emil-derby-shoe/01.jpg",
+    "/products/men-footwear-emil-derby-shoe/02.jpg",
+  ],
+  "men-footwear-ethan": [
+    "/products/men-footwear-ethan/01.jpg",
+    "/products/men-footwear-ethan/02.jpg",
+  ],
+  "men-footwear-harris-cross-sandal-pq": [
+    "/products/men-footwear-harris-cross-sandal-pq/01.jpg",
+  ],
+  "men-footwear-kobe-boot": [
+    "/products/men-footwear-kobe-boot/01.jpg",
+    "/products/men-footwear-kobe-boot/02.jpg",
+  ],
+  "men-shirts-bryn-flanel-check": [
+    "/products/men-shirts-bryn-flanel-check/01.jpg",
+    "/products/men-shirts-bryn-flanel-check/02.jpg",
+    "/products/men-shirts-bryn-flanel-check/03.jpg",
+  ],
+  "men-shirts-ca-gustavsberg-tvp": [
+    "/products/men-shirts-ca-gustavsberg-tvp/01.jpg",
+    "/products/men-shirts-ca-gustavsberg-tvp/02.jpg",
+    "/products/men-shirts-ca-gustavsberg-tvp/03.jpg",
+  ],
+  "men-shirts-howie-ss-shirt": [
+    "/products/men-shirts-howie-ss-shirt/01.jpg",
+    "/products/men-shirts-howie-ss-shirt/02.jpg",
+    "/products/men-shirts-howie-ss-shirt/03.jpg",
+  ],
+  "men-shirts-s-s-hugo-stretch-c-r": [
+    "/products/men-shirts-s-s-hugo-stretch-c-r/01.jpg",
+    "/products/men-shirts-s-s-hugo-stretch-c-r/02.jpg",
+  ],
+  "men-shirts-td-hugo-slim-fit-stretch-pq": [
+    "/products/men-shirts-td-hugo-slim-fit-stretch-pq/01.jpg",
+    "/products/men-shirts-td-hugo-slim-fit-stretch-pq/02.jpg",
+    "/products/men-shirts-td-hugo-slim-fit-stretch-pq/03.jpg",
+  ],
+  "men-shirts-td-ulrik": [
+    "/products/men-shirts-td-ulrik/01.jpg",
+    "/products/men-shirts-td-ulrik/02.jpg",
+    "/products/men-shirts-td-ulrik/03.jpg",
+  ],
+  "men-tshirts-fortuna-t-shirt": [
+    "/products/men-tshirts-fortuna-t-shirt/01.jpg",
+  ],
+  "men-tshirts-paul-r-neck": [
+    "/products/men-tshirts-paul-r-neck/01.jpg",
+  ],
+  "men-tshirts-riley-t-shirt": [
+    "/products/men-tshirts-riley-t-shirt/01.jpg",
+    "/products/men-tshirts-riley-t-shirt/02.jpg",
+    "/products/men-tshirts-riley-t-shirt/03.jpg",
+  ],
+  "men-tshirts-v-neck-ls-slim": [
+    "/products/men-tshirts-v-neck-ls-slim/01.jpg",
+  ],
+  "men-tshirts-wales-sweater": [
+    "/products/men-tshirts-wales-sweater/01.jpg",
+    "/products/men-tshirts-wales-sweater/02.jpg",
+    "/products/men-tshirts-wales-sweater/03.jpg",
+  ],
+  "men-tshirts-zorrow-detailed": [
+    "/products/men-tshirts-zorrow-detailed/01.jpg",
+  ],
+  "sale-kids-bertil-basic-2-pack-s-s-sb": [
+    "/products/sale-kids-bertil-basic-2-pack-s-s-sb/01.jpg",
+  ],
+  "sale-kids-slim-cheapo-79": [
+    "/products/sale-kids-slim-cheapo-79/01.jpg",
+  ],
+  "sale-kids-torkel-basic-2-pack-tanktop-sb": [
+    "/products/sale-kids-torkel-basic-2-pack-tanktop-sb/01.jpg",
+    "/products/sale-kids-torkel-basic-2-pack-tanktop-sb/02.jpg",
+    "/products/sale-kids-torkel-basic-2-pack-tanktop-sb/03.jpg",
+  ],
+  "sale-men-bryn-flanel-check": [
+    "/products/sale-men-bryn-flanel-check/01.jpg",
+    "/products/sale-men-bryn-flanel-check/02.jpg",
+    "/products/sale-men-bryn-flanel-check/03.jpg",
+  ],
+  "sale-men-dean-drawstring-trousers": [
+    "/products/sale-men-dean-drawstring-trousers/01.jpg",
+    "/products/sale-men-dean-drawstring-trousers/02.jpg",
+    "/products/sale-men-dean-drawstring-trousers/03.jpg",
+  ],
+  "sale-men-jerry-jogger-bottoms": [
+    "/products/sale-men-jerry-jogger-bottoms/01.jpg",
+    "/products/sale-men-jerry-jogger-bottoms/02.jpg",
+    "/products/sale-men-jerry-jogger-bottoms/03.jpg",
+  ],
+  "sale-women-aguilera-maxidress": [
+    "/products/sale-women-aguilera-maxidress/01.jpg",
+    "/products/sale-women-aguilera-maxidress/02.jpg",
+    "/products/sale-women-aguilera-maxidress/03.jpg",
+  ],
+  "sale-women-harem-trousers": [
+    "/products/sale-women-harem-trousers/01.jpg",
+    "/products/sale-women-harem-trousers/02.jpg",
+    "/products/sale-women-harem-trousers/03.jpg",
+  ],
+  "sale-women-rihanna-dress": [
+    "/products/sale-women-rihanna-dress/01.jpg",
+  ],
+  "women-denim-didi-denim": [
+    "/products/women-denim-didi-denim/01.jpg",
+    "/products/women-denim-didi-denim/02.jpg",
+    "/products/women-denim-didi-denim/03.jpg",
+  ],
+  "women-denim-harem-trousers": [
+    "/products/women-denim-harem-trousers/01.jpg",
+    "/products/women-denim-harem-trousers/02.jpg",
+    "/products/women-denim-harem-trousers/03.jpg",
+  ],
+  "women-denim-jodi-skirt": [
+    "/products/women-denim-jodi-skirt/01.jpg",
+  ],
+  "women-denim-lory-sweatpants-1": [
+    "/products/women-denim-lory-sweatpants-1/01.jpg",
+  ],
+  "women-denim-raven-skirt": [
+    "/products/women-denim-raven-skirt/01.jpg",
+    "/products/women-denim-raven-skirt/02.jpg",
+    "/products/women-denim-raven-skirt/03.jpg",
+  ],
+  "women-denim-skinny-ankel-denim": [
+    "/products/women-denim-skinny-ankel-denim/01.jpg",
+    "/products/women-denim-skinny-ankel-denim/02.jpg",
+    "/products/women-denim-skinny-ankel-denim/03.jpg",
+  ],
+  "women-dresses-aguilera-maxidress": [
+    "/products/women-dresses-aguilera-maxidress/01.jpg",
+    "/products/women-dresses-aguilera-maxidress/02.jpg",
+    "/products/women-dresses-aguilera-maxidress/03.jpg",
+  ],
+  "women-dresses-alcazar-strap-dress": [
+    "/products/women-dresses-alcazar-strap-dress/01.jpg",
+    "/products/women-dresses-alcazar-strap-dress/02.jpg",
+  ],
+  "women-dresses-hilton": [
+    "/products/women-dresses-hilton/01.jpg",
+    "/products/women-dresses-hilton/02.jpg",
+    "/products/women-dresses-hilton/03.jpg",
+  ],
+  "women-dresses-knit-dress": [
+    "/products/women-dresses-knit-dress/01.jpg",
+  ],
+  "women-dresses-lena-rib-dress-1": [
+    "/products/women-dresses-lena-rib-dress-1/01.jpg",
+    "/products/women-dresses-lena-rib-dress-1/02.jpg",
+  ],
+  "women-dresses-rihanna-dress": [
+    "/products/women-dresses-rihanna-dress/01.jpg",
+  ],
+  "women-footwear-berlin-boot": [
+    "/products/women-footwear-berlin-boot/01.jpg",
+  ],
+  "women-footwear-eva-chelsea-boot": [
+    "/products/women-footwear-eva-chelsea-boot/01.jpg",
+  ],
+  "women-footwear-glassig-espadrille": [
+    "/products/women-footwear-glassig-espadrille/01.jpg",
+    "/products/women-footwear-glassig-espadrille/02.jpg",
+    "/products/women-footwear-glassig-espadrille/03.jpg",
+  ],
+  "women-footwear-joan-suede-boot": [
+    "/products/women-footwear-joan-suede-boot/01.jpg",
+  ],
+  "women-footwear-mikki-slip-on-sneaker": [
+    "/products/women-footwear-mikki-slip-on-sneaker/01.jpg",
+  ],
+  "women-footwear-mimmi-sneaker": [
+    "/products/women-footwear-mimmi-sneaker/01.jpg",
+  ],
+  "women-tops-bob-v-neck-tee": [
+    "/products/women-tops-bob-v-neck-tee/01.jpg",
+  ],
+  "women-tops-carolina-sweater-1": [
+    "/products/women-tops-carolina-sweater-1/01.jpg",
+    "/products/women-tops-carolina-sweater-1/02.jpg",
+    "/products/women-tops-carolina-sweater-1/03.jpg",
+  ],
+  "women-tops-frugan-longsleeve": [
+    "/products/women-tops-frugan-longsleeve/01.jpg",
+  ],
+  "women-tops-linni-tee-1": [
+    "/products/women-tops-linni-tee-1/01.jpg",
+    "/products/women-tops-linni-tee-1/02.jpg",
+    "/products/women-tops-linni-tee-1/03.jpg",
+  ],
+  "women-tops-nora-tee": [
+    "/products/women-tops-nora-tee/01.jpg",
+  ],
+  "women-tops-strap-top": [
+    "/products/women-tops-strap-top/01.jpg",
+    "/products/women-tops-strap-top/02.jpg",
+    "/products/women-tops-strap-top/03.jpg",
+  ],
+};
