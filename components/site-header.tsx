@@ -48,7 +48,7 @@ export function SiteHeader() {
         </button>
 
         <Link href="/" className="shrink-0" aria-label={`${SITE.name} home`}>
-          <Logo size={40} withWordmark />
+          <Logo height={30} />
         </Link>
 
         <form
@@ -180,7 +180,7 @@ function MobileMenu({ onClose }: { onClose: () => void }) {
       />
       <div className="absolute inset-y-0 left-0 flex w-[85%] max-w-sm flex-col bg-background">
         <div className="flex h-16 items-center justify-between border-b border-line px-4">
-          <Logo size={36} withWordmark />
+          <Logo height={26} />
           <button type="button" onClick={onClose} aria-label="Close menu" className="p-2">
             <CloseIcon className="size-5" />
           </button>
