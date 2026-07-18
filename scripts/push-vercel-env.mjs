@@ -23,6 +23,16 @@ const OVERRIDES = {
   BETTER_AUTH_URL: PROD_URL,
 };
 
+// Per-variable value transforms applied on push. Unlike OVERRIDES (a fixed
+// replacement), these rewrite the local value so it stays correct in production.
+const TRANSFORMS = {
+  // Force full TLS verification. pg currently treats require/prefer/verify-ca as
+  // verify-full, but pg v9 drops that alias — pinning verify-full keeps Neon
+  // connections verifying the cert chain + hostname and silences the SSL warning.
+  DATABASE_URL: (value) =>
+    value.replace(/([?&]sslmode=)(require|prefer|verify-ca)\b/i, "$1verify-full"),
+};
+
 // Secrets are masked in all output so nothing sensitive lands in a log.
 const SECRETS = new Set([
   "DATABASE_URL",
@@ -100,8 +110,13 @@ let ok = 0;
 let failed = 0;
 
 for (const name of names) {
-  const value = OVERRIDES[name] ?? env[name];
-  const note = OVERRIDES[name] ? "  (overridden for production)" : "";
+  const raw = OVERRIDES[name] ?? env[name];
+  const value = TRANSFORMS[name] ? TRANSFORMS[name](raw) : raw;
+  const note = OVERRIDES[name]
+    ? "  (overridden for production)"
+    : value !== raw
+      ? "  (normalized for production)"
+      : "";
 
   // `vercel env add` errors if the name already exists, so remove first. The
   // remove is best-effort — a missing var just means nothing to replace.
