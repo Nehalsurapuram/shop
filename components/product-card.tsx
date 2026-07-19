@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Product } from "@/lib/catalog";
 import { discountPercent, formatPrice } from "@/lib/format";
-import { HeartIcon } from "./icons";
+import { WishlistButton } from "./wishlist-button";
 
 export function ProductCard({
   product,
@@ -63,13 +63,7 @@ export function ProductCard({
         </div>
       </Link>
 
-      <button
-        type="button"
-        aria-label={`Add ${product.name} to wishlist`}
-        className="absolute top-2.5 right-2.5 grid size-8 place-items-center rounded-full bg-white/90 opacity-0 transition-opacity group-hover:opacity-100 focus-visible:opacity-100"
-      >
-        <HeartIcon className="size-4" />
-      </button>
+      <WishlistButton product={product} variant="card" />
     </article>
   );
 }

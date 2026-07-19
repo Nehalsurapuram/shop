@@ -8,6 +8,7 @@ import { EXTRA_NAV, NAV } from "@/lib/catalog";
 import { departmentImage } from "@/lib/images";
 import { SITE } from "@/lib/site";
 import { useCart } from "./cart-provider";
+import { useWishlist } from "./wishlist-provider";
 import { Logo } from "./logo";
 import {
   BagIcon,
@@ -23,6 +24,7 @@ export function SiteHeader() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [query, setQuery] = useState("");
   const { count, openCart } = useCart();
+  const { count: wishlistCount } = useWishlist();
   const { data: session } = useSession();
   const router = useRouter();
 
@@ -74,8 +76,17 @@ export function SiteHeader() {
             <UserIcon className="size-5" />
             {session ? session.user.name?.split(" ")[0] || "Account" : "Sign in"}
           </Link>
-          <Link href="/wishlist" className="p-2" aria-label="Wishlist">
+          <Link
+            href="/wishlist"
+            className="relative p-2"
+            aria-label={`Wishlist, ${wishlistCount} items`}
+          >
             <HeartIcon className="size-5" />
+            {wishlistCount > 0 && (
+              <span className="absolute top-0.5 right-0 grid size-4 place-items-center rounded-full bg-foreground text-[10px] font-medium text-white">
+                {wishlistCount}
+              </span>
+            )}
           </Link>
           <button
             type="button"

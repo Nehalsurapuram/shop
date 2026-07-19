@@ -18,13 +18,10 @@ function safeNext(value: string | string[] | undefined) {
   if (!value.startsWith("/") || value.startsWith("//")) return undefined;
   return value;
 }
-
 export default async function SignInPage(props: PageProps<"/sign-in">) {
   const session = await auth.api.getSession({ headers: await headers() });
   const next = safeNext((await props.searchParams).next);
-
   if (session) redirect(next ?? "/account");
-
   return (
     <div className="mx-auto w-full max-w-sm px-4 py-16 lg:py-24">
       <SignInForm callbackURL={next ?? "/account"} />

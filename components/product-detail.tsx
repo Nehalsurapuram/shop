@@ -5,7 +5,8 @@ import { useState } from "react";
 import type { Product } from "@/lib/catalog";
 import { discountPercent, formatPrice } from "@/lib/format";
 import { useCart } from "./cart-provider";
-import { HeartIcon, StarIcon } from "./icons";
+import { StarIcon } from "./icons";
+import { WishlistButton } from "./wishlist-button";
 
 const DETAILS = [
   ["Fit & fabric", "Regular fit. 100% cotton with a soft, breathable handle."],
@@ -172,13 +173,7 @@ export function ProductDetail({ product }: { product: Product }) {
           >
             Add to bag
           </button>
-          <button
-            type="button"
-            aria-label="Add to wishlist"
-            className="grid w-14 place-items-center border border-line transition-colors hover:border-foreground"
-          >
-            <HeartIcon className="size-5" />
-          </button>
+          <WishlistButton product={product} variant="detail" />
         </div>
 
         <p className="mt-8 text-sm leading-relaxed text-muted">
