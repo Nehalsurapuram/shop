@@ -3,6 +3,7 @@ import { auth } from "@/lib/auth";
 import { getProduct } from "@/lib/catalog";
 import { createOrder, type OrderItem, type ShippingAddress } from "@/lib/orders";
 import { shippingFor, toPaise } from "@/lib/pricing";
+import { getVariantRef } from "@/lib/products";
 import { getRazorpay, razorpayConfigured } from "@/lib/razorpay";
 
 const MAX_QTY_PER_LINE = 10;
@@ -105,7 +106,13 @@ export async function POST(request: Request) {
       return badRequest(`${product.name} doesn't come in ${line.color}.`);
     }
 
+    // Link the line to the seeded catalog mirror. Null when the tables haven't
+    // been seeded yet — the order still records the denormalised snapshot below.
+    const ref = await getVariantRef(product.slug, line.size, line.color);
+
     items.push({
+      productId: ref?.productId ?? null,
+      variantId: ref?.variantId ?? null,
       slug: product.slug,
       name: product.name,
       brand: product.brand,

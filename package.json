@@ -9,7 +9,8 @@
     "lint": "eslint",
     "images": "node scripts/build-image-manifest.mjs",
     "import:hnm": "node scripts/import-hnm.mjs",
-    "db:migrate": "node --env-file=.env.local scripts/migrate-orders.mjs"
+    "db:migrate": "node --env-file=.env.local scripts/migrate-orders.mjs",
+    "db:seed": "node --import ./scripts/ts-resolve.mjs --env-file=.env.local scripts/seed-products.mjs"
   },
   "dependencies": {
     "@swc/helpers": "^0.5.23",

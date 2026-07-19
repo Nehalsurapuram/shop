@@ -15,6 +15,9 @@ export type ShippingAddress = {
 };
 
 export type OrderItem = {
+  /** Reference into the persisted catalog mirror; null if it wasn't seeded. */
+  productId: string | null;
+  variantId: string | null;
   slug: string;
   name: string;
   brand: string;
@@ -64,6 +67,8 @@ type OrderRow = {
 
 type ItemRow = {
   order_id: string;
+  product_id: string | null;
+  variant_id: string | null;
   slug: string;
   name: string;
   brand: string;
@@ -97,6 +102,8 @@ function toOrder(row: OrderRow, items: ItemRow[]): Order {
     createdAt: row.created_at,
     paidAt: row.paid_at,
     items: items.map((i) => ({
+      productId: i.product_id,
+      variantId: i.variant_id,
       slug: i.slug,
       name: i.name,
       brand: i.brand,
@@ -151,10 +158,13 @@ export async function createOrder(input: {
 
     for (const item of input.items) {
       await client.query(
-        `insert into order_items (order_id, slug, name, brand, size, color, unit_price, qty, image)
-         values ($1,$2,$3,$4,$5,$6,$7,$8,$9)`,
+        `insert into order_items
+           (order_id, product_id, variant_id, slug, name, brand, size, color, unit_price, qty, image)
+         values ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11)`,
         [
           id,
+          item.productId,
+          item.variantId,
           item.slug,
           item.name,
           item.brand,

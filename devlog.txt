@@ -1,0 +1,17 @@
+
+> shop@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.10 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.126.1:3000
+- Environments: .env.local
+✓ Ready in 696ms
+
+○ Compiling / ...
+ GET / 200 in 18.3s (next.js: 16.7s, proxy.ts: 6ms, application-code: 1581ms)
+ GET /wishlist 200 in 737ms (next.js: 611ms, proxy.ts: 9ms, application-code: 117ms)
+ GET /cart 200 in 753ms (next.js: 614ms, proxy.ts: 5ms, application-code: 134ms)
+⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ GET /p/sale-women-harem-trousers 200 in 1907ms (next.js: 1612ms, proxy.ts: 7ms, generate-params: 887ms, application-code: 288ms)
+[?25h
